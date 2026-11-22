@@ -1,0 +1,300 @@
+{
+ "fps": 30,
+ "cues": [
+  {
+   "t": 0.05,
+   "role": "whoosh.long",
+   "id": "whoosh.long@0.05"
+  },
+  {
+   "t": 1.28,
+   "role": "pop",
+   "id": "pop@1.28"
+  },
+  {
+   "t": 2.64,
+   "role": "hit",
+   "id": "hit@2.64"
+  },
+  {
+   "t": 4.05,
+   "role": "whoosh.short",
+   "id": "whoosh.short@4.05"
+  },
+  {
+   "t": 5.3,
+   "role": "hit",
+   "id": "hit@5.3"
+  },
+  {
+   "t": 6.95,
+   "role": "whoosh.short",
+   "id": "whoosh.short@6.95"
+  },
+  {
+   "t": 8.16,
+   "role": "hit",
+   "id": "hit@8.16"
+  },
+  {
+   "t": 9.8,
+   "role": "land",
+   "id": "land@9.8"
+  },
+  {
+   "t": 10.4,
+   "role": "whoosh.short",
+   "id": "whoosh.short@10.4"
+  },
+  {
+   "t": 14.1,
+   "role": "snap",
+   "id": "snap@14.1"
+  },
+  {
+   "t": 17.35,
+   "role": "pop",
+   "id": "pop@17.35"
+  },
+  {
+   "t": 20.0,
+   "role": "hit",
+   "id": "hit@20.0"
+  },
+  {
+   "t": 23.05,
+   "role": "hit",
+   "id": "hit@23.05"
+  },
+  {
+   "t": 25.4,
+   "role": "whoosh.short",
+   "id": "whoosh.short@25.4"
+  },
+  {
+   "t": 26.3,
+   "role": "pop",
+   "id": "pop@26.3"
+  },
+  {
+   "t": 27.35,
+   "role": "whoosh.short",
+   "id": "whoosh.short@27.35"
+  },
+  {
+   "t": 30.55,
+   "role": "hit",
+   "id": "hit@30.55"
+  },
+  {
+   "t": 33.6,
+   "role": "snap",
+   "id": "snap@33.6"
+  },
+  {
+   "t": 35.0,
+   "role": "whoosh.long",
+   "id": "whoosh.long@35.0"
+  },
+  {
+   "t": 35.84,
+   "role": "pop",
+   "id": "pop@35.84"
+  },
+  {
+   "t": 37.7,
+   "role": "click",
+   "id": "click@37.7"
+  },
+  {
+   "t": 38.2,
+   "role": "click",
+   "id": "click@38.2"
+  },
+  {
+   "t": 39.8,
+   "role": "tock",
+   "id": "tock@39.8"
+  },
+  {
+   "t": 41.35,
+   "role": "snap",
+   "id": "snap@41.35"
+  },
+  {
+   "t": 45.2,
+   "role": "pop",
+   "id": "pop@45.2"
+  },
+  {
+   "t": 46.7,
+   "role": "snap",
+   "id": "snap@46.7"
+  },
+  {
+   "t": 47.6,
+   "role": "hit",
+   "id": "hit@47.6"
+  },
+  {
+   "t": 49.15,
+   "role": "pop",
+   "id": "pop@49.15"
+  },
+  {
+   "t": 51.35,
+   "role": "pop",
+   "id": "pop@51.35"
+  },
+  {
+   "t": 53.35,
+   "role": "snap",
+   "id": "snap@53.35"
+  },
+  {
+   "t": 53.95,
+   "role": "whoosh.short",
+   "id": "whoosh.short@53.95"
+  },
+  {
+   "t": 54.9,
+   "role": "hit",
+   "id": "hit@54.9"
+  },
+  {
+   "t": 60.4,
+   "role": "land.light",
+   "id": "land.light@60.4"
+  },
+  {
+   "t": 61.7,
+   "role": "snap",
+   "id": "snap@61.7"
+  },
+  {
+   "t": 67.15,
+   "role": "pop",
+   "id": "pop@67.15"
+  },
+  {
+   "t": 67.9,
+   "role": "snap",
+   "id": "snap@67.9"
+  },
+  {
+   "t": 68.9,
+   "role": "whoosh.long",
+   "id": "whoosh.long@68.9"
+  },
+  {
+   "t": 71.0,
+   "role": "hit",
+   "id": "hit@71.0"
+  },
+  {
+   "t": 72.25,
+   "role": "pop",
+   "id": "pop@72.25"
+  },
+  {
+   "t": 72.97,
+   "role": "whoosh.short",
+   "id": "whoosh.short@72.97"
+  },
+  {
+   "t": 76.5,
+   "role": "snap",
+   "id": "snap@76.5"
+  },
+  {
+   "t": 77.05,
+   "role": "pop",
+   "id": "pop@77.05"
+  },
+  {
+   "t": 81.55,
+   "role": "pop",
+   "id": "pop@81.55"
+  },
+  {
+   "t": 86.3,
+   "role": "pop",
+   "id": "pop@86.3"
+  },
+  {
+   "t": 89.25,
+   "role": "pop",
+   "id": "pop@89.25"
+  },
+  {
+   "t": 93.35,
+   "role": "whoosh.short",
+   "id": "whoosh.short@93.35"
+  },
+  {
+   "t": 93.8,
+   "role": "hit",
+   "id": "hit@93.8"
+  },
+  {
+   "t": 96.4,
+   "role": "tick",
+   "id": "tick@96.4"
+  },
+  {
+   "t": 97.8,
+   "role": "tick",
+   "id": "tick@97.8"
+  },
+  {
+   "t": 99.4,
+   "role": "tick",
+   "id": "tick@99.4"
+  },
+  {
+   "t": 101.0,
+   "role": "click",
+   "id": "click@101.0"
+  },
+  {
+   "t": 102.6,
+   "role": "land",
+   "id": "land@102.6"
+  },
+  {
+   "t": 105.35,
+   "role": "snap",
+   "id": "snap@105.35"
+  },
+  {
+   "t": 106.9,
+   "role": "tock",
+   "id": "tock@106.9"
+  },
+  {
+   "t": 111.7,
+   "role": "hit",
+   "id": "hit@111.7"
+  },
+  {
+   "t": 112.6,
+   "role": "whoosh.short",
+   "id": "whoosh.short@112.6"
+  },
+  {
+   "t": 114.5,
+   "role": "pop",
+   "id": "pop@114.5"
+  },
+  {
+   "t": 115.0,
+   "role": "whoosh.long",
+   "id": "whoosh.long@115.0"
+  },
+  {
+   "t": 116.4,
+   "role": "bell",
+   "id": "bell@116.4"
+  }
+ ]
+}

@@ -1,0 +1,632 @@
+{
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationSec": 117.9,
+ "camera": {
+  "enabled": false,
+  "zooms": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pushIn": 0,
+  "targetX": 0.5,
+  "targetY": 0.4
+ },
+ "hook": {
+  "enabled": false,
+  "endSec": 3.2,
+  "style": "outline",
+  "text": "Maior IPO da história. Qual o futuro?",
+  "accent": "#e8a33d",
+  "logo": null,
+  "sign": null
+ },
+ "captions": {
+  "enabled": true,
+  "style": "karaoke",
+  "fontSize": 61,
+  "maxWords": 3,
+  "safeWidth": 720,
+  "paddingBottom": 740,
+  "accent": "#e8a33d"
+ },
+ "inserts": [],
+ "behind": [],
+ "splitInserts": [],
+ "transitions": [
+  {
+   "at": 6.933
+  },
+  {
+   "at": 22.0
+  },
+  {
+   "at": 35.3
+  },
+  {
+   "at": 72.933
+  },
+  {
+   "at": 101.0
+  }
+ ],
+ "soundtrack": {
+  "enabled": false,
+  "file": "trilha.mp3",
+  "volume": 0.0445
+ },
+ "falai": {
+  "pessoaY": 790,
+  "marcaDagua": {
+   "src": "brand/simbolo-mono-branco.svg",
+   "x": 924,
+   "y": 252,
+   "size": 56,
+   "ate": 115.0
+  },
+  "explosoes": [
+   {
+    "a": 0,
+    "pico": 0,
+    "b": 1.4
+   },
+   {
+    "a": 35.0,
+    "pico": 35.6,
+    "b": 36.9
+   },
+   {
+    "a": 68.9,
+    "pico": 69.5,
+    "b": 70.8
+   },
+   {
+    "a": 115.0,
+    "pico": 115.6,
+    "b": 999
+   }
+  ],
+  "cortes": [
+   {
+    "start": 0.0,
+    "end": 4.0,
+    "zoom": 1
+   },
+   {
+    "start": 4.0,
+    "end": 6.933,
+    "zoom": 1.06
+   },
+   {
+    "start": 6.9333,
+    "end": 10.367,
+    "zoom": 1
+   },
+   {
+    "start": 10.3667,
+    "end": 15.2,
+    "zoom": 1.12
+   },
+   {
+    "start": 15.2,
+    "end": 22.0,
+    "zoom": 1
+   },
+   {
+    "start": 22.0,
+    "end": 26.633,
+    "zoom": 1.06
+   },
+   {
+    "start": 26.6333,
+    "end": 27.3,
+    "zoom": 1
+   },
+   {
+    "start": 27.3,
+    "end": 32.967,
+    "zoom": 1.12
+   },
+   {
+    "start": 32.9667,
+    "end": 35.3,
+    "zoom": 1
+   },
+   {
+    "start": 35.3,
+    "end": 39.167,
+    "zoom": 1.06
+   },
+   {
+    "start": 39.1667,
+    "end": 40.3,
+    "zoom": 1
+   },
+   {
+    "start": 40.3,
+    "end": 42.967,
+    "zoom": 1.12
+   },
+   {
+    "start": 42.9667,
+    "end": 46.5,
+    "zoom": 1
+   },
+   {
+    "start": 46.5,
+    "end": 48.833,
+    "zoom": 1.12
+   },
+   {
+    "start": 48.8333,
+    "end": 50.133,
+    "zoom": 1
+   },
+   {
+    "start": 50.1333,
+    "end": 51.367,
+    "zoom": 1.12
+   },
+   {
+    "start": 51.3667,
+    "end": 53.9,
+    "zoom": 1
+   },
+   {
+    "start": 53.9,
+    "end": 56.6,
+    "zoom": 1.06
+   },
+   {
+    "start": 56.6,
+    "end": 59.233,
+    "zoom": 1
+   },
+   {
+    "start": 59.2333,
+    "end": 61.2,
+    "zoom": 1.12
+   },
+   {
+    "start": 61.2,
+    "end": 63.7,
+    "zoom": 1
+   },
+   {
+    "start": 63.7,
+    "end": 67.2,
+    "zoom": 1.06
+   },
+   {
+    "start": 67.2,
+    "end": 69.067,
+    "zoom": 1
+   },
+   {
+    "start": 69.0667,
+    "end": 72.933,
+    "zoom": 1.12
+   },
+   {
+    "start": 72.9333,
+    "end": 75.033,
+    "zoom": 1
+   },
+   {
+    "start": 75.0333,
+    "end": 77.133,
+    "zoom": 1.06
+   },
+   {
+    "start": 77.1333,
+    "end": 79.833,
+    "zoom": 1
+   },
+   {
+    "start": 79.8333,
+    "end": 81.6,
+    "zoom": 1.12
+   },
+   {
+    "start": 81.6,
+    "end": 83.767,
+    "zoom": 1
+   },
+   {
+    "start": 83.7667,
+    "end": 86.333,
+    "zoom": 1.06
+   },
+   {
+    "start": 86.3333,
+    "end": 88.2,
+    "zoom": 1
+   },
+   {
+    "start": 88.2,
+    "end": 89.433,
+    "zoom": 1.12
+   },
+   {
+    "start": 89.4333,
+    "end": 93.467,
+    "zoom": 1
+   },
+   {
+    "start": 93.4667,
+    "end": 96.5,
+    "zoom": 1.06
+   },
+   {
+    "start": 96.5,
+    "end": 97.833,
+    "zoom": 1
+   },
+   {
+    "start": 97.8333,
+    "end": 99.3,
+    "zoom": 1.12
+   },
+   {
+    "start": 99.3,
+    "end": 101.067,
+    "zoom": 1
+   },
+   {
+    "start": 101.0667,
+    "end": 103.0,
+    "zoom": 1.06
+   },
+   {
+    "start": 103.0,
+    "end": 106.733,
+    "zoom": 1.12
+   },
+   {
+    "start": 106.7333,
+    "end": 108.3,
+    "zoom": 1.12
+   },
+   {
+    "start": 108.3,
+    "end": 111.467,
+    "zoom": 1
+   },
+   {
+    "start": 111.4667,
+    "end": 112.667,
+    "zoom": 1.06
+   },
+   {
+    "start": 112.6667,
+    "end": 115.0,
+    "zoom": 1
+   },
+   {
+    "start": 115.0,
+    "end": 115.9,
+    "zoom": 1.12
+   },
+   {
+    "start": 115.9,
+    "end": 117.9,
+    "zoom": 1
+   }
+  ],
+  "pushIn": 0.03,
+  "cenas": [
+   {
+    "nome": "ipo",
+    "start": 0,
+    "end": 4.0,
+    "m": {
+     "claude": 1.28,
+     "maior": 2.64
+    },
+    "rotulo": "IPO da Anthropic"
+   },
+   {
+    "nome": "valor",
+    "start": 4.033,
+    "end": 6.933,
+    "m": {
+     "tri": 5.3
+    },
+    "rotulo": "IPO da Anthropic",
+    "fonte": "Fonte: NPR, 19/11/2026"
+   },
+   {
+    "nome": "caixa",
+    "start": 6.967,
+    "end": 10.367,
+    "m": {
+     "n90": 8.16,
+     "caixa": 9.84
+    },
+    "rotulo": "Caixa novo",
+    "fonte": "Fonte: Anthropic, nov/2026"
+   },
+   {
+    "nome": "ipodef",
+    "start": 10.4,
+    "end": 15.2,
+    "m": {
+     "acoes": 13.44,
+     "bolsa": 14.16
+    },
+    "rotulo": "O que é IPO"
+   },
+   {
+    "nome": "estreia",
+    "start": 15.233,
+    "end": 22.0,
+    "m": {
+     "dia": 17.44,
+     "n83": 20.08
+    },
+    "rotulo": "A estreia",
+    "fonte": "Fonte: Anthropic, 18/11/2026"
+   },
+   {
+    "nome": "fundada",
+    "start": 22.033,
+    "end": 27.3,
+    "m": {
+     "n2021": 23.12,
+     "openai": 25.36,
+     "anthropic": 26.56
+    },
+    "rotulo": "A origem",
+    "fonte": "Fonte: NPR, 19/11/2026"
+   },
+   {
+    "nome": "dia1",
+    "start": 27.333,
+    "end": 35.3,
+    "m": {
+     "n34": 30.64,
+     "n17": 33.68
+    },
+    "rotulo": "O sobe e desce",
+    "fonte": "Fonte: Al Jazeera e NPR, 19/11/2026"
+   },
+   {
+    "nome": "mesa",
+    "start": 35.333,
+    "end": 39.167,
+    "m": {
+     "n5": 35.84,
+     "mesa": 36.72,
+     "compra": 37.76,
+     "vende": 38.24
+    },
+    "rotulo": "Quem fala"
+   },
+   {
+    "nome": "sobedesce",
+    "start": 39.2,
+    "end": 42.967,
+    "m": {
+     "sobe": 39.36,
+     "desce": 39.84,
+     "naodiz": 41.36
+    },
+    "rotulo": "O sobe e desce"
+   },
+   {
+    "nome": "fundamentos",
+    "start": 43.0,
+    "end": 47.6,
+    "m": {
+     "fund": 45.28,
+     "princ": 46.72
+    },
+    "rotulo": "O que eu olho"
+   },
+   {
+    "nome": "conta",
+    "start": 47.6,
+    "end": 50.0,
+    "m": {
+     "lucro": 49.2
+    },
+    "rotulo": "O que eu olho"
+   },
+   {
+    "nome": "clara",
+    "start": 50.0,
+    "end": 53.9,
+    "m": {
+     "dado": 50.32,
+     "cartoes": 51.44,
+     "clara": 53.44
+    },
+    "rotulo": "O número brasileiro"
+   },
+   {
+    "nome": "n56",
+    "start": 53.933,
+    "end": 61.0,
+    "m": {
+     "n56": 54.0,
+     "anthropic": 58.53,
+     "ano": 59.25,
+     "n8": 60.37
+    },
+    "rotulo": "Gasto com IA · Brasil",
+    "fonte": "Fonte: Monitor de IA Clara, via Exame e InfoMoney, 18/11/2026"
+   },
+   {
+    "nome": "recorte",
+    "start": 61.0,
+    "end": 67.1,
+    "m": {
+     "recorte": 61.73,
+     "mercado": 62.61,
+     "cliente": 65.01,
+     "empresas": 66.53
+    },
+    "rotulo": "Gasto com IA · Brasil"
+   },
+   {
+    "nome": "ferramenta",
+    "start": 67.1,
+    "end": 69.067,
+    "m": {
+     "ferr": 67.89
+    },
+    "rotulo": "Quem paga"
+   },
+   {
+    "nome": "futuro",
+    "start": 69.067,
+    "end": 72.933,
+    "m": {
+     "tri": 71.01,
+     "anos": 72.29
+    },
+    "rotulo": "Daqui a 10 anos"
+   },
+   {
+    "nome": "vitor",
+    "start": 72.967,
+    "end": 77.1,
+    "m": {
+     "cenarios": 76.53
+    },
+    "rotulo": "Os 4 futuros"
+   },
+   {
+    "nome": "futuros",
+    "start": 77.1,
+    "end": 101.0,
+    "m": {
+     "f1": 77.09,
+     "f2": 81.65,
+     "f3": 86.37,
+     "f4": 89.33,
+     "probs": 93.41,
+     "p1": 93.81,
+     "p2": 96.45,
+     "p3": 97.81,
+     "p4": 99.41
+    },
+    "rotulo": "Os 4 futuros",
+    "fonte": "Fonte: Vitor Olivier, LinkedIn, nov/2026"
+   },
+   {
+    "nome": "opiniao",
+    "start": 101.033,
+    "end": 106.6,
+    "m": {
+     "clara": 101.57,
+     "primeiro": 102.61,
+     "cara": 105.41
+    },
+    "rotulo": "Minha leitura"
+   },
+   {
+    "nome": "risco",
+    "start": 106.6,
+    "end": 112.6,
+    "m": {
+     "risco": 106.93,
+     "abertos": 109.09,
+     "briga": 111.73
+    },
+    "rotulo": "Minha leitura"
+   },
+   {
+    "nome": "cta",
+    "start": 112.6,
+    "end": 115.0,
+    "m": {
+     "comenta": 114.5
+    },
+    "rotulo": "Sua vez"
+   },
+   {
+    "nome": "fecho",
+    "start": 115.0,
+    "end": 118.0,
+    "m": {
+     "logo": 116.4
+    }
+   }
+  ],
+  "headline": {
+   "fim": 3.3,
+   "l1": "Maior IPO da história.",
+   "l2": "Qual o futuro?"
+  },
+  "semPessoa": [
+   [
+    6.95,
+    10.37
+   ],
+   [
+    22.0,
+    35.3
+   ],
+   [
+    53.9,
+    61.0
+   ],
+   [
+    72.95,
+    101.0
+   ]
+  ],
+  "pessoaEscala": 0.74,
+  "selo": [
+   [
+    101.0,
+    115.0
+   ]
+  ]
+ }
+}

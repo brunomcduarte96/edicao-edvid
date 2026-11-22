@@ -1,0 +1,23 @@
+{"2026-11-22 17-38-02": {
+ "corrigir": [
+  {"n": 1, "texto": "A Anthropic dona do Claude acabou de fazer o maior IPO da história."},
+  {"n": 2, "texto": "Valendo cerca de 1,5 trilhão de dólares."},
+  {"n": 4, "texto": "O IPO é quando a empresa começa a negociar suas ações na bolsa de valores."},
+  {"n": 5, "texto": "E a Anthropic começou a negociar no dia 19 de novembro de 2026 a 83 dólares por ação."},
+  {"n": 6, "texto": "A empresa foi fundada em 2021 por um grupo que deixou a OpenAI para fundar."},
+  {"n": 7, "texto": "Anthropic."},
+  {"n": 18, "texto": "Cinquenta e seis por cento dos gastos com IA"},
+  {"n": 19, "texto": "das empresas foram destinados à Anthropic."},
+  {"n": 22, "texto": "Mas"},
+  {"n": 24, "texto": "Mas mostra um grande cliente da Anthropic, as empresas."},
+  {"n": 27, "texto": "O Vitor Olivier, fundador da Decade, resumiu em 4 possíveis cenários."},
+  {"n": 29, "texto": "Virar uma Microsoft 2.0."},
+  {"n": 30, "texto": "O sistema que toda empresa usa."},
+  {"n": 32, "texto": "Virar uma American Airlines."},
+  {"n": 41, "texto": "Se a IA virar commodity igual a eletricidade."},
+  {"n": 50, "texto": "Comenta aqui abaixo o que você acha do futuro da Anthropic."}
+ ],
+ "remover": [
+  {"n": 33, "motivo": "tentativa abandonada (Útil. Brigando por preço.), refeita na 35"},
+  {"n": 34, "motivo": "tentativa abandonada, refeita na 35"}
+ ]}}
