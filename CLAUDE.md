@@ -8,6 +8,7 @@ Este repositório é a base do **Edvid**, a central onde o Bruno e o Claude plan
 - Antes de qualquer trabalho de edição, leia nesta ordem:
   1. O **Contexto Fixo** no Notion (link abaixo): marca, público, tom, visual e fronteira. Depois a ficha rápida em [`docs/falaibruno-contexto-e-design.md`](docs/falaibruno-contexto-e-design.md).
   2. [`docs/aprendizados.md`](docs/aprendizados.md): o que já aprendemos em rodadas anteriores. Aplique esses aprendizados por padrão.
+  3. Para vídeo curto gravado no fundo verde: [`docs/receitas/video-camadas-3d.md`](docs/receitas/video-camadas-3d.md), a receita aprovada (camadas 3D, animações atrás do Bruno). Mostre as prévias sempre na interface do Edvid.
 - **O Notion é a fonte única** de tudo que não é edição. Tudo fica na página **Produção de Conteúdo - FalaiBruno** (https://app.notion.com/p/4207642f429980caa594c1ed3f4de785):
   - **Contexto Fixo** (marca, voz, design, estratégia, estrutura do roteiro): https://app.notion.com/p/4207642f42998054add1f1f7bb030b82. Leia antes de editar.
   - **Ideias Posts**: https://app.notion.com/p/4207642f429980c29f89dadee7442285 (Status Nova → Produzir, ou Descartada). Cada card segue o Modelo do card de ideia: Briefing, Roteiro do conteúdo (tabela), Legenda e hashtags, Roteiro de edição. Em Produzir, o card inteiro é movido para a Producao.

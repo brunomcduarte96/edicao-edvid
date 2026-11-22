@@ -1,0 +1,438 @@
+{
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationSec": 72.767,
+ "camera": {
+  "enabled": false,
+  "zooms": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pushIn": 0,
+  "targetX": 0.5,
+  "targetY": 0.4
+ },
+ "hook": {
+  "enabled": false,
+  "endSec": 3.2,
+  "style": "misto",
+  "text": "Montei meu canal inteiro com IA",
+  "accent": "#e8a33d",
+  "logo": null,
+  "sign": null
+ },
+ "captions": {
+  "enabled": true,
+  "style": "karaoke",
+  "fontSize": 61,
+  "maxWords": 3,
+  "safeWidth": 720,
+  "paddingBottom": 1130,
+  "accent": "#e8a33d"
+ },
+ "inserts": [],
+ "behind": [],
+ "splitInserts": [],
+ "transitions": [
+  {
+   "at": 9.167
+  },
+  {
+   "at": 20.533
+  },
+  {
+   "at": 30.8
+  },
+  {
+   "at": 51.8
+  },
+  {
+   "at": 60.333
+  }
+ ],
+ "soundtrack": {
+  "enabled": false,
+  "file": "trilha.mp3",
+  "volume": 0.0445
+ },
+ "falai": {
+  "pessoaY": 790,
+  "marcaDagua": {
+   "src": "brand/simbolo-mono-branco.svg",
+   "x": 924,
+   "y": 252,
+   "size": 56,
+   "ate": 71.9
+  },
+  "explosoes": [
+   {
+    "a": 0,
+    "pico": 0,
+    "b": 1.4
+   },
+   {
+    "a": 20.45,
+    "pico": 20.95,
+    "b": 21.6
+   },
+   {
+    "a": 57.25,
+    "pico": 57.9,
+    "b": 59.7
+   },
+   {
+    "a": 71.9,
+    "pico": 72.5,
+    "b": 99
+   }
+  ],
+  "cortes": [
+   {
+    "start": 0.0,
+    "end": 6.633,
+    "zoom": 1.0
+   },
+   {
+    "start": 6.633,
+    "end": 8.7,
+    "zoom": 1.08
+   },
+   {
+    "start": 8.7,
+    "end": 9.2,
+    "zoom": 1.0
+   },
+   {
+    "start": 9.2,
+    "end": 11.0,
+    "zoom": 1.18
+   },
+   {
+    "start": 11.0,
+    "end": 13.966,
+    "zoom": 1.0
+   },
+   {
+    "start": 13.966,
+    "end": 18.766,
+    "zoom": 1.08
+   },
+   {
+    "start": 18.766,
+    "end": 20.566,
+    "zoom": 1.0
+   },
+   {
+    "start": 20.566,
+    "end": 23.066,
+    "zoom": 1.18
+   },
+   {
+    "start": 23.066,
+    "end": 24.5,
+    "zoom": 1.0
+   },
+   {
+    "start": 24.5,
+    "end": 27.133,
+    "zoom": 1.08
+   },
+   {
+    "start": 27.133,
+    "end": 30.833,
+    "zoom": 1.0
+   },
+   {
+    "start": 30.833,
+    "end": 36.366,
+    "zoom": 1.18
+   },
+   {
+    "start": 36.366,
+    "end": 39.366,
+    "zoom": 1.0
+   },
+   {
+    "start": 39.366,
+    "end": 44.766,
+    "zoom": 1.08
+   },
+   {
+    "start": 44.766,
+    "end": 47.133,
+    "zoom": 1.0
+   },
+   {
+    "start": 47.133,
+    "end": 48.566,
+    "zoom": 1.18
+   },
+   {
+    "start": 48.566,
+    "end": 51.833,
+    "zoom": 1.0
+   },
+   {
+    "start": 51.833,
+    "end": 52.966,
+    "zoom": 1.08
+   },
+   {
+    "start": 52.966,
+    "end": 54.233,
+    "zoom": 1.0
+   },
+   {
+    "start": 54.233,
+    "end": 60.366,
+    "zoom": 1.18
+   },
+   {
+    "start": 60.366,
+    "end": 62.5,
+    "zoom": 1.0
+   },
+   {
+    "start": 62.5,
+    "end": 65.633,
+    "zoom": 1.08
+   },
+   {
+    "start": 65.633,
+    "end": 67.833,
+    "zoom": 1.0
+   },
+   {
+    "start": 67.833,
+    "end": 70.433,
+    "zoom": 1.18
+   },
+   {
+    "start": 70.433,
+    "end": 72.767,
+    "zoom": 1.0
+   }
+  ],
+  "pushIn": 0.03,
+  "cenas": [
+   {
+    "nome": "estudo",
+    "start": 0,
+    "end": 6.633,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "n2000": 3.28,
+     "n50": 5.36
+    },
+    "fonte": "Fonte: base própria com dados públicos do Instagram, nov/2026"
+   },
+   {
+    "nome": "analise",
+    "start": 6.633,
+    "end": 9.2,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "ia": 8.24,
+     "comigo": 8.88
+    }
+   },
+   {
+    "nome": "media",
+    "start": 9.2,
+    "end": 13.966,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "acima": 12.16,
+     "media": 12.6
+    }
+   },
+   {
+    "nome": "detalhes",
+    "start": 13.966,
+    "end": 18.766,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "detalhe": 15.44,
+     "gancho": 16.88,
+     "headline": 17.36,
+     "cta": 18.08
+    }
+   },
+   {
+    "nome": "insights",
+    "start": 18.766,
+    "end": 20.566,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "insights": 19.84
+    }
+   },
+   {
+    "nome": "n140",
+    "start": 20.566,
+    "end": 27.133,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "n140": 22.16,
+     "media": 23.6,
+     "sem": 26.08,
+     "nenhum": 26.72
+    },
+    "fonte": "Fonte: base própria com dados públicos do Instagram, nov/2026"
+   },
+   {
+    "nome": "ganchonum",
+    "start": 27.133,
+    "end": 30.833,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "numero": 29.12,
+     "primeira": 30.0
+    },
+    "fonte": "Fonte: base própria com dados públicos do Instagram, nov/2026"
+   },
+   {
+    "nome": "notion",
+    "start": 30.833,
+    "end": 36.366,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "estrutura": 32.08,
+     "notion": 32.56,
+     "simples": 33.36
+    }
+   },
+   {
+    "nome": "fluxo",
+    "start": 36.366,
+    "end": 39.366,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "ideia": 36.48,
+     "roteiro": 37.76,
+     "producao": 38.88
+    }
+   },
+   {
+    "nome": "fontes",
+    "start": 39.366,
+    "end": 44.766,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "claudecode": 40.88,
+     "grok": 42.0,
+     "rotinas": 43.52
+    }
+   },
+   {
+    "nome": "tabela",
+    "start": 44.766,
+    "end": 48.566,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "tabela": 45.52,
+     "assuntos": 47.28
+    }
+   },
+   {
+    "nome": "roteiro",
+    "start": 48.566,
+    "end": 51.833,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "gera": 50.4,
+     "roteiro": 50.96
+    }
+   },
+   {
+    "nome": "claudecode",
+    "start": 51.833,
+    "end": 57.2,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "validado": 52.32,
+     "claudecode": 53.44,
+     "edita": 54.56
+    }
+   },
+   {
+    "nome": "estevideo",
+    "start": 57.2,
+    "end": 60.366,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "final": 59.36
+    }
+   },
+   {
+    "nome": "empresas",
+    "start": 60.366,
+    "end": 62.5,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "predios": 60.88,
+     "ia": 61.36
+    }
+   },
+   {
+    "nome": "canal",
+    "start": 62.5,
+    "end": 65.633,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "construir": 64.08,
+     "zero": 64.88
+    }
+   },
+   {
+    "nome": "segue",
+    "start": 65.633,
+    "end": 70.433,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "segue": 65.92,
+     "descobrir": 67.84
+    }
+   },
+   {
+    "nome": "pergunta",
+    "start": 70.433,
+    "end": 72.767,
+    "rotulo": "Do Zero #1",
+    "m": {
+     "trava": 71.28,
+     "logo": 71.95
+    }
+   }
+  ],
+  "headline": {
+   "fim": 3.2,
+   "l1": "Montei meu canal",
+   "l2": "inteiro com IA"
+  }
+ }
+}

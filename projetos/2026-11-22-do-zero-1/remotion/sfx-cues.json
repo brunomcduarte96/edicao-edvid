@@ -1,0 +1,285 @@
+{
+ "fps": 30,
+ "cues": [
+  {
+   "t": 0.05,
+   "role": "whoosh.long",
+   "id": "whoosh.long@0.05"
+  },
+  {
+   "t": 3.28,
+   "role": "hit",
+   "id": "hit@3.28"
+  },
+  {
+   "t": 5.36,
+   "role": "pop",
+   "id": "pop@5.36"
+  },
+  {
+   "t": 6.65,
+   "role": "whoosh.short",
+   "id": "whoosh.short@6.65"
+  },
+  {
+   "t": 7.0,
+   "role": "key",
+   "id": "key@7.0"
+  },
+  {
+   "t": 7.3,
+   "role": "key",
+   "id": "key@7.3"
+  },
+  {
+   "t": 8.88,
+   "role": "snap",
+   "id": "snap@8.88"
+  },
+  {
+   "t": 9.167,
+   "role": "click",
+   "id": "click@9.167"
+  },
+  {
+   "t": 9.3,
+   "role": "whoosh.short",
+   "id": "whoosh.short@9.3"
+  },
+  {
+   "t": 12.16,
+   "role": "pop",
+   "id": "pop@12.16"
+  },
+  {
+   "t": 12.6,
+   "role": "tick.crisp",
+   "id": "tick.crisp@12.6"
+  },
+  {
+   "t": 14.0,
+   "role": "whoosh.short",
+   "id": "whoosh.short@14.0"
+  },
+  {
+   "t": 16.88,
+   "role": "pop",
+   "id": "pop@16.88"
+  },
+  {
+   "t": 17.36,
+   "role": "pop",
+   "id": "pop@17.36"
+  },
+  {
+   "t": 18.08,
+   "role": "pop",
+   "id": "pop@18.08"
+  },
+  {
+   "t": 18.8,
+   "role": "land.light",
+   "id": "land.light@18.8"
+  },
+  {
+   "t": 19.84,
+   "role": "tick.crisp",
+   "id": "tick.crisp@19.84"
+  },
+  {
+   "t": 20.45,
+   "role": "whoosh.long",
+   "id": "whoosh.long@20.45"
+  },
+  {
+   "t": 20.533,
+   "role": "click",
+   "id": "click@20.533"
+  },
+  {
+   "t": 22.16,
+   "role": "hit",
+   "id": "hit@22.16"
+  },
+  {
+   "t": 23.6,
+   "role": "tock",
+   "id": "tock@23.6"
+  },
+  {
+   "t": 26.08,
+   "role": "snap",
+   "id": "snap@26.08"
+  },
+  {
+   "t": 26.72,
+   "role": "click.confirm",
+   "id": "click.confirm@26.72"
+  },
+  {
+   "t": 27.15,
+   "role": "whoosh.short",
+   "id": "whoosh.short@27.15"
+  },
+  {
+   "t": 29.12,
+   "role": "pop",
+   "id": "pop@29.12"
+  },
+  {
+   "t": 30.8,
+   "role": "click",
+   "id": "click@30.8"
+  },
+  {
+   "t": 32.56,
+   "role": "land",
+   "id": "land@32.56"
+  },
+  {
+   "t": 33.36,
+   "role": "snap",
+   "id": "snap@33.36"
+  },
+  {
+   "t": 36.48,
+   "role": "pop",
+   "id": "pop@36.48"
+  },
+  {
+   "t": 37.5,
+   "role": "whoosh.short",
+   "id": "whoosh.short@37.5"
+  },
+  {
+   "t": 38.6,
+   "role": "whoosh.short",
+   "id": "whoosh.short@38.6"
+  },
+  {
+   "t": 38.88,
+   "role": "click.confirm",
+   "id": "click.confirm@38.88"
+  },
+  {
+   "t": 40.88,
+   "role": "pop",
+   "id": "pop@40.88"
+  },
+  {
+   "t": 42.0,
+   "role": "pop",
+   "id": "pop@42.0"
+  },
+  {
+   "t": 43.52,
+   "role": "tick",
+   "id": "tick@43.52"
+  },
+  {
+   "t": 45.52,
+   "role": "tick.crisp",
+   "id": "tick.crisp@45.52"
+  },
+  {
+   "t": 47.28,
+   "role": "pop",
+   "id": "pop@47.28"
+  },
+  {
+   "t": 48.6,
+   "role": "whoosh.short",
+   "id": "whoosh.short@48.6"
+  },
+  {
+   "t": 50.4,
+   "role": "key",
+   "id": "key@50.4"
+  },
+  {
+   "t": 50.7,
+   "role": "key",
+   "id": "key@50.7"
+  },
+  {
+   "t": 51.8,
+   "role": "click",
+   "id": "click@51.8"
+  },
+  {
+   "t": 52.32,
+   "role": "snap",
+   "id": "snap@52.32"
+  },
+  {
+   "t": 53.54,
+   "role": "key.return",
+   "id": "key.return@53.54"
+  },
+  {
+   "t": 54.56,
+   "role": "land.light",
+   "id": "land.light@54.56"
+  },
+  {
+   "t": 57.25,
+   "role": "whoosh.long",
+   "id": "whoosh.long@57.25"
+  },
+  {
+   "t": 59.36,
+   "role": "pop",
+   "id": "pop@59.36"
+  },
+  {
+   "t": 60.333,
+   "role": "click",
+   "id": "click@60.333"
+  },
+  {
+   "t": 60.88,
+   "role": "land",
+   "id": "land@60.88"
+  },
+  {
+   "t": 64.08,
+   "role": "land.light",
+   "id": "land.light@64.08"
+  },
+  {
+   "t": 64.88,
+   "role": "hit",
+   "id": "hit@64.88"
+  },
+  {
+   "t": 65.65,
+   "role": "pop",
+   "id": "pop@65.65"
+  },
+  {
+   "t": 66.22,
+   "role": "click",
+   "id": "click@66.22"
+  },
+  {
+   "t": 67.84,
+   "role": "whoosh.short",
+   "id": "whoosh.short@67.84"
+  },
+  {
+   "t": 71.28,
+   "role": "pop",
+   "id": "pop@71.28"
+  },
+  {
+   "t": 71.9,
+   "role": "whoosh.long",
+   "id": "whoosh.long@71.9"
+  },
+  {
+   "t": 72.3,
+   "role": "bell",
+   "id": "bell@72.3"
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationSec": 44.6,
+ "camera": {
+  "enabled": false,
+  "zooms": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pushIn": 0,
+  "targetX": 0.5,
+  "targetY": 0.4
+ },
+ "hook": {
+  "enabled": false,
+  "endSec": 4.1,
+  "style": "misto",
+  "text": "As vagas que pedem IA dobraram. E metade nem é de TI.",
+  "accent": "#e8a33d",
+  "logo": null,
+  "sign": null
+ },
+ "captions": {
+  "enabled": true,
+  "style": "karaoke",
+  "fontSize": 61,
+  "maxWords": 3,
+  "safeWidth": 720,
+  "paddingBottom": 1130,
+  "accent": "#e8a33d"
+ },
+ "inserts": [],
+ "behind": [],
+ "splitInserts": [],
+ "transitions": [
+  {
+   "at": 4.133
+  },
+  {
+   "at": 10.767
+  },
+  {
+   "at": 19.667
+  },
+  {
+   "at": 29.9
+  },
+  {
+   "at": 36.9
+  }
+ ],
+ "soundtrack": {
+  "enabled": false,
+  "file": "trilha.mp3",
+  "volume": 0.0445
+ },
+ "falai": {
+  "pessoaY": 790,
+  "marcaDagua": {
+   "src": "brand/simbolo-mono-branco.svg",
+   "x": 924,
+   "y": 252,
+   "size": 56,
+   "ate": 43.3
+  },
+  "explosoes": [
+   {
+    "a": 0,
+    "pico": 0,
+    "b": 1.4
+   },
+   {
+    "a": 19.62,
+    "pico": 20.15,
+    "b": 20.75
+   },
+   {
+    "a": 43.45,
+    "pico": 44.4,
+    "b": 99
+   }
+  ],
+  "cortes": [
+   {
+    "start": 0.0,
+    "end": 4.166,
+    "zoom": 1.0
+   },
+   {
+    "start": 4.166,
+    "end": 6.5,
+    "zoom": 1.08
+   },
+   {
+    "start": 6.5,
+    "end": 10.8,
+    "zoom": 1.0
+   },
+   {
+    "start": 10.8,
+    "end": 12.833,
+    "zoom": 1.18
+   },
+   {
+    "start": 12.833,
+    "end": 14.866,
+    "zoom": 1.08
+   },
+   {
+    "start": 14.866,
+    "end": 16.833,
+    "zoom": 1.0
+   },
+   {
+    "start": 16.833,
+    "end": 19.7,
+    "zoom": 1.18
+   },
+   {
+    "start": 19.7,
+    "end": 25.766,
+    "zoom": 1.08
+   },
+   {
+    "start": 25.766,
+    "end": 29.933,
+    "zoom": 1.0
+   },
+   {
+    "start": 29.933,
+    "end": 32.333,
+    "zoom": 1.18
+   },
+   {
+    "start": 32.333,
+    "end": 34.566,
+    "zoom": 1.0
+   },
+   {
+    "start": 34.566,
+    "end": 36.933,
+    "zoom": 1.08
+   },
+   {
+    "start": 36.933,
+    "end": 40.033,
+    "zoom": 1.18
+   },
+   {
+    "start": 40.033,
+    "end": 43.4,
+    "zoom": 1.0
+   },
+   {
+    "start": 43.4,
+    "end": 44.633,
+    "zoom": 1.08
+   }
+  ],
+  "pushIn": 0.03,
+  "cenas": [
+   {
+    "nome": "vagas",
+    "start": 0.0,
+    "end": 4.166,
+    "rotulo": "Carreira",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "ia": 1.28,
+     "dobra": 2.16,
+     "brasil": 2.96,
+     "ano": 3.68
+    }
+   },
+   {
+    "nome": "metade",
+    "start": 4.166,
+    "end": 6.5,
+    "rotulo": "Carreira",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "metade": 4.56,
+     "tec": 5.68
+    }
+   },
+   {
+    "nome": "gupy",
+    "start": 6.5,
+    "end": 10.8,
+    "rotulo": "A fonte",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "gupy": 7.2,
+     "analisou": 7.92,
+     "milhao": 8.64,
+     "mil": 9.84,
+     "vagas": 10.16
+    }
+   },
+   {
+    "nome": "areas",
+    "start": 10.8,
+    "end": 14.866,
+    "rotulo": "Onde mais cresceu",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "area": 10.88,
+     "rh": 12.32,
+     "mkt": 13.28,
+     "com": 14.08
+    }
+   },
+   {
+    "nome": "requisitos",
+    "start": 14.866,
+    "end": 19.7,
+    "rotulo": "Requisitos",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "prompt": 15.52,
+     "agente": 16.24,
+     "cresceram": 16.72,
+     "pct": 17.28,
+     "req": 18.4
+    }
+   },
+   {
+    "nome": "detalhe",
+    "start": 19.7,
+    "end": 20.7,
+    "rotulo": "O detalhe"
+   },
+   {
+    "nome": "treinamento",
+    "start": 20.7,
+    "end": 25.766,
+    "rotulo": "O detalhe",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "pct": 20.96,
+     "trein": 23.12,
+     "internos": 23.76,
+     "emp": 24.48,
+     "ia": 25.36
+    }
+   },
+   {
+    "nome": "empresa",
+    "start": 25.766,
+    "end": 29.933,
+    "rotulo": "Ou seja",
+    "m": {
+     "cobra": 27.12,
+     "entrada": 27.76,
+     "ensina": 28.64,
+     "dentro": 29.12,
+     "casa": 29.6
+    }
+   },
+   {
+    "nome": "esperar",
+    "start": 29.933,
+    "end": 32.2,
+    "rotulo": "O que fazer",
+    "m": {
+     "espera": 30.64,
+     "ninguem": 31.04,
+     "ensinar": 31.6,
+     "nao": 32.0
+    }
+   },
+   {
+    "nome": "ciclo",
+    "start": 32.2,
+    "end": 34.4,
+    "rotulo": "O que fazer",
+    "m": {
+     "testa": 32.24,
+     "erra": 32.72,
+     "estuda": 33.12,
+     "denovo": 33.6
+    }
+   },
+   {
+    "nome": "curso",
+    "start": 34.4,
+    "end": 36.933,
+    "rotulo": "Como eu aprendi",
+    "m": {
+     "aprendi": 35.04,
+     "ninguem": 35.6,
+     "nenhum": 36.24,
+     "curso": 36.48
+    }
+   },
+   {
+    "nome": "ias",
+    "start": 36.933,
+    "end": 40.033,
+    "rotulo": "Me segue",
+    "m": {
+     "segue": 37.2,
+     "qual": 37.92,
+     "ia": 38.32,
+     "aprender": 39.28,
+     "primeiro": 39.68
+    }
+   },
+   {
+    "nome": "comenta",
+    "start": 40.033,
+    "end": 43.4,
+    "rotulo": "Me conta",
+    "m": {
+     "conta": 40.48,
+     "empresa": 41.28,
+     "ensinou": 41.92,
+     "ia": 42.88,
+     "fala": 43.36
+    }
+   },
+   {
+    "nome": "final",
+    "start": 43.4,
+    "end": 44.6,
+    "m": {
+     "fala": 43.36,
+     "acha": 44.16
+    }
+   }
+  ],
+  "headline": {
+   "fim": 4.1,
+   "l1": "As vagas que pedem IA dobraram",
+   "l2": "e metade nem é de TI"
+  }
+ }
+}
