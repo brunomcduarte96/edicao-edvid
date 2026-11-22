@@ -43,6 +43,8 @@ Fala da gravação (diferente do roteiro do Notion em alguns pontos):
 ## Pedidos de ajuste (revisões)
 
 - v1 (corte) → tirar 5 vazios marcados na interface do Edvid (0:08, 0:23, 0:25, 0:54, 0:56). Feito; corte aprovado.
+- v1 (final) → 3 marcações na interface: "minha cara voando no meio da tela; diminuir e pôr na parte inferior", "pareço um fantasminha flutuando; não preciso estar na tela 100% do tempo, nem perto disso", "a timeline de edição não deu pra ver porque estou na frente".
+- v2 → Bruno em 74% do tamanho, apoiado na base do quadro, sem o degradê (era o que fazia flutuar); zoom nos cortes reduzido para 1 / 1,06 / 1 / 1,12; legenda logo acima da cabeça (`paddingBottom` 740). Fora do quadro em 5 janelas (~45% do vídeo), com a animação em tela cheia: 3,3–6,6 s (2.000 posts), 9,2–18,8 s (média e detalhes), 21,7–27,1 s (140x), 36,4–44,8 s (fluxo e ferramentas), 51,8–57,2 s (Claude Code e a timeline). Ganharam versão de tela cheia: post grande com lupa, etapas grandes na esteira, relógio desde o início.
 
 ## Aprendizados desta rodada
 

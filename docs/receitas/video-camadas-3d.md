@@ -2,6 +2,8 @@
 
 Aprovada pelo Bruno em 22/11/2026 ("tá perfeito") no vídeo *As vagas que pedem IA dobraram* (`projetos/2026-11-22-vagas-ia-regravacao/`). **É o padrão para os próximos vídeos curtos gravados no fundo verde.** O código da cena está em [`projetos/2026-11-22-vagas-ia-regravacao/remotion/FalaiBruno.tsx`](../../projetos/2026-11-22-vagas-ia-regravacao/remotion/FalaiBruno.tsx), e os tempos em `edit-data.json`, na mesma pasta.
 
+> **Atualização de 22/11 (Do Zero #1, pedido do Bruno):** o Bruno fica menor (~74%), apoiado na base do quadro e sem o degradê, e **sai do quadro em ~45% do vídeo** para a animação ocupar a tela toda (`semPessoa` e `pessoaEscala` no bloco `falai`). O código atualizado está em `projetos/2026-11-22-do-zero-1/remotion/`. O texto abaixo descreve a versão das vagas.
+
 ## O resultado
 
 - 9:16, 1080×1920, 30 fps, −14 LUFS, cerca de 45 s.

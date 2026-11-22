@@ -80,10 +80,15 @@ type Falai = {
   pushIn: number;
   cenas: Cena[];
   headline?: {fim: number; l1: string; l2: string};
+  /** janelas em que o Bruno sai do quadro e a animação ocupa a tela toda */
+  semPessoa?: [number, number][];
+  /** escala do Bruno, apoiado na base do quadro (1 = receita das vagas) */
+  pessoaEscala?: number;
 };
 const D = editData as unknown as {falai: Falai; hook?: {enabled: boolean; endSec: number}};
 const F = D.falai;
 const HOOK_FIM = F.headline?.fim ?? 0;
+const PESSOA_ESCALA = F.pessoaEscala ?? 0.74;
 
 // ---------- tempo ----------
 const cl = (v: number, a = 0, b = 1) => Math.max(a, Math.min(b, v));
@@ -412,7 +417,24 @@ const CenaDetalhes: React.FC<{t: number; c: Cena}> = ({t, c}) => {
   const ly = 1120 + 160 * Math.sin(t * 2.6);
   return (
     <>
-      {/* lupa passeando atrás da cabeça */}
+      {/* post grande no centro (o Bruno sai do quadro nesta cena) */}
+      <Abs x={290} y={800} w={500} h={660} o={ent(t, c.start + 0.1, 0.4)} style={card({padding: 26})}>
+        <div style={{display: 'flex', alignItems: 'center', gap: 14}}>
+          <div style={{width: 56, height: 56, borderRadius: 28, background: COR.sup2}} />
+          <Linha w={200} mt={0} h={14} />
+        </div>
+        <div style={{marginTop: 22, height: 330, background: COR.sup2, borderRadius: 6, position: 'relative'}}>
+          <div style={{position: 'absolute', left: 24, top: 28, right: 24, height: 40, background: ent(t, m.gancho, 0.2) > 0.5 ? COR.ambar : COR.cinza1, borderRadius: 4}} />
+          <div style={{position: 'absolute', left: 24, top: 90, width: '62%', height: 24, background: ent(t, m.headline, 0.2) > 0.5 ? COR.ambar : COR.borda, borderRadius: 4}} />
+          <div style={{position: 'absolute', left: '50%', top: '62%', transform: 'translate(-30%,-50%)', borderLeft: `56px solid ${COR.cinza1}`, borderTop: '34px solid transparent', borderBottom: '34px solid transparent'}} />
+        </div>
+        <Linha w="85%" h={14} mt={24} />
+        <Linha w="60%" h={14} cor={COR.borda} />
+        <div style={{marginTop: 26, height: 64, width: 260, borderRadius: 4, background: ent(t, m.cta, 0.2) > 0.5 ? COR.ambar : COR.sup2, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+          <span style={txt(28, 600, ent(t, m.cta, 0.2) > 0.5 ? COR.preto : COR.sec)}>Me segue</span>
+        </div>
+      </Abs>
+      {/* lupa passeando por cima do post */}
       <Svg o={ent(t, m.detalhe - 0.3, 0.4)}>
         <circle cx={lx} cy={ly} r={140} stroke={COR.claro} strokeWidth={14} fill="rgba(232,163,61,0.08)" />
         <line x1={lx + 99} y1={ly + 99} x2={lx + 215} y2={ly + 215} stroke={COR.claro} strokeWidth={26} strokeLinecap="round" />
@@ -646,6 +668,15 @@ const CenaFluxo: React.FC<{t: number; c: Cena}> = ({t, c}) => {
       <Abs x={90} y={398} w={900} o={ent(t, c.start, 0.3)}>
         <div style={txt(30, 600, COR.sec, {letterSpacing: '0.08em'})}>O FLUXO</div>
       </Abs>
+      {/* etapas grandes na esteira (o Bruno sai do quadro nesta cena) */}
+      {nodes.map((n, i) => {
+        const on = ent(t, n.at - 0.05, 0.25);
+        return (
+          <Abs key={`g${i}`} x={[30, 390, 750][i]} y={1300} w={300} h={200} o={ent(t, c.start + 0.15 * i, 0.3)} s={1 + 0.06 * on} style={{background: on > 0.5 ? n.cor : COR.sup, border: `3px solid ${on > 0.5 ? n.cor : COR.borda}`, borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box'}}>
+            <span style={txt(48, 600, on > 0.5 && i === 1 ? COR.preto : COR.branco)}>{n.l}</span>
+          </Abs>
+        );
+      })}
       {/* esteira atrás do Bruno */}
       <Svg o={ent(t, c.start, 0.4) * 0.8}>
         <path d="M -20 1250 C 300 1180 780 1180 1100 1250" stroke={COR.borda} strokeWidth={60} fill="none" />
@@ -668,7 +699,7 @@ const CenaFontes: React.FC<{t: number; c: Cena}> = ({t, c}) => {
   const ang1 = (t - c.start) * 600;
   return (
     <>
-      <Svg o={rot * 0.85}>
+      <Svg o={ent(t, c.start + 0.1, 0.5) * 0.85}>
         <circle cx={cx} cy={cy} r={R} fill="none" stroke={COR.borda} strokeWidth={6} />
         {Array.from({length: 12}).map((_, i) => {
           const a = (i / 12) * Math.PI * 2;
@@ -1086,6 +1117,13 @@ const explosao = (t: number) => {
   return e;
 };
 
+/** 0 = Bruno na tela, 1 = fora (desliza para baixo em 0,25 s nas bordas da janela) */
+const fora = (t: number) => {
+  let h = 0;
+  for (const [a, b] of F.semPessoa ?? []) h = Math.max(h, inOutCubic(Math.min(cl((t - a) / 0.25), cl((b - t) / 0.25))));
+  return h;
+};
+
 /** zoom do Bruno: troca seca em cada corte (8% / 18%) + empurrão lento dentro do trecho */
 const zoomPessoa = (t: number) => {
   const c = F.cortes.find((x) => t >= x.start && t < x.end) ?? F.cortes[F.cortes.length - 1];
@@ -1123,6 +1161,7 @@ export const FalaiBruno: React.FC = () => {
   const t = frame / fps;
   const e = explosao(t);
   const zs = zoomPessoa(t);
+  const h = fora(t);
   const md = F.marcaDagua;
   const cena = F.cenas.find((c) => t >= c.start && t < c.end);
   const ativas = F.cenas.filter((c) => t >= c.start - 0.01 && t < c.end + 0.01);
@@ -1156,17 +1195,19 @@ export const FalaiBruno: React.FC = () => {
           })}
         </Plano>
         <Plano z={0} e={e} rotulo="Bruno">
-          <div
-            style={{
-              position: 'absolute',
-              inset: 0,
-              transform: `scale(${zs})`,
-              transformOrigin: '540px 1000px',
-              WebkitMaskImage: 'linear-gradient(180deg, #000 0%, #000 80.5%, transparent 91%)',
-              maskImage: 'linear-gradient(180deg, #000 0%, #000 80.5%, transparent 91%)',
-            }}
-          >
-            <OffthreadVideo src={staticFile('pessoa_v.mov')} transparent muted style={{width: 1080, height: 1920}} />
+          {/* v2 (pedido do Bruno): menor, apoiado na base (sem degradê) e fora do quadro nas cenas de tela cheia */}
+          <div style={{position: 'absolute', inset: 0, transform: `scale(${zs})`, transformOrigin: '540px 1450px'}}>
+            <div
+              style={{
+                position: 'absolute',
+                inset: 0,
+                opacity: 1 - 0.6 * h,
+                transform: `translateY(${170 + 1000 * h}px) scale(${PESSOA_ESCALA})`,
+                transformOrigin: '540px 1750px',
+              }}
+            >
+              {h < 0.999 ? <OffthreadVideo src={staticFile('pessoa_v.mov')} transparent muted style={{width: 1080, height: 1920}} /> : null}
+            </div>
           </div>
         </Plano>
         <Plano z={380} e={e} rotulo="Texto">

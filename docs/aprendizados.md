@@ -41,6 +41,8 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
   - `montar_pessoa.py` quebrava em vídeo acima de ~45 s (o ffmpeg não aceita `if()` tão aninhado). Corrigido: o passo entre chaves cresce para ficar em até 90 chaves.
   - Quando a fala diverge do card (2000 × 278 posts, 140 × 146x), perguntar antes da Fase 2. Aqui o Bruno decidiu que a tela segue a fala, e o rodapé de fonte não cita o número do card.
 - **Preferências novas do Bruno**:
+  - **Ele não quer estar na tela o tempo todo, nem flutuando.** Na v2: Bruno a ~74% do tamanho, apoiado na base do quadro (sem degradê no tronco) e fora do quadro em ~45% do vídeo, com a animação em tela cheia (números, gráficos, fluxos, telas de ferramenta). Isso muda a receita das camadas 3D: `semPessoa` e `pessoaEscala` no bloco `falai` do edit-data, e cada cena que sai sem ele precisa ter conteúdo no centro.
+  - Não pôr nada importante atrás dele que precise ser lido (a timeline da edição sumiu atrás da cabeça). O que precisa ser lido vai em cena sem o Bruno.
   - Prévias sempre pela interface do Edvid.
   - Número na tela = número falado, quando ele decidir assim; rodapé genérico "Fonte: base própria com dados públicos do Instagram, nov/2026".
 - **Métricas**: (preencher depois de publicar)
