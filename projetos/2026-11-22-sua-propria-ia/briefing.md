@@ -15,7 +15,7 @@
 - **Brutos**: Drive, pasta do post / Gravação Raw: https://drive.google.com/file/d/15HODfECBv9VzVo4TOgMoZWT3Bb-GrxfK/view (= `~/Movies/2026-11-22 18-40-26.mov`, 1920×1080, 60 fps, 8:16, Rec.709). Cópia local em `videos/brutos/sua propria ia 22112026/`.
 - **Pasta do post no Drive**: https://drive.google.com/drive/folders/1xgUtnWC35OIGWJpDN1c2AfbJs7QfWXzQ
 - **Prévia do corte**: Drive, Gravação Final / `sua-propria-ia_previa_v1.mp4` (720p, 2:02)
-- **Exportado**: (Fase 2)
+- **Exportado**: Drive, pasta do post / Gravação Final / `sua-propria-ia_final.mp4` (1080×1920, 30 fps, 2:02, −14,1 LUFS): https://drive.google.com/file/d/1wivhDSCI8NowA63nhHoxKEoovymQ43eq/view. Thumbnail em Thumbnail/`sua-propria-ia_thumb.png`, legenda em Legendas/`sua-propria-ia.srt`.
 
 ## Roteiro
 
@@ -59,7 +59,8 @@ O roteiro completo fica no card. Pontos da fala que importam para a edição:
 ## Pedidos de ajuste (revisões)
 
 - Corte v1 → aprovado com as respostas acima (22/11).
+- Fase 2 v1 (prévia v2) → aprovada de primeira, com a thumbnail ("ficou ótimo. pode subir para o drive", 22/11). Card marcado Aprovado por essas palavras.
 
 ## Aprendizados desta rodada
 
-(Copie para `docs/aprendizados.md` ao final.)
+Copiados para `docs/aprendizados.md` e para a página Edição - regras e aprendizados no Notion (histórico, cenas e armadilhas). Principal: recorte em WebM VP9 com alfa no lugar do ProRes 4444 (disco cheio no render).

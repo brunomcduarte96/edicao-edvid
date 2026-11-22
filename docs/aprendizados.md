@@ -33,6 +33,22 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
   - …
 -->
 
+### 2026-11-22 · Você pode ter a sua própria IA · Curto
+- **Projeto**: projetos/2026-11-22-sua-propria-ia/
+- **O que funcionou**:
+  - Receita das camadas 3D com 30 cenas, uma por frase, e o Bruno fora do quadro em 45%. Aprovada de primeira ("ficou ótimo. pode subir para o drive").
+  - O chroma key `0x6CC042:0.10:0.03` saiu limpo de primeira nesta gravação, sem halo.
+  - Analogias viram cenas fáceis: bolo (fechado = fatia, open weight = bolo inteiro, open source = bolo + receita + ingredientes) e motor × carro (modelo × harness).
+  - Logos de Ollama, LM Studio, Codex, Hugging Face e OpenAI pelo pacote `@lobehub/icons-static-svg` (jsdelivr, versão fixa 1.100.0 / 1.73.0), convertidos para PNG branco com `rsvg-convert`. A busca do Wikimedia só trouxe imagens erradas.
+- **O que mudar na próxima**:
+  - **Recorte em WebM VP9 com alfa, não ProRes 4444.** O `pessoa_v.mov` de 2,7 GB é copiado para cada bundle do Remotion (mais o cache de quadros) e o render parou com o disco cheio. `ffmpeg -i pessoa_v.mov -c:v libvpx-vp9 -pix_fmt yuva420p -b:v 0 -crf 30 -deadline good -cpu-used 4 -row-mt 1 -auto-alt-ref 0 -an pessoa_v.webm` deu 35 MB com a transparência certa (4 min). Apague as pastas `remotion-*` do temporário (`$TMPDIR`) depois de cada render.
+  - Para stills de conferência, um script Node com `bundle` uma vez + `renderStill` por quadro (`stills.mjs` na pasta remotion do edit), com `timeoutInMilliseconds` alto e `rmSync` do bundle no fim.
+  - A transcrição errou "Epoch AI" ("Epo KI"), "Hugging Face" ("Hug and Face"), "Ollama" ("Olhama"), "cérebro" ("sério") e "com o" ("como o"). "Sol" era mesmo o nome do modelo da OpenAI: perguntar antes de trocar nome que parece erro.
+- **Preferências novas do Bruno**:
+  - De novo manteve a duração da fala (2:02) em vez de cortar frases.
+  - A tela segue a fala (nomes e números como ele disse), sem rodapé de fonte quando ele dispensa, e o fecho só com o que ele falou (sem "Falai, o que você acha?" escrito).
+- **Métricas**: (preencher depois de publicar)
+
 ### 2026-11-22 · Maior IPO da história · Curto
 - **Projeto**: projetos/2026-11-22-maior-ipo/ (código das cenas, edit-data, SFX e thumbnail em `remotion/`)
 - **O que funcionou**:
