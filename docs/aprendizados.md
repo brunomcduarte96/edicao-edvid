@@ -10,7 +10,8 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
 
 ## Regras consolidadas
 
-- **Vídeo curto no fundo verde = receita das camadas 3D.** Siga [`docs/receitas/video-camadas-3d.md`](receitas/video-camadas-3d.md): o Bruno recortado na metade de baixo, uma animação por frase, elementos atrás dele, separação 3D das camadas em 3 momentos, zoom de 8%/18% nos cortes e efeitos sonoros a −8 dB. Pedida em 21/11 e aprovada em 22/11 ("tá perfeito").
+- **Prévias sempre na interface do Edvid**, com o vigia de marcações ligado, e cópia no Drive para o celular. (Vagas 22/11 usou o editor e a aba Estilo; no Do Zero #1 o Bruno aprovou e pediu todos os ajustes por lá.)
+- **Vídeo curto no fundo verde = receita das camadas 3D.** Siga [`docs/receitas/video-camadas-3d.md`](receitas/video-camadas-3d.md): o Bruno recortado na metade de baixo, uma animação por frase, elementos atrás dele, separação 3D das camadas em 3 ou 4 momentos e efeitos sonoros a −8 dB. Pedida em 21/11 e aprovada em 22/11 ("tá perfeito"). **Desde o Do Zero #1 (aprovado em 22/11, "está perfeito"): Bruno menor (~74%), apoiado na base, e fora do quadro em ~45% do vídeo; zoom de 6%/12% nos cortes.**
 
 ## Rodadas
 
@@ -29,21 +30,26 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
 -->
 
 ### 2026-11-22 · Do Zero #1 (montei meu canal com IA) · Curto
-- **Projeto**: projetos/2026-11-22-do-zero-1/
+- **Projeto**: projetos/2026-11-22-do-zero-1/ · aprovado na v4 ("está perfeito"), 72,3 s.
+- **Como foi a rodada**: corte (v1 → 5 vazios tirados) → v1 final → v2 (Bruno menor e fora do quadro) → v3 (banco de ideias, rotinas, player) → v4 (vazio do gancho, barras pintando, logos oficiais). Todos os pedidos vieram por marcações na interface do Edvid.
 - **O que funcionou**:
   - A receita das camadas 3D se repetiu sem ajuste de geometria: 18 cenas, uma por frase, montadas em cima do `FalaiBruno.tsx` das vagas (trocando só o bloco de cenas). Copiar o projeto Remotion anterior inteiro (com `node_modules`) e trocar o `public/` poupa a instalação.
-  - Telas de ferramenta sem gravação de tela: janela estilizada na marca com o nome da ferramenta num selo (Claude, Notion, Claude Code) e texto em barras cinzas. Mostra a ferramenta sem expor nada de terceiros.
-  - Uma 4ª separação 3D no momento meta ("vocês estão vendo a versão final da edição") casa com a fala.
+  - Telas de ferramenta sem gravação de tela: janela estilizada na marca (barra de título, selo com o nome da ferramenta, texto em barras cinzas). Mostra a ferramenta sem expor nada de terceiros.
+  - Cenas "meta" funcionam: o terminal do Claude Code rodando os passos da edição, a timeline com as faixas Vídeo/Cenas/Legenda/Som e um player tocando o bruto no fundo verde, e a separação 3D no "vocês estão vendo a versão final da edição".
+  - Barras/gráficos que vão sendo pintados enquanto ele fala (varredura âmbar) seguram melhor do que um gráfico parado esperando a palavra-chave.
   - Conferir as pontas transcrevendo o trecho isolado: o "post post que... que" da transcrição era um "Tem post que" limpo no áudio.
 - **O que mudar na próxima**:
-  - **Sempre abrir a interface do Edvid (preview) no início da rodada, mesmo quando o Bruno fala pelo projeto/celular.** Ele aprova e marca ajustes por lá (aqui marcou 5 vazios com M). Mandar só o arquivo foi erro. Para o celular, copiar a prévia também para o Drive (`FalaiBruno · Central de Conteúdo/Criativos/`).
-  - O Bruno marcou como vazio pausas de ~0,4 s dentro da frase que o `verify_cut` não acusa (ele só olha ≥ 0,5 s). Cortar já na Fase 1 as pausas internas de 0,35 s ou mais que caem num silêncio do `speech_regions`.
+  - **Abrir a interface do Edvid no início da rodada, sempre**, mesmo quando o Bruno fala pelo projeto/celular, e ligar o vigia de marcações (`watch_edits.py`). Mandar só o arquivo foi erro. Para o celular, copiar a prévia também para o Drive (`FalaiBruno · Central de Conteúdo/Criativos/<vídeo>/`).
+  - **Apagar o `preview_edits.json` depois de aplicar**: se ficar, o vigia entrega a mesma marcação de novo.
+  - **Cortar já na Fase 1 toda pausa de 0,3 s ou mais dentro da frase** que caia num silêncio do `speech_regions` (o Bruno marcou 6 vazios de 0,3–0,4 s que o `verify_cut` não acusa, porque ele só olha ≥ 0,5 s). Um vazio cortado depois da Fase 2 obriga a refazer recorte, legenda, segmentos, tempos das cenas e SFX.
+  - Quando a fala diverge do card (2000 × 278 posts, 140 × 146x), perguntar antes da Fase 2.
   - `montar_pessoa.py` quebrava em vídeo acima de ~45 s (o ffmpeg não aceita `if()` tão aninhado). Corrigido: o passo entre chaves cresce para ficar em até 90 chaves.
-  - Quando a fala diverge do card (2000 × 278 posts, 140 × 146x), perguntar antes da Fase 2. Aqui o Bruno decidiu que a tela segue a fala, e o rodapé de fonte não cita o número do card.
+  - Loudnorm com alvo −1 dBTP saiu −0,8 depois do AAC. Usar alvo −1,5 dBTP para garantir ≤ −1.
 - **Preferências novas do Bruno**:
-  - **Ele não quer estar na tela o tempo todo, nem flutuando.** Na v2: Bruno a ~74% do tamanho, apoiado na base do quadro (sem degradê no tronco) e fora do quadro em ~45% do vídeo, com a animação em tela cheia (números, gráficos, fluxos, telas de ferramenta). Isso muda a receita das camadas 3D: `semPessoa` e `pessoaEscala` no bloco `falai` do edit-data, e cada cena que sai sem ele precisa ter conteúdo no centro.
-  - Não pôr nada importante atrás dele que precise ser lido (a timeline da edição sumiu atrás da cabeça). O que precisa ser lido vai em cena sem o Bruno.
-  - Prévias sempre pela interface do Edvid.
+  - **Não quer estar na tela o tempo todo, nem "flutuando".** Bruno a ~74% do tamanho, apoiado na base do quadro (sem degradê no tronco) e fora do quadro em ~45% do vídeo, com a animação em tela cheia (números, gráficos, fluxos, telas de ferramenta). Ele aparece no gancho, nas frases pessoais (análise "junto comigo", virada, CTA) e nas cenas leves.
+  - O que precisa ser lido (timeline, tabela, terminal) vai numa cena sem ele: atrás da cabeça some.
+  - **Logos oficiais das ferramentas**, não só o nome: Claude Code (mascote, `falaibruno/anthropic-logos/` no Drive) e Grok (logo da xAI). O nome segue a fala dele: "Grok Bot".
+  - Fluxos com setas: fontes → destino (Claude Code e Grok Bot → banco de ideias), depois troca de cena quando ele muda de assunto (rotinas → relógio + dias da semana).
   - Número na tela = número falado, quando ele decidir assim; rodapé genérico "Fonte: base própria com dados públicos do Instagram, nov/2026".
 - **Métricas**: (preencher depois de publicar)
 

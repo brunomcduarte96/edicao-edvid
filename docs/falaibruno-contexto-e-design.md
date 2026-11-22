@@ -17,6 +17,8 @@ Resumo do que mais pesa na hora de editar. O detalhe e o porquê estão no Conte
 | Formatos | Curto 30–60 s (3–5 reganchos; Hype ou Negócio? até 75 s) · Carrossel 5–8 cards. Sem formato longo por enquanto |
 | Ritmo | Corte ou mudança visual a cada 2–4 s; regancho falado a cada 5–10 s com mudança visual junto |
 | Zoom | Punch-in de 10–15%, no máximo 1 a cada 5 s |
+| Bruno na tela | Curto no fundo verde: ~74% do tamanho, apoiado na base (sem degradê), e **fora do quadro em ~45% do vídeo**, com a animação em tela cheia. O que precisa ser lido nunca fica atrás dele. Aprovado no Do Zero #1 (22/11/2026); detalhes na [receita](receitas/video-camadas-3d.md) |
+| Ferramentas na tela | Logo oficial + nome como o Bruno fala (ex.: Claude Code, Grok Bot) |
 | Transições | Corte seco ou deslize reto. Sem gradiente, brilho, sombra ou 3D |
 | Legenda queimada | Sempre ligada. Inter SemiBold 64–72 px, 2–4 palavras por vez, branca, um pouco abaixo do meio. 1 palavra-chave por frase em Âmbar #E8A33D (no escuro) ou marca-texto âmbar com texto preto (no claro). Sem contorno nem sombra |
 | Manchete do gancho | Até 8 palavras, caixa de frase, branco sobre faixa preta reta, terço superior da zona segura |
