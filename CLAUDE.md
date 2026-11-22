@@ -6,16 +6,16 @@ Este repositório é a base do **Edvid**, a central onde o Bruno e o Claude plan
 
 - **Sempre responda em português (Brasil).**
 - Antes de qualquer trabalho de edição, leia nesta ordem:
-  1. [`docs/falaibruno-contexto-e-design.md`](docs/falaibruno-contexto-e-design.md): quem é a marca, público, tom, identidade visual e estilo de edição.
+  1. O **Contexto Fixo** no Notion (link abaixo): marca, público, tom, visual e fronteira. Depois a ficha rápida em [`docs/falaibruno-contexto-e-design.md`](docs/falaibruno-contexto-e-design.md).
   2. [`docs/aprendizados.md`](docs/aprendizados.md): o que já aprendemos em rodadas anteriores. Aplique esses aprendizados por padrão.
 - **O Notion é a fonte única** de tudo que não é edição. Tudo fica na página **Produção de Conteúdo - FalaiBruno** (https://app.notion.com/p/4207642f429980caa594c1ed3f4de785):
   - **Contexto Fixo** (marca, voz, design, estratégia, estrutura do roteiro): https://app.notion.com/p/4207642f42998054add1f1f7bb030b82. Leia antes de editar.
   - **Ideias Posts**: https://app.notion.com/p/4207642f429980c29f89dadee7442285 (Status Nova → Produzir → Em produção, ou Descartada).
   - **Producao**: https://app.notion.com/p/4207642f429980f49a8ec41af34e323c. É a interface com este repo: roteiro no corpo da linha, Status Roteiro → Gravado → Editando → Aprovado → Agendado → Publicado. Só o Bruno marca Aprovado, e só o que está Aprovado vai para o Buffer.
   - **Exemplos de Posts**: https://app.notion.com/p/4207642f42998067a39af9a414951ef1 (referências + nossos posts com "Deu certo").
-  - O `docs/falaibruno-contexto-e-design.md` daqui é a cópia de trabalho para edição: se divergir do Contexto Fixo, o Notion vale e este arquivo deve ser atualizado.
+  - O `docs/falaibruno-contexto-e-design.md` daqui guarda só a ficha rápida de edição: se divergir do Contexto Fixo, o Notion vale e este arquivo deve ser atualizado.
 - Respeite as marcações: **[HIPÓTESE]** é inferência a validar e **[PROPOSTA]** é decisão que o Bruno ainda precisa aprovar. Pode seguir uma [PROPOSTA] na edição, mas diga que seguiu.
-- Respeite sempre a **fronteira com o trabalho do Bruno** (seção 12 do documento de contexto): nada do trabalho no vídeo, em nenhum frame.
+- Respeite sempre a **fronteira com o trabalho do Bruno** (seção 7 do Contexto Fixo): nada do trabalho no vídeo, em nenhum frame.
 - Campos marcados com `[A PREENCHER]` ainda não foram definidos. Não invente: pergunte ao Bruno, ou siga a opção mais neutra e diga qual escolheu.
 - Se algo neste arquivo ou no documento de contexto conflitar com um pedido explícito do Bruno, o pedido do Bruno vale. Se a mudança for permanente, atualize o documento.
 
