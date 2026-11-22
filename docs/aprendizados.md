@@ -10,7 +10,7 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
 
 ## Regras consolidadas
 
-_Ainda nenhuma._
+- **Vídeo curto no fundo verde = receita das camadas 3D.** Siga [`docs/receitas/video-camadas-3d.md`](receitas/video-camadas-3d.md): o Bruno recortado na metade de baixo, uma animação por frase, elementos atrás dele, separação 3D das camadas em 3 momentos, zoom de 8%/18% nos cortes e efeitos sonoros a −8 dB. Pedida em 21/11 e aprovada em 22/11 ("tá perfeito").
 
 ## Rodadas
 

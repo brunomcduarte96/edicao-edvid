@@ -8,6 +8,7 @@ Este repositório é a base do **Edvid**, a central onde o Bruno e o Claude plan
 - Antes de qualquer trabalho de edição, leia nesta ordem:
   1. [`docs/falaibruno-contexto-e-design.md`](docs/falaibruno-contexto-e-design.md): quem é a marca, público, tom, identidade visual e estilo de edição.
   2. [`docs/aprendizados.md`](docs/aprendizados.md): o que já aprendemos em rodadas anteriores. Aplique esses aprendizados por padrão.
+  3. Para vídeo curto gravado no fundo verde: [`docs/receitas/video-camadas-3d.md`](docs/receitas/video-camadas-3d.md), a receita aprovada (camadas 3D, animações atrás do Bruno).
 - **O Notion é a fonte única** do documento do canal e das pautas (banco "FalaiBruno Pautas", com o roteiro no corpo de cada linha). O arquivo de contexto aqui é a cópia de trabalho para edição: se divergir do Notion, o Notion vale e este arquivo deve ser atualizado.
 - Respeite as marcações: **[HIPÓTESE]** é inferência a validar e **[PROPOSTA]** é decisão que o Bruno ainda precisa aprovar. Pode seguir uma [PROPOSTA] na edição, mas diga que seguiu.
 - Respeite sempre a **fronteira com o trabalho do Bruno** (seção 12 do documento de contexto): nada do trabalho no vídeo, em nenhum frame.
@@ -36,6 +37,8 @@ README.md                              ← visão geral e como clonar
 docs/
   falaibruno-contexto-e-design.md      ← marca, público, tom, visual e estilo de edição
   aprendizados.md                      ← registro de melhorias por rodada
+  receitas/video-camadas-3d.md         ← receita aprovada do vídeo curto com camadas 3D
+scripts/montar_pessoa.py               ← recorte chroma key + Bruno no 9:16 seguindo o rosto
 marca/                                 ← design system (PDF) e logos (SVG/PNG)
 projetos/
   _modelo/briefing.md                  ← modelo para cada vídeo novo
