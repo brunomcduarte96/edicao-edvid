@@ -22,7 +22,7 @@
 ## Pedidos de ajuste (revisões)
 
 - v1 (Fase 1, corte limpo de 44,6 s) → aprovado.
-- v2 (final, 44,6 s) → aguardando a revisão do Bruno.
+- v2 (final, 44,6 s) → aprovada pelo Bruno ("tá perfeito") em 22/11.
 
 ## Como ficou a v2
 

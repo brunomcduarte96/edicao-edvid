@@ -39,6 +39,7 @@ _Ainda nenhuma._
   - O hook do template ignora `hook.accent` e pinta laranja (#ff5200). Para a headline mista com a cor da marca, faça a headline na camada própria (`FalaiBruno.tsx`) com a Inter.
   - Com zoom de 18%, a cabeça encosta na legenda. Se incomodar, use 1,12 como zoom maior.
 - **Preferências novas do Bruno**:
+  - A v2 foi aprovada de primeira ("tá perfeito"): mantenha esse nível de animação (uma cena por frase, elementos atrás e camadas 3D) como padrão.
   - Estilo escolhido no editor: tela dividida, headline mista, legenda karaokê, âmbar #E8A33D, tracking, zoom automático, zoom nos cortes e flash nas transições, sem trilha de IA.
 - **Métricas**: (preencher depois de publicar)
 
