@@ -14,7 +14,7 @@
 - **Comenta PALAVRA?** não
 - **Brutos**: Drive, pasta do post / Gravação Raw: https://drive.google.com/file/d/1y3IxZYaVasxwImnwEzVfr6Q7-oZ0UTGn/view (= `~/Movies/2026-11-22 17-38-02.mov`, 1920×1080, 60 fps, 6:51, Rec.709, uma tomada só). Cópia local em `videos/brutos/maior ipo 22112026/`.
 - **Pasta do post no Drive**: https://drive.google.com/drive/folders/1HpZvn0rbKnX8fVptACoo6ZwUC42aK9_r
-- **Exportado**: (Fase 2)
+- **Exportado**: Drive, pasta do post / Gravação Final / `maior-ipo_final.mp4` (1080×1920, 30 fps, 1:58, −14,1 LUFS). Thumbnail em Thumbnail/`maior-ipo_thumb.png`, legenda em Legendas/`maior-ipo.srt`.
 
 ## Roteiro
 
@@ -53,8 +53,8 @@ O roteiro completo fica no card. Pontos da fala que importam para a edição:
 
 ## Pedidos de ajuste (revisões)
 
-- v1 →
+- Fase 2 v1 (prévia v2) → aprovada de primeira, com a thumbnail ("gostei de tudo. podemos agendar", 22/11). Card marcado Aprovado por essas palavras.
 
 ## Aprendizados desta rodada
 
-(Copie para `docs/aprendizados.md` ao final.)
+Copiados para `docs/aprendizados.md` e para a página Edição - regras e aprendizados no Notion (histórico, cenas e armadilhas).
