@@ -1,0 +1,185 @@
+/* FalaiBruno — generated from tokens.json */
+:root, [data-theme="light"] {
+  --white: #ffffff; /* Branco. Fundo principal no claro; texto sobre preto, petróleo e cobalto. */
+  --black: #0a0a0a; /* Preto. Texto principal, botão primário, superfícies inversas. Nunca #000. */
+  --gray-1: #525252; /* Cinza 1. Texto secundário no branco (7,8:1). */
+  --gray-2: #8a8a8a; /* Cinza 2. Ícones e estados inativos. Não é texto no branco (3,5:1). */
+  --gray-3: #d4d4d4; /* Cinza 3. Bordas e divisores no claro. */
+  --gray-4: #f2f2f2; /* Cinza 4. Superfície de cards e trilhas vazias no claro. */
+  --gray-5: #3a3a3a; /* Cinza 5. Bordas no escuro. */
+  --gray-6: #1a1a1a; /* Cinza 6. Superfície de cards no escuro. */
+  --gray-7: #a3a3a3; /* Cinza 7. Texto secundário no escuro (7,8:1 no preto). */
+  --teal: #1f6f6b; /* Petróleo. Acento de ação e sucesso. Texto branco por cima (5,9:1); funciona como texto no branco. */
+  --teal-light: #4fb3ac; /* Petróleo claro. A versão do petróleo para o tema escuro; texto preto por cima (7,9:1). */
+  --amber: #e8a33d; /* Âmbar. Destaque e atenção: selos, marca-texto, rótulos sobre preto (9,2:1). Texto preto por cima. Nunca texto no branco (2,2:1). */
+  --cobalt: #2f5bea; /* Cobalto. Links, informação e foco. Texto branco por cima (5,5:1); funciona como texto no branco. */
+  --cobalt-light: #7c9bff; /* Cobalto claro. Links e foco no tema escuro (7,5:1 no preto). */
+  --red: #d92d20; /* Vermelho. Só erro, sempre com palavra; não é cor de marca. 4,8:1 no branco. */
+  --red-light: #f97066; /* Vermelho claro. Erro no tema escuro (7,1:1 no preto). */
+  --bg: var(--white); /* Fundo de páginas e telas. */
+  --surface: var(--gray-4); /* Cards preenchidos, trilhas de progresso, campos desabilitados. */
+  --fg: var(--black); /* Títulos e texto principal sobre bg e surface. */
+  --fg-muted: var(--gray-1); /* Linhas de apoio, legendas, texto de ajuda. */
+  --border: var(--gray-3); /* Borda 1px de cards contornados, campos e divisores. */
+  --accent: var(--teal); /* Botão de destaque, progresso concluído, sucesso. No máximo um destaque por tela. */
+  --accent-fg: var(--white); /* Texto sobre accent. */
+  --highlight: var(--amber); /* Selos, marca-texto, rótulos sobre inverse, atenção. */
+  --highlight-fg: var(--black); /* Texto sobre highlight, em qualquer tema. */
+  --link: var(--cobalt); /* Links, informação e anel de foco (2px, offset 2px). */
+  --info: var(--cobalt); /* Preenchimento de tag e aviso de informação. */
+  --info-fg: var(--white); /* Texto sobre info. */
+  --danger: var(--red); /* Erro: borda de campo, mensagem, tag. Sempre com texto. */
+  --danger-fg: var(--white); /* Texto sobre danger. */
+  --inverse: var(--black); /* O bloco que mais importa na tela; botão primário. */
+  --inverse-fg: var(--white); /* Texto sobre inverse. */
+  --shadow-0: none; /* Tudo. */
+}
+[data-theme="dark"] {
+  --bg: var(--black);
+  --surface: var(--gray-6);
+  --fg: var(--white);
+  --fg-muted: var(--gray-7);
+  --border: var(--gray-5);
+  --accent: var(--teal-light);
+  --accent-fg: var(--black);
+  --highlight: var(--amber);
+  --highlight-fg: var(--black);
+  --link: var(--cobalt-light);
+  --info: var(--cobalt-light);
+  --info-fg: var(--black);
+  --danger: var(--red-light);
+  --danger-fg: var(--black);
+  --inverse: var(--white);
+  --inverse-fg: var(--black);
+}
+:root {
+  --sp-1: 4px; /* Ícone e texto; rótulo e sublinha. */
+  --sp-2: 8px; /* Entre rótulo e título num card; entre tags. */
+  --sp-3: 12px; /* Padding vertical de botões e campos; entre botões. */
+  --sp-4: 16px; /* Entre itens de lista e cards pequenos. */
+  --sp-5: 24px; /* Padding de cards; gutter do grid. */
+  --sp-6: 32px; /* Entre cards lado a lado; padding de cards grandes. */
+  --sp-7: 48px; /* Entre o bloco de título e o conteúdo. */
+  --sp-8: 64px; /* Entre seções de uma página. */
+  --sp-9: 96px; /* Margem lateral no desktop; grandes respiros. */
+  --r-0: 0px; /* Faixas, imagens, tabelas, blocos de página. */
+  --r-xs: 2px; /* Tags, rótulos, checkbox. */
+  --r-sm: 4px; /* Botões, campos, barras de progresso. */
+  --r-md: 6px; /* Cards, painéis, avisos. O padrão. */
+  --r-lg: 8px; /* Modais e containers grandes. O máximo do sistema. */
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --text-display-xl: 300 72px/1.05 var(--font-sans); /* Títulos de impacto: capas, heróis, aberturas. Light. */
+  --text-display: 600 56px/1.05 var(--font-sans); /* Título de herói em SemiBold. */
+  --text-h1: 600 40px/1.1 var(--font-sans); /* Título da página. */
+  --text-h2: 600 28px/1.2 var(--font-sans); /* Título de seção. */
+  --text-h3: 600 20px/1.3 var(--font-sans); /* Título de card ou bloco. */
+  --text-lead: 400 20px/1.5 var(--font-sans); /* Linha de apoio sob um título, em fg-muted. */
+  --text-body: 400 16px/1.5 var(--font-sans); /* Texto corrido. */
+  --text-small: 400 14px/1.5 var(--font-sans); /* Legendas, metadados, texto de ajuda, em fg-muted. */
+  --text-eyebrow: 600 12px/1.4 var(--font-sans); /* Rótulos e tags, em CAIXA ALTA. */
+}
+.display-xl {
+  font-family: var(--font-sans);
+  font-size: 72px;
+  line-height: 1.05;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+.display {
+  font-family: var(--font-sans);
+  font-size: 56px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.h1 {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.h2 {
+  font-family: var(--font-sans);
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.h3 {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.lead {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.small {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter_18pt-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter_18pt-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter_18pt-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter_18pt-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter_18pt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter_18pt-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

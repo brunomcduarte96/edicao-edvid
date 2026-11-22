@@ -1,0 +1,532 @@
+{
+  "manifestVersion": 3,
+  "name": "FalaiBruno",
+  "namespace": "FalaiBruno",
+  "files": [
+    "assets/Animacoes/README.md",
+    "assets/Logos-PNG/README.md",
+    "assets/Logos/README.md",
+    "components/Alert/README.md",
+    "components/Button/README.md",
+    "components/Card/README.md",
+    "components/Field/README.md",
+    "components/Progress/README.md",
+    "components/Tag/README.md",
+    "fonts/Inter_18pt-Bold.ttf",
+    "fonts/Inter_18pt-Italic.ttf",
+    "fonts/Inter_18pt-Light.ttf",
+    "fonts/Inter_18pt-Medium.ttf",
+    "fonts/Inter_18pt-Regular.ttf",
+    "fonts/Inter_18pt-SemiBold.ttf",
+    "tokens.css"
+  ],
+  "libraries": [],
+  "components": [
+    {
+      "name": "Alert",
+      "group": "Feedback",
+      "summary": "Aviso com título curto e uma linha de contexto."
+    },
+    {
+      "name": "Button",
+      "group": "Ações",
+      "summary": "Botões de ação em quatro níveis: primário (preto), destaque (petróleo), secundário (contorno) e terciário (texto sublinhado)."
+    },
+    {
+      "name": "Card",
+      "group": "Conteúdo",
+      "summary": "Três tipos de card que separam o conteúdo por papel: preenchido para o principal, contorno para o secundário, inverso para o que mais importa."
+    },
+    {
+      "name": "Field",
+      "group": "Formulários",
+      "summary": "Campo de texto com rótulo acima e linha de ajuda ou erro abaixo."
+    },
+    {
+      "name": "Progress",
+      "group": "Feedback",
+      "summary": "Barras de progresso contínuo e de etapas."
+    },
+    {
+      "name": "Tag",
+      "group": "Status",
+      "summary": "Rótulos retangulares para categorias e status, em eyebrow (12px SemiBold, CAIXA ALTA, +0,08em)."
+    }
+  ],
+  "assetGroups": [
+    {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "assinatura-preto.svg",
+        "assinatura-branco.svg",
+        "assinatura-mono-preto.svg",
+        "assinatura-mono-branco.svg",
+        "falaibruno-preto.svg",
+        "falaibruno-branco.svg",
+        "falaibruno-mono-preto.svg",
+        "falaibruno-mono-branco.svg",
+        "simbolo-cor.svg",
+        "simbolo-mono-preto.svg",
+        "simbolo-mono-branco.svg",
+        "avatar-preto.svg",
+        "avatar-branco.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Logos/assinatura-preto.svg",
+          "id": "d93cdc0ebcffb8a3833f21ade5335f74"
+        },
+        {
+          "path": "assets/Logos/assinatura-branco.svg",
+          "id": "d4d7901348fff39e7a587f63cad4f1e5"
+        },
+        {
+          "path": "assets/Logos/assinatura-mono-preto.svg",
+          "id": "73d78a0d5388dc794dc943d57d31530e"
+        },
+        {
+          "path": "assets/Logos/assinatura-mono-branco.svg",
+          "id": "13ce3021d3ee3ab5f733d07c55be4137"
+        },
+        {
+          "path": "assets/Logos/falaibruno-preto.svg",
+          "id": "942525bb7573a20c1c6dcc7fa59a41a9"
+        },
+        {
+          "path": "assets/Logos/falaibruno-branco.svg",
+          "id": "32ada5a9cc652851ed9b049b71378561"
+        },
+        {
+          "path": "assets/Logos/falaibruno-mono-preto.svg",
+          "id": "3fa041a0448fe6b7fb004f997f278719"
+        },
+        {
+          "path": "assets/Logos/falaibruno-mono-branco.svg",
+          "id": "b8bc7ff17c7b726a1a640b8b09d012fb"
+        },
+        {
+          "path": "assets/Logos/simbolo-cor.svg",
+          "id": "12d1c002ee6083b36f7948061394a359"
+        },
+        {
+          "path": "assets/Logos/simbolo-mono-preto.svg",
+          "id": "f6f4ecc4d6bdf6d59b644e880a0fda4d"
+        },
+        {
+          "path": "assets/Logos/simbolo-mono-branco.svg",
+          "id": "bbea7fe64b3430c792ec249d95983429"
+        },
+        {
+          "path": "assets/Logos/avatar-preto.svg",
+          "id": "f04653b9917d3b84361ba3783af3c32e"
+        },
+        {
+          "path": "assets/Logos/avatar-branco.svg",
+          "id": "a1081fc36e231db76f318b8852838682"
+        }
+      ]
+    },
+    {
+      "name": "Logos PNG",
+      "tile": "l",
+      "order": [
+        "assinatura-preto.png",
+        "assinatura-branco.png",
+        "assinatura-mono-preto.png",
+        "assinatura-mono-branco.png",
+        "falaibruno-preto.png",
+        "falaibruno-branco.png",
+        "falaibruno-mono-preto.png",
+        "falaibruno-mono-branco.png",
+        "simbolo-cor.png",
+        "simbolo-mono-preto.png",
+        "simbolo-mono-branco.png",
+        "avatar-preto.png",
+        "avatar-branco.png"
+      ],
+      "files": [
+        {
+          "path": "assets/Logos PNG/assinatura-preto.png",
+          "id": "bd459d7cf55b59b9d432ae58cdbadde7"
+        },
+        {
+          "path": "assets/Logos PNG/assinatura-branco.png",
+          "id": "f0b0805da46d1d08c115660502016867"
+        },
+        {
+          "path": "assets/Logos PNG/assinatura-mono-preto.png",
+          "id": "f00b0120902bd619563c29a0dc35925b"
+        },
+        {
+          "path": "assets/Logos PNG/assinatura-mono-branco.png",
+          "id": "4c77ca19c16e1a54fff841519a177c70"
+        },
+        {
+          "path": "assets/Logos PNG/falaibruno-preto.png",
+          "id": "78785e971d6c29ace9cf99145f468166"
+        },
+        {
+          "path": "assets/Logos PNG/falaibruno-branco.png",
+          "id": "b9d1f87ec3d6aa6d5ebb89b10b050112"
+        },
+        {
+          "path": "assets/Logos PNG/falaibruno-mono-preto.png",
+          "id": "7356940a8cbd556cb528d8e1e8d3250d"
+        },
+        {
+          "path": "assets/Logos PNG/falaibruno-mono-branco.png",
+          "id": "10b481edea1f34a8376805091bc1f342"
+        },
+        {
+          "path": "assets/Logos PNG/simbolo-cor.png",
+          "id": "d106043e5fb182435e516917a0b59b45"
+        },
+        {
+          "path": "assets/Logos PNG/simbolo-mono-preto.png",
+          "id": "f9088ce4087f4842dacb9a0296f48837"
+        },
+        {
+          "path": "assets/Logos PNG/simbolo-mono-branco.png",
+          "id": "bebbe3777ca7188ff3c319f2e1748823"
+        },
+        {
+          "path": "assets/Logos PNG/avatar-preto.png",
+          "id": "135a5833ffa7754fb118332f7703c0c3"
+        },
+        {
+          "path": "assets/Logos PNG/avatar-branco.png",
+          "id": "0203bcfae957cf9fdcf795813bbc05a0"
+        }
+      ]
+    },
+    {
+      "name": "Animações",
+      "order": [
+        "animacao-cor.gif",
+        "animacao-preto.gif",
+        "animacao-cor.mp4",
+        "animacao-preto.mp4",
+        "animacao-cor-transparente.webm",
+        "animacao-preto-transparente.webm",
+        "animacao-branco-transparente.webm",
+        "animacao-v2-cor.gif",
+        "animacao-v2-preto.gif",
+        "animacao-v2-cor.mp4",
+        "animacao-v2-preto.mp4",
+        "animacao-v2-cor-transparente.webm",
+        "animacao-v2-preto-transparente.webm",
+        "animacao-v2-branco-transparente.webm"
+      ],
+      "files": [
+        {
+          "path": "assets/Animações/animacao-cor.gif",
+          "id": "466dceef8daa24d3b2fefc47e60b1d80"
+        },
+        {
+          "path": "assets/Animações/animacao-preto.gif",
+          "id": "556f615a280b8017a4425b315aa65198"
+        },
+        {
+          "path": "assets/Animações/animacao-v2-cor.gif",
+          "id": "13a131177a3ce1fb13140712e6033895"
+        },
+        {
+          "path": "assets/Animações/animacao-v2-preto.gif",
+          "id": "f50dbff046433afeaec375cfac1c49b7"
+        },
+        {
+          "path": "assets/Animações/animacao-cor.mp4",
+          "id": "6ec5f74642d12ab4c4ccf51247530a97"
+        },
+        {
+          "path": "assets/Animações/animacao-preto.mp4",
+          "id": "cad82d23c6a70403ddbc937e69b7be88"
+        },
+        {
+          "path": "assets/Animações/animacao-cor-transparente.webm",
+          "id": "cd987d12d274164bd9bb0851781eb1de"
+        },
+        {
+          "path": "assets/Animações/animacao-preto-transparente.webm",
+          "id": "a0ba7f98b1d0ef9c5a2e9593e173d1a0"
+        },
+        {
+          "path": "assets/Animações/animacao-branco-transparente.webm",
+          "id": "370ab1dcbedbde7400ccd9a28ba553e7"
+        },
+        {
+          "path": "assets/Animações/animacao-v2-cor.mp4",
+          "id": "fdb03685eb641fff2cc1e2ae870f5021"
+        },
+        {
+          "path": "assets/Animações/animacao-v2-preto.mp4",
+          "id": "638d2ceefd3c806c1cd0d069b0146feb"
+        },
+        {
+          "path": "assets/Animações/animacao-v2-cor-transparente.webm",
+          "id": "6fe6191744bdfe0f912afac590e34470"
+        },
+        {
+          "path": "assets/Animações/animacao-v2-preto-transparente.webm",
+          "id": "c8b356a2be06b053517822b88815ed86"
+        },
+        {
+          "path": "assets/Animações/animacao-v2-branco-transparente.webm",
+          "id": "b32e75ba470532c1f2d647c4985873ac"
+        }
+      ]
+    },
+    {
+      "name": "Logos-PNG"
+    },
+    {
+      "name": "Animacoes"
+    }
+  ],
+  "storage": {
+    "files": {
+      "assets/Animações/animacao-branco-transparente.webm": {
+        "store": "blob",
+        "id": "370ab1dcbedbde7400ccd9a28ba553e7",
+        "bytes": 53514,
+        "type": "video/webm"
+      },
+      "assets/Animações/animacao-cor-transparente.webm": {
+        "store": "blob",
+        "id": "cd987d12d274164bd9bb0851781eb1de",
+        "bytes": 66418,
+        "type": "video/webm"
+      },
+      "assets/Animações/animacao-cor.gif": {
+        "store": "blob",
+        "id": "466dceef8daa24d3b2fefc47e60b1d80",
+        "bytes": 180867,
+        "type": "image/gif"
+      },
+      "assets/Animações/animacao-cor.mp4": {
+        "store": "blob",
+        "id": "6ec5f74642d12ab4c4ccf51247530a97",
+        "bytes": 19013,
+        "type": "video/mp4"
+      },
+      "assets/Animações/animacao-preto-transparente.webm": {
+        "store": "blob",
+        "id": "a0ba7f98b1d0ef9c5a2e9593e173d1a0",
+        "bytes": 37468,
+        "type": "video/webm"
+      },
+      "assets/Animações/animacao-preto.gif": {
+        "store": "blob",
+        "id": "556f615a280b8017a4425b315aa65198",
+        "bytes": 163483,
+        "type": "image/gif"
+      },
+      "assets/Animações/animacao-preto.mp4": {
+        "store": "blob",
+        "id": "cad82d23c6a70403ddbc937e69b7be88",
+        "bytes": 16508,
+        "type": "video/mp4"
+      },
+      "assets/Animações/animacao-v2-branco-transparente.webm": {
+        "store": "blob",
+        "id": "b32e75ba470532c1f2d647c4985873ac",
+        "bytes": 53951,
+        "type": "video/webm"
+      },
+      "assets/Animações/animacao-v2-cor-transparente.webm": {
+        "store": "blob",
+        "id": "6fe6191744bdfe0f912afac590e34470",
+        "bytes": 66845,
+        "type": "video/webm"
+      },
+      "assets/Animações/animacao-v2-cor.gif": {
+        "store": "blob",
+        "id": "13a131177a3ce1fb13140712e6033895",
+        "bytes": 215969,
+        "type": "image/gif"
+      },
+      "assets/Animações/animacao-v2-cor.mp4": {
+        "store": "blob",
+        "id": "fdb03685eb641fff2cc1e2ae870f5021",
+        "bytes": 18792,
+        "type": "video/mp4"
+      },
+      "assets/Animações/animacao-v2-preto-transparente.webm": {
+        "store": "blob",
+        "id": "c8b356a2be06b053517822b88815ed86",
+        "bytes": 39004,
+        "type": "video/webm"
+      },
+      "assets/Animações/animacao-v2-preto.gif": {
+        "store": "blob",
+        "id": "f50dbff046433afeaec375cfac1c49b7",
+        "bytes": 192609,
+        "type": "image/gif"
+      },
+      "assets/Animações/animacao-v2-preto.mp4": {
+        "store": "blob",
+        "id": "638d2ceefd3c806c1cd0d069b0146feb",
+        "bytes": 16388,
+        "type": "video/mp4"
+      },
+      "assets/Logos PNG/assinatura-branco.png": {
+        "store": "blob",
+        "id": "f0b0805da46d1d08c115660502016867",
+        "bytes": 33823,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/assinatura-mono-branco.png": {
+        "store": "blob",
+        "id": "4c77ca19c16e1a54fff841519a177c70",
+        "bytes": 33390,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/assinatura-mono-preto.png": {
+        "store": "blob",
+        "id": "f00b0120902bd619563c29a0dc35925b",
+        "bytes": 40881,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/assinatura-preto.png": {
+        "store": "blob",
+        "id": "bd459d7cf55b59b9d432ae58cdbadde7",
+        "bytes": 41165,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/avatar-branco.png": {
+        "store": "blob",
+        "id": "0203bcfae957cf9fdcf795813bbc05a0",
+        "bytes": 8120,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/avatar-preto.png": {
+        "store": "blob",
+        "id": "135a5833ffa7754fb118332f7703c0c3",
+        "bytes": 8227,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/falaibruno-branco.png": {
+        "store": "blob",
+        "id": "b9d1f87ec3d6aa6d5ebb89b10b050112",
+        "bytes": 31775,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/falaibruno-mono-branco.png": {
+        "store": "blob",
+        "id": "10b481edea1f34a8376805091bc1f342",
+        "bytes": 31740,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/falaibruno-mono-preto.png": {
+        "store": "blob",
+        "id": "7356940a8cbd556cb528d8e1e8d3250d",
+        "bytes": 38854,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/falaibruno-preto.png": {
+        "store": "blob",
+        "id": "78785e971d6c29ace9cf99145f468166",
+        "bytes": 38868,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/simbolo-cor.png": {
+        "store": "blob",
+        "id": "d106043e5fb182435e516917a0b59b45",
+        "bytes": 8987,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/simbolo-mono-branco.png": {
+        "store": "blob",
+        "id": "bebbe3777ca7188ff3c319f2e1748823",
+        "bytes": 7841,
+        "type": "image/png"
+      },
+      "assets/Logos PNG/simbolo-mono-preto.png": {
+        "store": "blob",
+        "id": "f9088ce4087f4842dacb9a0296f48837",
+        "bytes": 8229,
+        "type": "image/png"
+      },
+      "assets/Logos/assinatura-branco.svg": {
+        "store": "blob",
+        "id": "d4d7901348fff39e7a587f63cad4f1e5",
+        "bytes": 5122,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/assinatura-mono-branco.svg": {
+        "store": "blob",
+        "id": "13ce3021d3ee3ab5f733d07c55be4137",
+        "bytes": 5122,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/assinatura-mono-preto.svg": {
+        "store": "blob",
+        "id": "73d78a0d5388dc794dc943d57d31530e",
+        "bytes": 5122,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/assinatura-preto.svg": {
+        "store": "blob",
+        "id": "d93cdc0ebcffb8a3833f21ade5335f74",
+        "bytes": 5122,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/avatar-branco.svg": {
+        "store": "blob",
+        "id": "a1081fc36e231db76f318b8852838682",
+        "bytes": 409,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/avatar-preto.svg": {
+        "store": "blob",
+        "id": "f04653b9917d3b84361ba3783af3c32e",
+        "bytes": 409,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/falaibruno-branco.svg": {
+        "store": "blob",
+        "id": "32ada5a9cc652851ed9b049b71378561",
+        "bytes": 4845,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/falaibruno-mono-branco.svg": {
+        "store": "blob",
+        "id": "b8bc7ff17c7b726a1a640b8b09d012fb",
+        "bytes": 4845,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/falaibruno-mono-preto.svg": {
+        "store": "blob",
+        "id": "3fa041a0448fe6b7fb004f997f278719",
+        "bytes": 4845,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/falaibruno-preto.svg": {
+        "store": "blob",
+        "id": "942525bb7573a20c1c6dcc7fa59a41a9",
+        "bytes": 4845,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/simbolo-cor.svg": {
+        "store": "blob",
+        "id": "12d1c002ee6083b36f7948061394a359",
+        "bytes": 353,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/simbolo-mono-branco.svg": {
+        "store": "blob",
+        "id": "bbea7fe64b3430c792ec249d95983429",
+        "bytes": 353,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/simbolo-mono-preto.svg": {
+        "store": "blob",
+        "id": "f6f4ecc4d6bdf6d59b644e880a0fda4d",
+        "bytes": 353,
+        "type": "image/svg+xml"
+      }
+    },
+    "blobBytesUsed": 1514474
+  }
+}

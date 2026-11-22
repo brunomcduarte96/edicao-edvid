@@ -30,3 +30,6 @@ Proxy/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Exceção: animações leves da marca entram no Git
+!marca/**/*.mp4

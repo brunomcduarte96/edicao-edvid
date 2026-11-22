@@ -239,11 +239,7 @@ Design system v1.0 (novembro de 2026). As regras de vídeo (9:16, zonas seguras,
 
 ## Arquivos da marca
 
-Ficam em [`marca/`](../marca/) (ver o README de lá):
-
-- `marca/falaibruno-design-system-v1.0.pdf`: design system original. **[PENDENTE: enviar o arquivo]**
-- `marca/logos/`: as 13 versões da logo (SVG + PNG), extraídas de `falaibruno-logos.zip`. **[PENDENTE: enviar os arquivos]**
-- `marca/falaibruno-logos-visao-geral.png`: visão geral das logos. **[PENDENTE]**
+O pacote completo do design system v1.0 (logos SVG e PNG, animações do símbolo, fonte Inter, tokens e componentes) está em [`marca/design-system/`](../marca/design-system/). O guia de qual arquivo usar em cada situação do vídeo está em [`marca/README.md`](../marca/README.md).
 
 ## Cores
 
@@ -331,9 +327,9 @@ Ficam em [`marca/`](../marca/) (ver o README de lá):
 
 Um símbolo de três blocos (petróleo em cima, âmbar e cobalto embaixo) e o wordmark "falaibruno", em minúsculas, com o pingo do "i" quadrado em petróleo: um sinal discreto de IA. Em texto corrido, escreva **FalaiBruno**.
 
-![Visão geral das logos](../marca/falaibruno-logos-visao-geral.png)
+![Assinatura FalaiBruno](../marca/design-system/assets/Logos/assinatura-preto.svg)
 
-**As 13 versões:**
+**As 13 versões** (arquivos em `marca/design-system/assets/Logos/`, `.svg`, e `Logos PNG/`, `.png`; nomes: `assinatura-*`, `falaibruno-*` para o wordmark, `simbolo-*`, `avatar-*`, com sufixos `-preto` para fundo claro, `-branco` para fundo escuro e `-mono-preto`/`-mono-branco`):
 
 | Versão | Cores | Quando usar |
 | --- | --- | --- |
@@ -357,6 +353,8 @@ Um símbolo de três blocos (petróleo em cima, âmbar e cobalto embaixo) e o wo
 - Respiro: em volta, no mínimo a altura do bloco âmbar.
 - Tamanho mínimo: símbolo a partir de 16 px; assinatura a partir de 80 px de largura.
 - Não redesenhe, recolore, estique, contorne ou aplique sombra. Sobre petróleo, âmbar ou cobalto, use a versão mono (branca).
+
+**Animação do símbolo:** o F de Falai vira o B de Bruno, ~5 s em loop, 480×480, 25 fps (`marca/design-system/assets/Animações/`). `animacao-v2` é a leitura mais clara do F. Só o símbolo anima, nunca o wordmark, e nunca abaixo de 64 px.
 
 **No vídeo [PROPOSTA]:** marca d'água com o símbolo branco pequeno (48–64 px) no canto superior esquerdo, dentro da zona segura; card final com a assinatura de fundo escuro sobre Preto; capa com o símbolo (não a assinatura inteira) para não competir com o título.
 
