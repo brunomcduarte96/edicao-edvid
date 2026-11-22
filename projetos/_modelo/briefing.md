@@ -1,7 +1,7 @@
 # Briefing: [nome do vídeo]
 
 - **Data**: AAAA-MM-DD
-- **Pauta no Notion** (link):
+- **Linha na Producao do Notion** (link):
 - **Voz**: A (analista) / B (notícia) / C (mão na massa)
 - **Formato**: Curto (30–45 s) / Análise (90–150 s)
 - **Série**: nenhuma / Hype ou Negócio? #N / Do Zero #N

@@ -1,0 +1,14 @@
+{
+  "name": "falaibruno",
+  "description": "Plugins da FalaiBruno para produção de conteúdo com Notion, Edvid e Buffer.",
+  "owner": {
+    "name": "Bruno Duarte"
+  },
+  "plugins": [
+    {
+      "name": "falaibruno-producao-conteudos",
+      "source": "./plugins/falaibruno-producao-conteudos",
+      "description": "Plugin - Produção de Conteúdos - FalaiBruno: pesquisa, cards de ideias, post em produção, edição e criativos, agendamento no Buffer."
+    }
+  ]
+}

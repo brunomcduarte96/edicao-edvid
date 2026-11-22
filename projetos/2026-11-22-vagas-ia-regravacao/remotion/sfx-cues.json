@@ -1,0 +1,220 @@
+{
+ "fps": 30,
+ "cues": [
+  {
+   "t": 0.05,
+   "role": "whoosh.long",
+   "id": "whoosh.long@0.05"
+  },
+  {
+   "t": 1.28,
+   "role": "pop",
+   "id": "pop@1.28"
+  },
+  {
+   "t": 2.12,
+   "role": "whoosh.short",
+   "id": "whoosh.short@2.12"
+  },
+  {
+   "t": 4.133,
+   "role": "click",
+   "id": "click@4.133"
+  },
+  {
+   "t": 4.56,
+   "role": "pop",
+   "id": "pop@4.56"
+  },
+  {
+   "t": 5.68,
+   "role": "tick",
+   "id": "tick@5.68"
+  },
+  {
+   "t": 7.2,
+   "role": "land",
+   "id": "land@7.2"
+  },
+  {
+   "t": 8.64,
+   "role": "tick.crisp",
+   "id": "tick.crisp@8.64"
+  },
+  {
+   "t": 9.3,
+   "role": "tick.crisp",
+   "id": "tick.crisp@9.3"
+  },
+  {
+   "t": 9.84,
+   "role": "tick.crisp",
+   "id": "tick.crisp@9.84"
+  },
+  {
+   "t": 10.16,
+   "role": "land.light",
+   "id": "land.light@10.16"
+  },
+  {
+   "t": 10.767,
+   "role": "click",
+   "id": "click@10.767"
+  },
+  {
+   "t": 12.32,
+   "role": "land",
+   "id": "land@12.32"
+  },
+  {
+   "t": 13.28,
+   "role": "land.light",
+   "id": "land.light@13.28"
+  },
+  {
+   "t": 15.52,
+   "role": "snap",
+   "id": "snap@15.52"
+  },
+  {
+   "t": 16.24,
+   "role": "snap",
+   "id": "snap@16.24"
+  },
+  {
+   "t": 17.28,
+   "role": "hit",
+   "id": "hit@17.28"
+  },
+  {
+   "t": 19.667,
+   "role": "click",
+   "id": "click@19.667"
+  },
+  {
+   "t": 19.72,
+   "role": "whoosh.long",
+   "id": "whoosh.long@19.72"
+  },
+  {
+   "t": 20.96,
+   "role": "hit",
+   "id": "hit@20.96"
+  },
+  {
+   "t": 23.12,
+   "role": "tick",
+   "id": "tick@23.12"
+  },
+  {
+   "t": 27.12,
+   "role": "pop",
+   "id": "pop@27.12"
+  },
+  {
+   "t": 27.76,
+   "role": "pop",
+   "id": "pop@27.76"
+  },
+  {
+   "t": 28.64,
+   "role": "tock",
+   "id": "tock@28.64"
+  },
+  {
+   "t": 29.9,
+   "role": "click",
+   "id": "click@29.9"
+  },
+  {
+   "t": 31.04,
+   "role": "hit",
+   "id": "hit@31.04"
+  },
+  {
+   "t": 32.24,
+   "role": "pop",
+   "id": "pop@32.24"
+  },
+  {
+   "t": 32.72,
+   "role": "tock",
+   "id": "tock@32.72"
+  },
+  {
+   "t": 33.12,
+   "role": "pop",
+   "id": "pop@33.12"
+  },
+  {
+   "t": 33.6,
+   "role": "click.confirm",
+   "id": "click.confirm@33.6"
+  },
+  {
+   "t": 35.5,
+   "role": "whoosh.short",
+   "id": "whoosh.short@35.5"
+  },
+  {
+   "t": 36.24,
+   "role": "snap",
+   "id": "snap@36.24"
+  },
+  {
+   "t": 36.48,
+   "role": "land",
+   "id": "land@36.48"
+  },
+  {
+   "t": 36.9,
+   "role": "click",
+   "id": "click@36.9"
+  },
+  {
+   "t": 37.5,
+   "role": "click",
+   "id": "click@37.5"
+  },
+  {
+   "t": 37.62,
+   "role": "click.confirm",
+   "id": "click.confirm@37.62"
+  },
+  {
+   "t": 38.32,
+   "role": "pop",
+   "id": "pop@38.32"
+  },
+  {
+   "t": 39.68,
+   "role": "click.confirm",
+   "id": "click.confirm@39.68"
+  },
+  {
+   "t": 40.48,
+   "role": "pop",
+   "id": "pop@40.48"
+  },
+  {
+   "t": 41.28,
+   "role": "pop",
+   "id": "pop@41.28"
+  },
+  {
+   "t": 41.92,
+   "role": "land.light",
+   "id": "land.light@41.92"
+  },
+  {
+   "t": 42.88,
+   "role": "pop",
+   "id": "pop@42.88"
+  },
+  {
+   "t": 43.45,
+   "role": "whoosh.long",
+   "id": "whoosh.long@43.45"
+  }
+ ]
+}

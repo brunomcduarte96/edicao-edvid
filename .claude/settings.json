@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "falaibruno": {
+      "source": { "source": "github", "repo": "brunomcduarte96/edicao-edvid" }
+    }
+  },
+  "enabledPlugins": {
+    "falaibruno-producao-conteudos@falaibruno": true
+  }
+}
