@@ -50,6 +50,12 @@ Fala da gravação (diferente do roteiro do Notion em alguns pontos):
 - v3 → 3 marcações: (1) 0:03,8 tirar o vazio sem som; (2) 0:09–0:12 ir pintando as barras para não ficar parado; (3) 0:39–0:43 banco de ideias mais para baixo, logos oficiais do Claude Code e do Grok, e o nome "Grok Bot".
 - v4 → corte refeito (vazio entre "2000 posts" e "e mais de 50"; −0,43 s, todo o resto reajustado: cenas, legenda, SFX, recorte); barras pintadas uma a uma com varredura âmbar até o "acima da média"; logo do Claude Code (mascote, `anthropic-logos/claude-code.png` do Drive do Bruno) e da xAI/Grok (Wikimedia Commons, "Logo Grok AI (xAI) 2025"), nome "Grok Bot" no card e na legenda; banco de ideias na parte de baixo. Duração 72,3 s, −14 LUFS, pico −1,3 dBTP.
 
+## Aprovação e agendamento
+
+- v4 aprovada pelo Bruno em 22/11/2026 ("está perfeito"). Card na Producao marcado como Aprovado e depois Agendado.
+- Agendado no Buffer em 22/11 para **23/11/2026 às 19h** (Brasília) no Instagram (Reel), TikTok e YouTube Shorts ("Montei meu canal inteiro com IA | Do Zero #1"). Vídeo: `https://drive.google.com/uc?export=download&id=1hB01e4OraxGUcu8D5WG0M9dg2wDYkbpn` (link aberto até publicar).
+- Legenda final: igual à do card (2.000 posts, 50 criadores, 140x, "O que trava a sua produção hoje? Falai, o que você acha?").
+
 ## Aprendizados desta rodada
 
 Ver a entrada de 22/11 (Do Zero #1) em `docs/aprendizados.md`.

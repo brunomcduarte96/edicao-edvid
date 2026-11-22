@@ -10,7 +10,10 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
 
 ## Regras consolidadas
 
-- **Vídeo curto no fundo verde = receita das camadas 3D.** Siga [`docs/receitas/video-camadas-3d.md`](receitas/video-camadas-3d.md): o Bruno recortado na metade de baixo, uma animação por frase, elementos atrás dele, separação 3D das camadas em 3 momentos, zoom de 8%/18% nos cortes e efeitos sonoros a −8 dB. Pedida em 21/11 e aprovada em 22/11 ("tá perfeito").
+- **Vídeo curto no fundo verde = receita das camadas 3D.** Siga [`docs/receitas/video-camadas-3d.md`](receitas/video-camadas-3d.md): uma animação por frase, elementos atrás dele, separação 3D das camadas em 3 ou 4 momentos e efeitos sonoros a −8 dB. Pedida em 21/11, aprovada em 22/11 nas vagas ("tá perfeito") e de novo no Do Zero #1 ("está perfeito").
+- **O Bruno não fica na tela o tempo todo nem flutuando** (Do Zero #1, 22/11). Ele fica a ~74% do tamanho, apoiado na base do quadro, sem degradê no tronco, e sai do quadro em ~40–45% do vídeo para a animação ocupar a tela toda. Zoom nos cortes de 6% e 12%. O que precisa ser lido (timeline, tabela, tela de ferramenta) vai numa cena sem ele, nunca atrás da cabeça.
+- **Toda prévia passa pela interface do Edvid**, aberta no começo da rodada, mesmo quando o Bruno fala pelo celular. Ele aprova e marca os ajustes com M lá. Uma cópia da prévia vai para o Drive (`FalaiBruno · Central de Conteúdo/Criativos/<vídeo>/`) para ele ver no celular.
+- **Nada fica parado na tela.** Se uma frase dura mais de ~2 s sobre a mesma cena, algo precisa se mexer (barras pintando, pontos correndo, contador). Foi pedido nas marcações de v2 e v3.
 
 ## Rodadas
 
@@ -45,7 +48,15 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
   - Não pôr nada importante atrás dele que precise ser lido (a timeline da edição sumiu atrás da cabeça). O que precisa ser lido vai em cena sem o Bruno.
   - Prévias sempre pela interface do Edvid.
   - Número na tela = número falado, quando ele decidir assim; rodapé genérico "Fonte: base própria com dados públicos do Instagram, nov/2026".
-- **Métricas**: (preencher depois de publicar)
+  - **v3 e v4 (marcações na interface):** ilustrar o fluxo de dados de verdade (setas e pontos correndo do Claude Code e do Grok até um "banco de ideias" em forma de cilindro); um player tocando o bruto em cima da timeline quando ele fala da edição; tirar até vazios curtos dentro do gancho (0,4 s entre "2000 posts" e "e mais de 50"); barras sendo pintadas uma a uma em vez de aparecerem prontas.
+  - **Logos oficiais das ferramentas** quando ele cita uma: o mascote do Claude Code está no Drive dele (`falaibruno/anthropic-logos/claude-code.png`); a do Grok veio do Wikimedia Commons (xAI, 2025). O nome que ele usa é **"Grok Bot"**, também na legenda e nos textos.
+  - Aprovou a v4 com "está perfeito" e pediu para agendar no dia seguinte.
+- **Fluxo Notion → edição → Buffer (primeira rodada completa no fluxo novo)**:
+  - O card saiu da Ideias para a Producao inteiro e foi lapidado lá. O roteiro de leitura fica na coluna Conteúdo da tabela, em blocos de uma ou duas frases com uma linha vazia entre eles (o Bruno lê um bloco e fala para a câmera). Não criar uma seção separada de "texto para gravar".
+  - A fala mudou bastante em relação ao card (números, frases novas, CTA). Depois da Fase 1, atualizar o card, a legenda e o título para bater com a fala antes de agendar.
+  - A pasta Drive criada no card antigo não aparecia no Mac nem no conector. A pasta que funciona é a que o Edvid cria em `FalaiBruno · Central de Conteúdo/Criativos/<vídeo>/`; gravar ela na coluna Pasta Drive.
+  - Buffer: o vídeo precisa estar no Drive como "qualquer pessoa com o link" (o Bruno muda o compartilhamento; o Claude não consegue). Use `https://drive.google.com/uc?export=download&id=<id>` e deixe o link aberto até depois da publicação. Agendado nos 3 canais (Instagram Reel, TikTok, YouTube Shorts com título próprio, categoria 28) no mesmo horário, dentro da janela 19h–21h.
+- **Métricas**: (preencher depois de publicar, 23/11 às 19h)
 
 ### 2026-11-22 · Vagas que pedem IA (regravação) · Curto
 - **Projeto**: projetos/2026-11-22-vagas-ia-regravacao/

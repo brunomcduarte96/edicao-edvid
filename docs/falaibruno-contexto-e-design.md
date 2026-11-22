@@ -16,8 +16,9 @@ Resumo do que mais pesa na hora de editar. O detalhe e o porquê estão no Conte
 | Zona segura | Livres ~248 px no topo, ~448 px na base, ~152 px na direita, ~64 px na esquerda (área útil ~864 × 1224) |
 | Formatos | Curto 30–60 s (3–5 reganchos; Hype ou Negócio? até 75 s) · Carrossel 5–8 cards. Sem formato longo por enquanto |
 | Ritmo | Corte ou mudança visual a cada 2–4 s; regancho falado a cada 5–10 s com mudança visual junto |
-| Zoom | Punch-in de 10–15%, no máximo 1 a cada 5 s |
-| Transições | Corte seco ou deslize reto. Sem gradiente, brilho, sombra ou 3D |
+| Zoom | Zoom seco nos cortes, alternando 1 / 1,06 / 1 / 1,12, com empurrão de 3% dentro do trecho (receita das camadas 3D) |
+| Transições | Corte seco ou deslize reto, flash de luz em ~5 trocas de cena e separação 3D das camadas em 3 ou 4 momentos (aprovado pelo Bruno na receita das camadas 3D). Sem gradiente nem sombra |
+| Bruno na tela | ~74% do tamanho, apoiado na base do quadro, sem degradê; fora do quadro em ~40–45% do vídeo, com a animação em tela cheia. Nada que precise ser lido atrás da cabeça |
 | Legenda queimada | Sempre ligada. Inter SemiBold 64–72 px, 2–4 palavras por vez, branca, um pouco abaixo do meio. 1 palavra-chave por frase em Âmbar #E8A33D (no escuro) ou marca-texto âmbar com texto preto (no claro). Sem contorno nem sombra |
 | Manchete do gancho | Até 8 palavras, caixa de frase, branco sobre faixa preta reta, terço superior da zona segura |
 | Fonte na tela | Veículo + data, Inter Regular 30–32 px, cinza secundário, sempre que aparecer número |
