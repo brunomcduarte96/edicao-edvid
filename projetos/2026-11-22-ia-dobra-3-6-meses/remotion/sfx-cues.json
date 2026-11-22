@@ -1,0 +1,310 @@
+{
+ "fps": 30,
+ "cues": [
+  {
+   "t": 0.05,
+   "role": "whoosh.long",
+   "id": "whoosh.long@0.05"
+  },
+  {
+   "t": 3.4,
+   "role": "pop",
+   "id": "pop@3.4"
+  },
+  {
+   "t": 4.65,
+   "role": "hit",
+   "id": "hit@4.65"
+  },
+  {
+   "t": 8.3,
+   "role": "pop",
+   "id": "pop@8.3"
+  },
+  {
+   "t": 9.69,
+   "role": "hit",
+   "id": "hit@9.69"
+  },
+  {
+   "t": 10.88,
+   "role": "pop",
+   "id": "pop@10.88"
+  },
+  {
+   "t": 12.64,
+   "role": "snap",
+   "id": "snap@12.64"
+  },
+  {
+   "t": 15.52,
+   "role": "whoosh.short",
+   "id": "whoosh.short@15.52"
+  },
+  {
+   "t": 17.34,
+   "role": "hit",
+   "id": "hit@17.34"
+  },
+  {
+   "t": 18.4,
+   "role": "click",
+   "id": "click@18.4"
+  },
+  {
+   "t": 20.42,
+   "role": "pop",
+   "id": "pop@20.42"
+  },
+  {
+   "t": 21.14,
+   "role": "pop",
+   "id": "pop@21.14"
+  },
+  {
+   "t": 23.04,
+   "role": "tick",
+   "id": "tick@23.04"
+  },
+  {
+   "t": 26.48,
+   "role": "whoosh.short",
+   "id": "whoosh.short@26.48"
+  },
+  {
+   "t": 28.5,
+   "role": "pop",
+   "id": "pop@28.5"
+  },
+  {
+   "t": 29.3,
+   "role": "tick",
+   "id": "tick@29.3"
+  },
+  {
+   "t": 29.8,
+   "role": "tick",
+   "id": "tick@29.8"
+  },
+  {
+   "t": 30.3,
+   "role": "tick",
+   "id": "tick@30.3"
+  },
+  {
+   "t": 31.92,
+   "role": "snap",
+   "id": "snap@31.92"
+  },
+  {
+   "t": 32.96,
+   "role": "whoosh.short",
+   "id": "whoosh.short@32.96"
+  },
+  {
+   "t": 35.3,
+   "role": "tock",
+   "id": "tock@35.3"
+  },
+  {
+   "t": 38.64,
+   "role": "hit",
+   "id": "hit@38.64"
+  },
+  {
+   "t": 40.32,
+   "role": "land",
+   "id": "land@40.32"
+  },
+  {
+   "t": 41.6,
+   "role": "click",
+   "id": "click@41.6"
+  },
+  {
+   "t": 46.0,
+   "role": "hit",
+   "id": "hit@46.0"
+  },
+  {
+   "t": 47.84,
+   "role": "whoosh.short",
+   "id": "whoosh.short@47.84"
+  },
+  {
+   "t": 50.68,
+   "role": "click.confirm",
+   "id": "click.confirm@50.68"
+  },
+  {
+   "t": 52.78,
+   "role": "pop",
+   "id": "pop@52.78"
+  },
+  {
+   "t": 55.76,
+   "role": "tick",
+   "id": "tick@55.76"
+  },
+  {
+   "t": 56.96,
+   "role": "whoosh.short",
+   "id": "whoosh.short@56.96"
+  },
+  {
+   "t": 57.92,
+   "role": "hit",
+   "id": "hit@57.92"
+  },
+  {
+   "t": 60.32,
+   "role": "land",
+   "id": "land@60.32"
+  },
+  {
+   "t": 62.81,
+   "role": "hit",
+   "id": "hit@62.81"
+  },
+  {
+   "t": 64.4,
+   "role": "click",
+   "id": "click@64.4"
+  },
+  {
+   "t": 65.4,
+   "role": "snap",
+   "id": "snap@65.4"
+  },
+  {
+   "t": 66.4,
+   "role": "whoosh.short",
+   "id": "whoosh.short@66.4"
+  },
+  {
+   "t": 67.68,
+   "role": "hit",
+   "id": "hit@67.68"
+  },
+  {
+   "t": 72.0,
+   "role": "land",
+   "id": "land@72.0"
+  },
+  {
+   "t": 73.44,
+   "role": "whoosh.short",
+   "id": "whoosh.short@73.44"
+  },
+  {
+   "t": 74.8,
+   "role": "pop",
+   "id": "pop@74.8"
+  },
+  {
+   "t": 77.92,
+   "role": "hit",
+   "id": "hit@77.92"
+  },
+  {
+   "t": 78.22,
+   "role": "tock",
+   "id": "tock@78.22"
+  },
+  {
+   "t": 81.04,
+   "role": "tock",
+   "id": "tock@81.04"
+  },
+  {
+   "t": 85.04,
+   "role": "click",
+   "id": "click@85.04"
+  },
+  {
+   "t": 87.68,
+   "role": "snap",
+   "id": "snap@87.68"
+  },
+  {
+   "t": 89.04,
+   "role": "pop",
+   "id": "pop@89.04"
+  },
+  {
+   "t": 90.8,
+   "role": "pop",
+   "id": "pop@90.8"
+  },
+  {
+   "t": 91.76,
+   "role": "whoosh.short",
+   "id": "whoosh.short@91.76"
+  },
+  {
+   "t": 93.8,
+   "role": "tock",
+   "id": "tock@93.8"
+  },
+  {
+   "t": 97.85,
+   "role": "hit",
+   "id": "hit@97.85"
+  },
+  {
+   "t": 98.88,
+   "role": "land",
+   "id": "land@98.88"
+  },
+  {
+   "t": 100.72,
+   "role": "snap",
+   "id": "snap@100.72"
+  },
+  {
+   "t": 101.18,
+   "role": "tick",
+   "id": "tick@101.18"
+  },
+  {
+   "t": 101.82,
+   "role": "tick",
+   "id": "tick@101.82"
+  },
+  {
+   "t": 102.46,
+   "role": "tick",
+   "id": "tick@102.46"
+  },
+  {
+   "t": 103.26,
+   "role": "tick",
+   "id": "tick@103.26"
+  },
+  {
+   "t": 104.0,
+   "role": "click",
+   "id": "click@104.0"
+  },
+  {
+   "t": 104.62,
+   "role": "click.confirm",
+   "id": "click.confirm@104.62"
+  },
+  {
+   "t": 107.6,
+   "role": "whoosh.short",
+   "id": "whoosh.short@107.6"
+  },
+  {
+   "t": 108.6,
+   "role": "whoosh.long",
+   "id": "whoosh.long@108.6"
+  },
+  {
+   "t": 111.2,
+   "role": "bell",
+   "id": "bell@111.2"
+  }
+ ]
+}

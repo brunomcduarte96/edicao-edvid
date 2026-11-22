@@ -1,0 +1,730 @@
+{
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationSec": 112.033,
+ "camera": {
+  "enabled": false,
+  "zooms": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pushIn": 0,
+  "targetX": 0.5,
+  "targetY": 0.4
+ },
+ "hook": {
+  "enabled": false,
+  "endSec": 3.3,
+  "style": "outline",
+  "text": "Onde a IA ainda perde pra você",
+  "accent": "#e8a33d",
+  "logo": null,
+  "sign": null
+ },
+ "captions": {
+  "enabled": true,
+  "style": "karaoke",
+  "fontSize": 61,
+  "maxWords": 3,
+  "safeWidth": 720,
+  "paddingBottom": 740,
+  "accent": "#e8a33d"
+ },
+ "inserts": [],
+ "behind": [],
+ "splitInserts": [],
+ "transitions": [
+  {
+   "at": 18.4
+  },
+  {
+   "at": 41.6
+  },
+  {
+   "at": 64.4
+  },
+  {
+   "at": 85.04
+  },
+  {
+   "at": 104.0
+  }
+ ],
+ "soundtrack": {
+  "enabled": false,
+  "file": "trilha.mp3",
+  "volume": 0.0445
+ },
+ "falai": {
+  "pessoaY": 790,
+  "marcaDagua": {
+   "src": "brand/simbolo-mono-branco.svg",
+   "x": 924,
+   "y": 252,
+   "size": 56,
+   "ate": 108.6
+  },
+  "explosoes": [
+   {
+    "a": 0,
+    "pico": 0,
+    "b": 1.4
+   },
+   {
+    "a": 64.4,
+    "pico": 65.0,
+    "b": 66.3
+   },
+   {
+    "a": 85.04,
+    "pico": 85.6,
+    "b": 86.9
+   },
+   {
+    "a": 108.6,
+    "pico": 109.2,
+    "b": 999
+   }
+  ],
+  "pushIn": 0.03,
+  "headline": {
+   "fim": 3.3,
+   "l1": "Onde a IA ainda",
+   "l2": "perde pra você"
+  },
+  "semPessoa": [
+   [
+    18.42,
+    39.62
+   ],
+   [
+    47.85,
+    60.9
+   ],
+   [
+    66.42,
+    79.3
+   ],
+   [
+    91.78,
+    95.08
+   ]
+  ],
+  "pessoaEscala": 0.74,
+  "nota": [
+   [
+    18.42,
+    26.46
+   ],
+   [
+    91.78,
+    95.08
+   ]
+  ],
+  "cenas": [
+   {
+    "nome": "gancho",
+    "start": 0,
+    "end": 5.24,
+    "m": {
+     "tres": 0.56,
+     "dobra": 4.8
+    }
+   },
+   {
+    "nome": "perde",
+    "start": 5.24,
+    "end": 8.7,
+    "m": {
+     "teste": 5.6,
+     "perde": 7.84,
+     "voce": 8.4
+    },
+    "rotulo": "Onde a IA perde"
+   },
+   {
+    "nome": "metr",
+    "start": 8.7,
+    "end": 15.5,
+    "m": {
+     "metr": 9.84,
+     "pron": 10.88,
+     "lab": 12.64,
+     "modelos": 14.56
+    },
+    "rotulo": "Quem mede"
+   },
+   {
+    "nome": "data",
+    "start": 15.5,
+    "end": 18.38,
+    "m": {
+     "vinte": 17.44
+    },
+    "rotulo": "Quem mede",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "metodo1",
+    "start": 18.38,
+    "end": 26.46,
+    "m": {
+     "tarefas": 19.84,
+     "prog": 20.72,
+     "pesq": 21.44,
+     "tempo": 23.04,
+     "esp": 23.6,
+     "cada": 25.84
+    },
+    "rotulo": "Como mede",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "metodo2",
+    "start": 26.46,
+    "end": 32.94,
+    "m": {
+     "maior": 27.68,
+     "ia": 28.8,
+     "sozinha": 29.84,
+     "metade": 31.92
+    },
+    "rotulo": "Como mede",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "evolucao",
+    "start": 32.94,
+    "end": 39.66,
+    "m": {
+     "marco": 33.12,
+     "hora": 35.6,
+     "hoje": 36.0,
+     "estimativa": 36.56,
+     "h27": 38.64
+    },
+    "rotulo": "Horizonte de tempo",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "dias",
+    "start": 39.66,
+    "end": 41.58,
+    "m": {
+     "dias": 40.32,
+     "exp": 40.8
+    },
+    "rotulo": "Horizonte de tempo",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "especialistas",
+    "start": 41.58,
+    "end": 47.82,
+    "m": {
+     "gente": 42.56,
+     "esp": 44.48,
+     "n350": 46.0
+    },
+    "rotulo": "Gente de verdade",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "ninguem",
+    "start": 47.82,
+    "end": 51.26,
+    "m": {
+     "ninguem": 50.0,
+     "ia": 50.88
+    },
+    "rotulo": "Programação",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "competicoes",
+    "start": 51.26,
+    "end": 56.94,
+    "m": {
+     "comp": 52.88,
+     "meses": 54.96,
+     "centenas": 55.76
+    },
+    "rotulo": "Competições",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "horas",
+    "start": 56.94,
+    "end": 60.94,
+    "m": {
+     "h48": 57.92,
+     "pessoas": 59.28,
+     "meses3": 60.32
+    },
+    "rotulo": "Competições",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "top4",
+    "start": 60.94,
+    "end": 64.38,
+    "m": {
+     "top": 62.96,
+     "melhores": 63.76
+    },
+    "rotulo": "Competições",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "regancho",
+    "start": 64.38,
+    "end": 66.38,
+    "m": {
+     "ninguem": 65.6
+    }
+   },
+   {
+    "nome": "julgamento",
+    "start": 66.38,
+    "end": 73.42,
+    "m": {
+     "julg": 67.68,
+     "decidir": 68.48,
+     "conferir": 70.72,
+     "pior": 72.0
+    },
+    "rotulo": "Julgamento",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "criar",
+    "start": 73.42,
+    "end": 79.34,
+    "m": {
+     "criar": 74.8,
+     "metr": 76.48,
+     "nenhum": 77.92,
+     "suf": 78.8
+    },
+    "rotulo": "Julgamento",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "internet",
+    "start": 79.34,
+    "end": 85.02,
+    "m": {
+     "pesquisar": 80.32,
+     "internet": 81.04,
+     "importante": 82.24,
+     "teste": 84.64
+    },
+    "rotulo": "Julgamento",
+    "fonte": "Fonte: METR, 20/11/2026"
+   },
+   {
+    "nome": "gargalo",
+    "start": 85.02,
+    "end": 91.74,
+    "m": {
+     "gargalo": 85.2,
+     "nunca": 86.72,
+     "fazer": 87.68,
+     "pedir": 89.44,
+     "presta": 91.2
+    },
+    "rotulo": "O gargalo"
+   },
+   {
+    "nome": "ressalva",
+    "start": 91.74,
+    "end": 95.1,
+    "m": {
+     "prog": 92.8,
+     "todas": 94.0
+    },
+    "rotulo": "O recorte"
+   },
+   {
+    "nome": "tese",
+    "start": 95.1,
+    "end": 99.26,
+    "m": {
+     "direcao": 95.44,
+     "fazer": 96.48,
+     "barato": 97.36,
+     "decidir": 98.0,
+     "caro": 98.88
+    }
+   },
+   {
+    "nome": "revisa",
+    "start": 99.26,
+    "end": 103.98,
+    "m": {
+     "aceita": 99.84,
+     "resposta": 100.72,
+     "revisa": 101.28,
+     "critica": 101.92,
+     "ajusta": 102.56,
+     "refina": 103.36
+    },
+    "rotulo": "O que fazer"
+   },
+   {
+    "nome": "cta",
+    "start": 103.98,
+    "end": 107.58,
+    "m": {
+     "segue": 104.32,
+     "trabalho": 107.2
+    }
+   },
+   {
+    "nome": "fecho",
+    "start": 107.58,
+    "end": 112.033,
+    "m": {
+     "falai": 107.6,
+     "decidir": 110.88,
+     "logo": 111.2
+    }
+   }
+  ],
+  "cortes": [
+   {
+    "start": 0.0,
+    "end": 1.7667,
+    "zoom": 1
+   },
+   {
+    "start": 1.7667,
+    "end": 4.9334,
+    "zoom": 1.06
+   },
+   {
+    "start": 4.9333,
+    "end": 5.2333,
+    "zoom": 1
+   },
+   {
+    "start": 5.2333,
+    "end": 8.8666,
+    "zoom": 1.12
+   },
+   {
+    "start": 8.8667,
+    "end": 10.4667,
+    "zoom": 1
+   },
+   {
+    "start": 10.4667,
+    "end": 10.9,
+    "zoom": 1.06
+   },
+   {
+    "start": 10.9,
+    "end": 12.3,
+    "zoom": 1
+   },
+   {
+    "start": 12.3,
+    "end": 15.5333,
+    "zoom": 1.12
+   },
+   {
+    "start": 15.5333,
+    "end": 18.4,
+    "zoom": 1
+   },
+   {
+    "start": 18.4,
+    "end": 19.2333,
+    "zoom": 1.06
+   },
+   {
+    "start": 19.2333,
+    "end": 22.1666,
+    "zoom": 1
+   },
+   {
+    "start": 22.1667,
+    "end": 24.9334,
+    "zoom": 1.12
+   },
+   {
+    "start": 24.9333,
+    "end": 26.5,
+    "zoom": 1
+   },
+   {
+    "start": 26.5,
+    "end": 30.4667,
+    "zoom": 1.06
+   },
+   {
+    "start": 30.4667,
+    "end": 33.0334,
+    "zoom": 1
+   },
+   {
+    "start": 33.0333,
+    "end": 36.0,
+    "zoom": 1.12
+   },
+   {
+    "start": 36.0,
+    "end": 37.4333,
+    "zoom": 1
+   },
+   {
+    "start": 37.4333,
+    "end": 39.66,
+    "zoom": 1.06
+   },
+   {
+    "start": 39.66,
+    "end": 39.7,
+    "zoom": 1.14
+   },
+   {
+    "start": 39.7,
+    "end": 41.5667,
+    "zoom": 1.14
+   },
+   {
+    "start": 41.5667,
+    "end": 41.58,
+    "zoom": 1.14
+   },
+   {
+    "start": 41.58,
+    "end": 43.6,
+    "zoom": 1.12
+   },
+   {
+    "start": 43.6,
+    "end": 47.8,
+    "zoom": 1
+   },
+   {
+    "start": 47.8,
+    "end": 51.2333,
+    "zoom": 1.06
+   },
+   {
+    "start": 51.2333,
+    "end": 52.7,
+    "zoom": 1
+   },
+   {
+    "start": 52.7,
+    "end": 55.4667,
+    "zoom": 1.12
+   },
+   {
+    "start": 55.4667,
+    "end": 57.1,
+    "zoom": 1
+   },
+   {
+    "start": 57.1,
+    "end": 59.0667,
+    "zoom": 1.06
+   },
+   {
+    "start": 59.0667,
+    "end": 61.0667,
+    "zoom": 1
+   },
+   {
+    "start": 61.0667,
+    "end": 64.38,
+    "zoom": 1.12
+   },
+   {
+    "start": 64.38,
+    "end": 64.4,
+    "zoom": 1.14
+   },
+   {
+    "start": 64.4,
+    "end": 66.38,
+    "zoom": 1.14
+   },
+   {
+    "start": 66.38,
+    "end": 66.5667,
+    "zoom": 1
+   },
+   {
+    "start": 66.5667,
+    "end": 67.2667,
+    "zoom": 1.06
+   },
+   {
+    "start": 67.2667,
+    "end": 68.5,
+    "zoom": 1
+   },
+   {
+    "start": 68.5,
+    "end": 71.3667,
+    "zoom": 1.12
+   },
+   {
+    "start": 71.3667,
+    "end": 73.5,
+    "zoom": 1
+   },
+   {
+    "start": 73.5,
+    "end": 77.7667,
+    "zoom": 1.06
+   },
+   {
+    "start": 77.7667,
+    "end": 79.5334,
+    "zoom": 1
+   },
+   {
+    "start": 79.5333,
+    "end": 85.02,
+    "zoom": 1.12
+   },
+   {
+    "start": 85.02,
+    "end": 85.1666,
+    "zoom": 1.08
+   },
+   {
+    "start": 85.1667,
+    "end": 86.0,
+    "zoom": 1.08
+   },
+   {
+    "start": 86.0,
+    "end": 88.1334,
+    "zoom": 1
+   },
+   {
+    "start": 88.1333,
+    "end": 89.9,
+    "zoom": 1.06
+   },
+   {
+    "start": 89.9,
+    "end": 91.7667,
+    "zoom": 1
+   },
+   {
+    "start": 91.7667,
+    "end": 93.5667,
+    "zoom": 1.12
+   },
+   {
+    "start": 93.5667,
+    "end": 95.1667,
+    "zoom": 1
+   },
+   {
+    "start": 95.1667,
+    "end": 96.4334,
+    "zoom": 1.06
+   },
+   {
+    "start": 96.4333,
+    "end": 97.9333,
+    "zoom": 1
+   },
+   {
+    "start": 97.9333,
+    "end": 98.0,
+    "zoom": 1.12
+   },
+   {
+    "start": 98.0,
+    "end": 98.6666,
+    "zoom": 1.14
+   },
+   {
+    "start": 98.6667,
+    "end": 99.26,
+    "zoom": 1.14
+   },
+   {
+    "start": 99.26,
+    "end": 99.2667,
+    "zoom": 1
+   },
+   {
+    "start": 99.2667,
+    "end": 101.3,
+    "zoom": 1.06
+   },
+   {
+    "start": 101.3,
+    "end": 104.0667,
+    "zoom": 1
+   },
+   {
+    "start": 104.0667,
+    "end": 107.6667,
+    "zoom": 1.12
+   },
+   {
+    "start": 107.6667,
+    "end": 112.0334,
+    "zoom": 1
+   }
+  ]
+ }
+}

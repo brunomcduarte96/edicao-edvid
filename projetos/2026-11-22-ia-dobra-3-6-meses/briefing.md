@@ -16,7 +16,8 @@
 - **Pasta do post no Drive**: https://drive.google.com/drive/folders/1RcVZxqa47AQ0uS39hsP8hnVcTB8isuWc
 - **Interface do Edvid**: http://127.0.0.1:4823 (root `videos/brutos/ia dobra 22112026/edit`)
 - **Prévia do corte**: Drive, Gravação Final / `ia-dobra_previa_v1.mp4` (720p, 1:52)
-- **Exportado**: (Fase 2)
+- **Prévia da Fase 2**: Drive, Gravação Final / `ia-dobra_previa_v2.mp4` (720p, 1:52); thumbnail [PROPOSTA] em Thumbnail / `ia-dobra_thumb_proposta.png`
+- **Exportado**: `videos/brutos/ia dobra 22112026/ia dobra 22112026_final.mp4` (1080×1920, 30 fps, −14 LUFS, −1,4 dBTP), aguardando aprovação
 
 ## Roteiro
 
@@ -45,9 +46,19 @@ O roteiro completo fica no card. Pontos da fala que importam para a edição:
 - CTA: "Me segue pra entender no que a IA impacta no seu trabalho" (card: "o que a IA muda no seu trabalho, contado por quem constrói"). Fechamento: "Fala aí" = "Falai", pergunta igual ao card.
 - Números ditos iguais ao card: três meses e meio, 1 hora em março do ano passado, até 27 horas, 3 dias de expediente, 350 dólares/h, 48 horas × uns três meses, 4% melhores, 20 de novembro.
 
+## Fase 2
+
+- Receita das camadas 3D (v2): Bruno a 0,74 na base, fora do quadro em 45% do vídeo (18,4–39,6; 47,9–60,9; 66,4–79,3; 91,8–95,1), 23 cenas (uma por frase), headline mista "Onde a IA ainda / perde pra você", explosões 3D em 0, 64,4 (regancho), 85,0 (virada) e 108,6 (fecho), flash em 5 trocas, punch-in em "3 dias de expediente", "ninguém tá falando" e "decidir ficou caro".
+- Tela segue a fala (aprovado com o corte): sem selo do grão-mestre nem "+20 pontos"; "Testes úteis criados pela IA: 0"; rodapé "Fonte: METR, 20/11/2026"; nota "Tarefas de programação e pesquisa em IA" no método e na ressalva; "3 meses e meio" na tela, como foi dito; CTA "o que a IA impacta no seu trabalho".
+- Legenda karaokê: corrigidos "Met it." (resto do METR), "testem" → "testa", "Internet." duplicado, "teste" → "testes".
+- 61 efeitos (kit crisp, −8 dB da voz), sem trilha.
+- Recorte: chroma key da receita (`montar_pessoa.py`), convertido para VP9 com alfa (`pessoa_v.webm`, 43 MB, no lugar do ProRes de 2,6 GB). O disco do Mac encheu porque cada bundle do Remotion copia o `public/` inteiro.
+- Render com `--port=3123`: na porta padrão 3000, um render de outra sessão rodando ao mesmo tempo derrubou o nosso (404 no `cut.mp4`).
+
 ## Pedidos de ajuste (revisões)
 
-- Corte v1 → aguardando aprovação.
+- Corte v1 → aprovado ("ficou ótimo, segue para a fase 2 assim"): mantém 1:52, o "Eu não sei como se pronuncia" e a tela segue a fala.
+- Fase 2 v2 → aguardando aprovação (vídeo e thumbnail juntos).
 
 ## Aprendizados desta rodada
 
