@@ -10,8 +10,8 @@ Este repositório é a base do **Edvid**, a central onde o Bruno e o Claude plan
   2. [`docs/aprendizados.md`](docs/aprendizados.md): o que já aprendemos em rodadas anteriores. Aplique esses aprendizados por padrão.
 - **O Notion é a fonte única** de tudo que não é edição. Tudo fica na página **Produção de Conteúdo - FalaiBruno** (https://app.notion.com/p/4207642f429980caa594c1ed3f4de785):
   - **Contexto Fixo** (marca, voz, design, estratégia, estrutura do roteiro): https://app.notion.com/p/4207642f42998054add1f1f7bb030b82. Leia antes de editar.
-  - **Ideias Posts**: https://app.notion.com/p/4207642f429980c29f89dadee7442285 (Status Nova → Produzir → Em produção, ou Descartada).
-  - **Producao**: https://app.notion.com/p/4207642f429980f49a8ec41af34e323c. É a interface com este repo: roteiro no corpo da linha, Status Roteiro → Gravado → Editando → Aprovado → Agendado → Publicado. Só o Bruno marca Aprovado, e só o que está Aprovado vai para o Buffer.
+  - **Ideias Posts**: https://app.notion.com/p/4207642f429980c29f89dadee7442285 (Status Nova → Produzir, ou Descartada). Cada card segue o Modelo do card de ideia: Briefing, Roteiro do conteúdo (tabela), Legenda e hashtags, Roteiro de edição. Em Produzir, o card inteiro é movido para a Producao.
+  - **Producao**: https://app.notion.com/p/4207642f429980f49a8ec41af34e323c. É a interface com este repo: o card chega da Ideias com briefing, roteiro e roteiro de edição no corpo, e recebe os ajustes aqui. Status Roteiro → Gravado → Editando → Aprovado → Agendado → Publicado. Só o Bruno marca Aprovado, e só o que está Aprovado vai para o Buffer.
   - **Exemplos de Posts**: https://app.notion.com/p/4207642f42998067a39af9a414951ef1 (referências + nossos posts com "Deu certo").
   - O `docs/falaibruno-contexto-e-design.md` daqui guarda só a ficha rápida de edição: se divergir do Contexto Fixo, o Notion vale e este arquivo deve ser atualizado.
 - Respeite as marcações: **[HIPÓTESE]** é inferência a validar e **[PROPOSTA]** é decisão que o Bruno ainda precisa aprovar. Pode seguir uma [PROPOSTA] na edição, mas diga que seguiu.
