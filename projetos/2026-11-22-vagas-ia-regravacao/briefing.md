@@ -4,7 +4,7 @@
 - **Pauta no Notion** (link): https://app.notion.com/p/41d7642f429981b2ade4c3a4f5f2699a
 - **Voz / Formato / Pilar**: A (analista) · Curto · Carreira e trabalho
 - **Brutos** (local no Mac): `videos/brutos/vagas ia 22112026/2026-11-22 09-25-10.mov` (1920×1080, 60 fps, 110,6 s, fundo verde, Rec.709). Cópia de `~/Movies/`.
-- **Exportado**: `videos/brutos/vagas ia 22112026/vagas ia 22112026_final.mp4` (a fazer)
+- **Exportado**: no Mac, `videos/brutos/vagas ia 22112026/vagas ia 22112026_final.mp4` (1080×1920, 30 fps, 44,6 s, −14 LUFS). Subir para a pasta Drive da pauta.
 
 ## O que muda em relação à primeira gravação
 
@@ -21,4 +21,12 @@
 
 ## Pedidos de ajuste (revisões)
 
-- v1 (Fase 1, corte limpo de 44,6 s) → aguardando o Bruno.
+- v1 (Fase 1, corte limpo de 44,6 s) → aprovado.
+- v2 (final, 44,6 s) → aguardando a revisão do Bruno.
+
+## Como ficou a v2
+
+- Recorte com chroma key (receita do Bruno), fundo #0B0B0B, o Bruno na metade de baixo seguindo o rosto e com um degradê na base.
+- Quatro camadas (fundo, elementos, Bruno, texto) que se separam em 3D na abertura, em "Agora, um detalhe" e no fim.
+- 14 cenas, uma por frase: vagas com "Requisito: IA" e o gráfico de +110,7% subindo atrás dele · grade de 100 com mais da metade fora de TI · Gupy e o contador até 1.600.000 com a parede de vagas sendo lida atrás dele · barras de RH (+139%) e marketing e comunicação (+134%) ao lado dele · descrição de vaga com prompt e agente e o selo +325% (ele fala "300%", mas a tela mostra o número da fonte) · "o detalhe" com lupa · 1,2% dos treinamentos e as prateleiras de cursos · na entrada × dentro de casa · curso que nunca carrega e o relógio atrás dele · ciclo testa, erra, estuda, testa de novo em volta da cabeça · certificado riscado e "0 cursos" · botão Seguir e as IAs com o 1º lugar · enquete e comentários · logo no fim.
+- Headline mista própria (Inter), legenda karaokê na emenda, zooms de 8% e 18% nos cortes, 5 flashes nas trocas de cena, 43 efeitos sonoros a −8 dB da voz, sem trilha.

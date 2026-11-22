@@ -28,6 +28,20 @@ _Ainda nenhuma._
   - …
 -->
 
+### 2026-11-22 · Vagas que pedem IA (regravação) · Curto
+- **Projeto**: projetos/2026-11-22-vagas-ia-regravacao/
+- **O que funcionou**:
+  - Comparar os dois recortes no mesmo quadro antes de escolher. Nesta gravação, o chroma key do ffmpeg (`chromakey=0x6CC042:0.10:0.03`, depois `despill=type=green:mix=0.5:expand=0`) ficou mais limpo que o Apple Vision, que deixou halo no cabelo. Na gravação de 21/11 tinha sido o contrário. A escolha depende da luz da gravação, então teste sempre os dois.
+  - Esconder o corte do tronco do Bruno com um degradê de transparência na base (`mask-image` de 80,5% a 91% da altura). Assim não fica uma borda reta embaixo.
+  - Layout em faixas: ilustração em y 390–690, legenda na emenda (~740) e o topo da cabeça em ~790. Os elementos de trás ficam nas laterais (x < 250 e x > 830). As cenas que mais funcionam atrás dele são as grandes, como o gráfico subindo, a parede de vagas e o relógio.
+  - Zoom do Bruno por corte, alternando 1,00, 1,08 e 1,18, com um empurrão de 3% dentro de cada trecho e origem no rosto (540, 1000).
+- **O que mudar na próxima**:
+  - O hook do template ignora `hook.accent` e pinta laranja (#ff5200). Para a headline mista com a cor da marca, faça a headline na camada própria (`FalaiBruno.tsx`) com a Inter.
+  - Com zoom de 18%, a cabeça encosta na legenda. Se incomodar, use 1,12 como zoom maior.
+- **Preferências novas do Bruno**:
+  - Estilo escolhido no editor: tela dividida, headline mista, legenda karaokê, âmbar #E8A33D, tracking, zoom automático, zoom nos cortes e flash nas transições, sem trilha de IA.
+- **Métricas**: (preencher depois de publicar)
+
 ### 2026-11-21 · Vagas que pedem IA (RH) · Curto
 - **Projeto**: projetos/2026-11-24-vagas-ia-fora-de-ti/
 - **O que funcionou**:
