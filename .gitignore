@@ -1,0 +1,35 @@
+# Vídeo, áudio e imagens pesadas ficam na nuvem, não no Git
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mkv
+*.mxf
+*.braw
+*.r3d
+*.wav
+*.aif
+*.aiff
+*.psd
+
+# Caches e renders de editores
+*.cfa
+*.pek
+*.ims
+Adobe Premiere Pro Auto-Save/
+Adobe Premiere Pro Audio Previews/
+Adobe Premiere Pro Video Previews/
+Media Cache/
+Media Cache Files/
+CacheClip/
+.gallery/
+Render Files/
+Proxy/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exceção: animações leves da marca entram no Git
+!marca/**/*.mp4
