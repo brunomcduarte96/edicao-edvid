@@ -40,6 +40,7 @@ _Ainda nenhuma._
   - Conferir as palavras de começo de frase depois do corte: o `speech_regions` cortou o "Depois", que foi dito baixinho. Transcrever o corte e comparar com o roteiro.
   - A frase de contexto da fonte (Gupy, 1,6 milhão de vagas) ficou de fora da gravação. A fonte entrou só na tela.
 - **Preferências novas do Bruno**:
+  - **v3 (pedido do Bruno):** animações que ilustram cada frase, elementos atrás dele e as camadas separadas em 3D. Como fazer: exportar o recorte já posicionado no 9:16 como ProRes 4444 com alfa (`pessoa_v.mov`), trocar a base do template por preto e montar as camadas em `src/cenas/FalaiBruno.tsx` com CSS 3D (`perspective` + `translateZ` por camada). Para os elementos atrás aparecerem, o Bruno precisa ficar menor (escala 0,9) e mais baixo, deixando livre a faixa de ~470–820 px acima da cabeça.
   - Depois de aprovar o corte, ele quer que eu faça a edição inteira até o final e entregue a versão final, sem parar para aprovações no meio.
 - **Métricas**: (preencher depois de publicar)
 

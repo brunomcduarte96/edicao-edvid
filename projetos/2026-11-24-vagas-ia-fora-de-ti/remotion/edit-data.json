@@ -1,0 +1,229 @@
+{
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationSec": 51.4667,
+ "camera": {
+  "enabled": false,
+  "zooms": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pushIn": 0,
+  "targetX": 0.5,
+  "targetY": 0.62
+ },
+ "hook": {
+  "enabled": false,
+  "endSec": 0,
+  "style": "card",
+  "lines": [
+   "",
+   ""
+  ],
+  "logo": null,
+  "sign": null
+ },
+ "captions": {
+  "enabled": false,
+  "fontSize": 61,
+  "maxWords": 3,
+  "safeWidth": 720,
+  "paddingBottom": 420
+ },
+ "inserts": [],
+ "behind": [],
+ "soundtrack": {
+  "enabled": false,
+  "file": "trilha.mp3",
+  "volume": 0.0445
+ },
+ "falai": {
+  "legendaY": 400,
+  "marcaDagua": {
+   "src": "brand/simbolo-mono-branco.svg",
+   "x": 924,
+   "y": 252,
+   "size": 56,
+   "ate": 49.9
+  },
+  "explosoes": [
+   {
+    "a": 0,
+    "pico": 0,
+    "b": 1.3
+   },
+   {
+    "a": 16.55,
+    "pico": 17.2,
+    "b": 17.9
+   },
+   {
+    "a": 50.25,
+    "pico": 51.3,
+    "b": 99
+   }
+  ],
+  "zooms": [
+   {
+    "start": 17.0,
+    "end": 17.93,
+    "scale": 1.1
+   },
+   {
+    "start": 29.13,
+    "end": 31.47,
+    "scale": 1.1
+   },
+   {
+    "start": 46.97,
+    "end": 50.47,
+    "scale": 1.08
+   }
+  ],
+  "cenas": [
+   {
+    "nome": "vagas",
+    "start": 0.0,
+    "end": 4.72,
+    "rotulo": "Carreira",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "ia": 1.68,
+     "dobra": 2.8,
+     "ano": 3.84
+    }
+   },
+   {
+    "nome": "metade",
+    "start": 4.72,
+    "end": 7.44,
+    "rotulo": "Carreira",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "metade": 5.28,
+     "tec": 6.72
+    }
+   },
+   {
+    "nome": "areas",
+    "start": 7.44,
+    "end": 11.1,
+    "rotulo": "Onde mais cresceu",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "rh": 8.72,
+     "mkt": 9.6,
+     "com": 10.32
+    }
+   },
+   {
+    "nome": "requisitos",
+    "start": 11.1,
+    "end": 16.6,
+    "rotulo": "Requisitos",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "prompt": 12.16,
+     "agente": 13.2,
+     "pct": 15.6
+    }
+   },
+   {
+    "nome": "detalhe",
+    "start": 16.6,
+    "end": 17.85,
+    "rotulo": "O detalhe"
+   },
+   {
+    "nome": "treinamento",
+    "start": 17.85,
+    "end": 22.8,
+    "rotulo": "O detalhe",
+    "fonte": "Gupy, via Estadão/TecMundo · 18/11/2026",
+    "m": {
+     "pct": 18.16,
+     "trein": 20.08,
+     "emp": 21.36,
+     "ia": 22.4
+    }
+   },
+   {
+    "nome": "empresa",
+    "start": 22.8,
+    "end": 28.95,
+    "rotulo": "Ou seja",
+    "m": {
+     "cobra": 24.48,
+     "entrada": 25.92,
+     "ensina": 27.52,
+     "casa": 28.56
+    }
+   },
+   {
+    "nome": "esperar",
+    "start": 28.95,
+    "end": 36.3,
+    "rotulo": "O que fazer",
+    "m": {
+     "testar": 31.28,
+     "treinar": 32.0,
+     "ninguem": 33.44
+    }
+   },
+   {
+    "nome": "ciclo",
+    "start": 36.3,
+    "end": 41.4,
+    "rotulo": "Como eu aprendi",
+    "m": {
+     "testa": 36.4,
+     "erra": 36.88,
+     "estuda": 37.28,
+     "denovo": 37.84,
+     "curso": 40.8
+    }
+   },
+   {
+    "nome": "ias",
+    "start": 41.4,
+    "end": 46.85,
+    "rotulo": "Me segue",
+    "m": {
+     "quais": 42.56,
+     "melhores": 43.12,
+     "segue": 45.84
+    }
+   },
+   {
+    "nome": "comenta",
+    "start": 46.85,
+    "end": 50.1,
+    "rotulo": "Me conta",
+    "m": {
+     "conta": 47.12,
+     "empresa": 48.48,
+     "ensinou": 49.04
+    }
+   },
+   {
+    "nome": "final",
+    "start": 50.1,
+    "end": 51.47
+   }
+  ]
+ }
+}
