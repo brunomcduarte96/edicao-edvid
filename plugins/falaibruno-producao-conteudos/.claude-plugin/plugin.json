@@ -1,0 +1,8 @@
+{
+  "name": "falaibruno-producao-conteudos",
+  "version": "1.0.0",
+  "description": "Plugin - Produção de Conteúdos - FalaiBruno: as 5 skills do fluxo (pesquisa de conteúdos, cards de ideias, post em produção, edição e criativos, agendamento no Buffer), com o Notion como elo entre elas.",
+  "author": { "name": "Bruno Duarte" },
+  "repository": "https://github.com/brunomcduarte96/edicao-edvid",
+  "keywords": ["falaibruno", "notion", "edvid", "buffer", "conteudo"]
+}

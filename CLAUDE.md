@@ -50,9 +50,12 @@ projetos/
   AAAA-MM-DD-nome-curto/               ← um diretório por vídeo
 ```
 
-## Skills do fluxo de conteúdo
+## Plugin do fluxo de conteúdo
 
-Ficam em `.claude/skills/` e vão pelo Git para qualquer computador. Fluxo: pesquisa de ideias → card da ideia → **post em produção** (`falaibruno-post-em-producao`) → edição → agendamento. As que ainda não existem estão marcadas como a fazer.
+As skills ficam no plugin **Plugin - Produção de Conteúdos - FalaiBruno**, em [`plugins/falaibruno-producao-conteudos/`](plugins/falaibruno-producao-conteudos/README.md). Ele é instalado pelo marketplace deste repo (`.claude-plugin/marketplace.json`), e o `.claude/settings.json` já liga o plugin. O Notion é o elo entre as partes, pelo Status do card.
 
-- `falaibruno-post-em-producao`: move o card da ideia da base Ideias para a Producao e cria a pasta do post no Drive (Posts › Gravação Raw, Gravação Final, Thumbnail, Legendas).
-- `falaibruno-agendamento`: agenda no Buffer um post Aprovado (Instagram Reel, TikTok e YouTube Shorts no mesmo horário) e marca o card como Agendado.
+1. `pesquisa-conteudos`: Referenciais + Contexto Fixo, pesquisa na internet, Instagram, X, YouTube e TikTok (Apify opcional). Chama a 2.
+2. `cards-ideias`: cria os cards na Ideias (Status Nova) e para. O Bruno valida.
+3. `post-em-producao`: move o card para a Producao e cria a pasta no Drive (Gravação Raw, Gravação Final, Thumbnail, Legendas).
+4. `edicao-criativos`: edição no Edvid, final em Gravação Final, thumbnail em Thumbnail, aprendizados na página do Notion.
+5. `agendamento-buffer`: agenda no Buffer o post Aprovado (Instagram Reel, TikTok e YouTube Shorts) e marca Agendado.

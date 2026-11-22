@@ -1,11 +1,11 @@
 ---
-name: falaibruno-post-em-producao
-description: Leva uma ideia da base "Ideias Posts - FalaiBruno" para a "Producao - FalaiBruno" no Notion e cria a pasta do post no Google Drive (Posts › <título> › Gravação Raw, Gravação Final, Thumbnail, Legendas). Use quando o Bruno disser "manda essa ideia para produção", "cria o post em produção", "vamos produzir <ideia>" ou marcar uma ideia como Produzir. Não usar para criar ideias novas (skill de criação do card de ideia), editar vídeo (skill de edição) ou agendar (skill de agendamento).
+name: post-em-producao
+description: Leva uma ideia da base "Ideias Posts - FalaiBruno" para a "Producao - FalaiBruno" no Notion e cria a pasta do post no Google Drive (Posts › <título> › Gravação Raw, Gravação Final, Thumbnail, Legendas). Use quando o Bruno disser "manda essa ideia para produção", "cria o post em produção", "vamos produzir <ideia>" ou marcar uma ideia como Produzir. Não usar para criar ideias novas (cards-ideias), editar vídeo (edicao-criativos) ou agendar (agendamento-buffer).
 ---
 
 # Criar post em produção (FalaiBruno)
 
-É a 3ª skill do fluxo de conteúdo: **pesquisa de ideias → card da ideia → post em produção → edição → agendamento**.
+É a 3ª parte do fluxo: **pesquisa → cards de ideias → post em produção → edição e criativos → agendamento**. O Status do card é o elo entre as partes.
 
 Entrada: uma ideia da base **Ideias**, dada pelo link, pelo nome ou como "a ideia marcada como Produzir".
 Saída: o card **movido** para a **Producao**, com o mesmo conteúdo e Status Roteiro, e a pasta do post no Drive, com o link no card.
@@ -75,4 +75,4 @@ Ferramentas: o conector do **Notion** (fetch, query-data-sources/search, create-
 
 ## Depois desta skill
 
-O Bruno grava e põe o bruto em `Gravação Raw` (ou o arquivo chega em `~/Movies/`). A skill de edição (receita em `docs/receitas/video-camadas-3d.md`) usa o card da Producao como pauta. O final vai para `Gravação Final`, e a legenda `.srt` vai para `Legendas`.
+O Bruno grava e põe o bruto em `Gravação Raw` (ou o arquivo chega em `~/Movies/`). A skill `edicao-criativos` usa o card da Producao como pauta. O final vai para `Gravação Final`, a thumbnail para `Thumbnail` e a legenda `.srt` para `Legendas`.

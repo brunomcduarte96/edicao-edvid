@@ -1,9 +1,11 @@
 ---
-name: falaibruno-agendamento
+name: agendamento-buffer
 description: Agenda no Buffer um post Aprovado da Producao da FalaiBruno (Instagram Reel, TikTok e YouTube Shorts) e marca o card como Agendado. Use quando o Bruno pedir para agendar, programar ou publicar um post aprovado.
 ---
 
-# Agendar um post no Buffer (FalaiBruno)
+# 5. Agendamento no Buffer (FalaiBruno)
+
+Última parte do fluxo: **pesquisa → cards de ideias → post em produção → edição e criativos → agendamento**. Entrada: card da Producao com Status `Aprovado`, final em `Gravação Final` e thumbnail em `Thumbnail`.
 
 Use quando o Bruno disser "agenda esse post", "programa para amanhã", "pode publicar" ou parecido, para um card da Producao. Não use para editar vídeo nem para criar card.
 
