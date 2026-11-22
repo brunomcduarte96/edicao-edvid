@@ -58,3 +58,12 @@ O roteiro completo fica no card. Pontos da fala que importam para a edição:
 ## Aprendizados desta rodada
 
 Copiados para `docs/aprendizados.md` e para a página Edição - regras e aprendizados no Notion (histórico, cenas e armadilhas).
+
+## Aprovação e agendamento
+
+- Aprovado pelo Bruno em 22/11/2026 ("gostei de tudo. podemos agendar"), vídeo e thumbnail juntos.
+- Agendado no Buffer em 22/11 para 26/11/2026 às 19h (Brasília) no Instagram (Reel, também no feed), TikTok e YouTube Shorts.
+- Título do YouTube: "Maior IPO da história: os 4 futuros da dona do Claude".
+- Legenda ajustada antes de agendar para bater com a fala (+90 bi, fundação em 2021, só o primeiro dia, as chances 44/30/1/25 do Vitor). Sem marcar o Vitor, a pedido do Bruno.
+- Vídeo no Buffer: maior-ipo_final.mp4 (117,9 s), link do Drive aberto como leitor. Deixar aberto até depois da publicação.
+- Depois de publicar: mudar o card para Publicado, colar o Link publicado e anotar as métricas.
