@@ -3,7 +3,7 @@
 - **Data**: 2026-11-24 (publicação prevista; gravado em 2026-11-21)
 - **Pauta no Notion** (link): https://app.notion.com/p/41d7642f429981b2ade4c3a4f5f2699a
 - **Voz**: A (analista)
-- **Formato**: Curto (alvo do brief ~55 s; corte da Fase 1 com 51,3 s)
+- **Formato**: Curto (alvo do brief ~55 s; final com 51,4 s)
 - **Série**: nenhuma
 - **Pilar**: Carreira e trabalho
 - **Duração alvo**: 30–60 s
@@ -13,7 +13,7 @@
 - **Fechamento**: "Me conta aí se sua empresa já ensinou alguma IA" + "Falai, o que você acha?"
 - **Comenta PALAVRA?** não
 - **Brutos** (local no Mac): `videos/brutos/rh 21112026/2026-11-21 17-45-36.mov` (1920×1080, 60 fps, 72 s, fundo verde). Pasta Drive da pauta: https://drive.google.com/drive/folders/1R_pxUrORLX1iP1z3LFjR7dwGYH3kQAoS
-- **Exportado** (link da nuvem): [a subir no Drive da pauta]
+- **Exportado**: no Mac, `videos/brutos/rh 21112026/rh 21112026_final.mp4` (1080×1920, 30 fps, −14 LUFS). Subir para a pasta Drive da pauta.
 
 ## Roteiro
 
@@ -27,8 +27,18 @@ O roteiro completo está na pauta do Notion. Pontos que importam para a edição
 
 ## Pedidos de ajuste (revisões)
 
-- v1 (Fase 1, corte limpo de 51,3 s) → aguardando o Bruno
+- v1 (Fase 1, corte limpo de 51,3 s) → o Bruno aprovou e pediu para fazer a edição inteira até o final, sem paradas.
+- v2 (final, 51,4 s) → aguardando a revisão do Bruno.
+
+## Como ficou a edição (v2)
+
+- Fundo verde trocado por preto #0A0A0A (recorte do Bruno feito com Apple Vision, sem chroma key). O Bruno ocupa a metade de baixo, com o rosto seguido de leve. Os dados ficam no terço de cima, e a legenda, logo acima da cabeça.
+- Cards com fonte na tela (Gupy, via Estadão/TecMundo · 18/11/2026): +110,7% · "Mais da metade não é de TI" · barras RH +139% / comunicação, design e marketing +134% · +325% · 1,2% · "Cobra na entrada. Não ensina dentro." · "Não espera a empresa te ensinar" · Testa / erra / estuda / testa de novo · "Me segue: quais IAs testar e treinar primeiro" · "Sua empresa já te ensinou IA?" · assinatura falaibruno.
+- Legenda queimada em Inter SemiBold 68, de 2 a 4 palavras, branca, com a palavra-chave em âmbar.
+- Punch-in de 10% em "E agora o detalhe" e em "Então…".
+- Som: trilha instrumental gerada por IA (Treblo) bem baixa, um whoosh em "E agora o detalhe" e um impacto no 1,2%. O áudio final ficou em −14 LUFS.
+- Segui duas [PROPOSTA]s do documento de marca: o símbolo branco como marca d'água (fui para o canto superior **direito**, porque o esquerdo ficou com o rótulo dos cards) e a escala de tipo para vídeo.
 
 ## Aprendizados desta rodada
 
-(Copie para `docs/aprendizados.md` ao final.)
+Copiados para `docs/aprendizados.md` (rodada de 2026-11-21).
