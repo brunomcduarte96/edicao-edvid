@@ -1,0 +1,173 @@
+1
+00:00:00,000 --> 00:00:03,920
+A Anthropic dona do Claude acabou
+de fazer o maior IPO da história.
+
+2
+00:00:04,000 --> 00:00:09,200
+Valendo cerca de 1,5 trilhão de dólares,
+a empresa levantou mais de 90 bilhões de
+
+3
+00:00:09,200 --> 00:00:10,240
+dólares para o caixa.
+
+4
+00:00:10,320 --> 00:00:14,960
+IPO é quando a empresa começa a
+negociar suas ações na bolsa de valores.
+
+5
+00:00:15,040 --> 00:00:21,200
+E a Anthropic começou a negociar no
+dia 19 de novembro de 2026 a 83 dólares
+
+6
+00:00:21,360 --> 00:00:21,900
+por ação.
+
+7
+00:00:21,920 --> 00:00:26,560
+A empresa foi fundada em 2021 por um
+grupo que deixou a OpenAI para fundar a
+
+8
+00:00:26,560 --> 00:00:27,260
+Anthropic.
+
+9
+00:00:27,280 --> 00:00:31,760
+No primeiro dia de negociação, a
+ação chegou a subir mais de 34%.
+
+10
+00:00:31,840 --> 00:00:35,200
+E no final do dia fechou com 17% de alta.
+
+11
+00:00:35,280 --> 00:00:39,040
+Eu passei 5 anos em uma mesa de
+operações comprando e vendendo ações.
+
+12
+00:00:39,040 --> 00:00:42,880
+E esse sobe e desce do preço das
+ações não diz tudo sobre a empresa.
+
+13
+00:00:42,880 --> 00:00:46,480
+O que os investidores procuram
+entender são os fundamentos da empresa e
+
+14
+00:00:46,720 --> 00:00:50,000
+principalmente quem paga a
+conta daquele lucro da empresa.
+
+15
+00:00:50,000 --> 00:00:53,920
+E um dado muito legal, os cartões
+corporativos dos clientes da Clara.
+
+16
+00:00:54,000 --> 00:00:57,280
+56% dos gastos com IA das empresas.
+
+17
+00:00:57,649 --> 00:00:59,169
+foram destinados a Anthropic.
+
+18
+00:00:59,249 --> 00:01:00,929
+Um, ano antes isso era 8%.
+
+19
+00:01:01,089 --> 00:01:05,489
+Eu sei, é um recorte, não é o mercado como
+um todo, mas mostra um grande cliente da
+
+20
+00:01:05,569 --> 00:01:07,089
+Anthropic, as empresas.
+
+21
+00:01:07,169 --> 00:01:09,009
+Usando como ferramenta de trabalho.
+
+22
+00:01:09,089 --> 00:01:12,769
+Agora, o que vale um trilhão
+e meio daqui a 10 anos?
+
+23
+00:01:12,769 --> 00:01:17,009
+O Vitor Olivier, fundador da Decade,
+resumiu em quatro possíveis cenários.
+
+24
+00:01:17,089 --> 00:01:21,489
+Um, virar uma Microsoft 2.0,
+sistema que toda empresa usa.
+
+25
+00:01:21,649 --> 00:01:26,209
+Dois, virar uma American Airlines útil,
+mas brigando por preço e ganhando pouco.
+
+26
+00:01:26,369 --> 00:01:26,769
+3.
+
+27
+00:01:26,769 --> 00:01:29,249
+Virar algo nunca visto,
+uma super inteligência.
+
+28
+00:01:29,329 --> 00:01:29,789
+4.
+
+29
+00:01:29,809 --> 00:01:30,429
+Falir.
+
+30
+00:01:30,449 --> 00:01:33,249
+Se a IA virar commodity
+igual a eletricidade.
+
+31
+00:01:33,409 --> 00:01:39,969
+Ele dá 44% de chance para o primeiro, 30%
+para o segundo, 1% para o terceiro e 25%
+
+32
+00:01:40,209 --> 00:01:40,989
+para a falência.
+
+33
+00:01:41,009 --> 00:01:42,929
+O dado da Clara puxa para o primeiro.
+
+34
+00:01:43,089 --> 00:01:46,609
+Empresa pagando ferramenta de
+trabalho é a cara da Microsoft.
+
+35
+00:01:46,689 --> 00:01:48,209
+Mas o risco do segundo é real.
+
+36
+00:01:48,289 --> 00:01:52,529
+Se modelos abertos ficarem bons
+e baratos, vira briga por preço.
+
+37
+00:01:52,609 --> 00:01:54,929
+Qual desses futuros você acredita que vem?
+
+38
+00:01:55,009 --> 00:01:57,729
+Comenta aqui abaixo o que você
+acha do futuro da Anthropic.

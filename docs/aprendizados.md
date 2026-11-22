@@ -33,6 +33,26 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
   - …
 -->
 
+### 2026-11-22 · Maior IPO da história · Curto
+- **Projeto**: projetos/2026-11-22-maior-ipo/ (código das cenas, edit-data, SFX e thumbnail em `remotion/`)
+- **O que funcionou**:
+  - Aprovado de primeira, vídeo e thumbnail juntos ("gostei de tudo"). 22 cenas, Bruno fora do quadro em 44%, 4 separações 3D, 58 efeitos.
+  - Bordas do corte pelo `speech_regions.py --noise=-44dB`: a −33 dB os finais de palavra baixos ficavam de fora. Cortadas todas as pausas de 0,3 s ou mais.
+  - Transcrever o trecho isolado resolveu duas dúvidas: o "Mas mor." era só "Mas mostra" (não havia gaguejo) e o "sistema system" era um "sistema" só.
+  - Logos oficiais da Anthropic (asterisco e wordmark, este invertido para branco com `filter: invert(1)`) do Drive `falaibruno/anthropic-logos`.
+- **O que mudar na próxima**:
+  - Com a legenda em `paddingBottom: 740`, ela fica em y ~1120–1240 mesmo com o Bruno fora do quadro. Nas cenas sem ele, o conteúdo central vai em 700–1100 e 1250–1470 (na v0 o cofre, as caixas e o gráfico ficaram atrás da legenda).
+  - Nada abaixo de y 1472 (zona insegura da base): o selo e o crédito subiram.
+  - O template precisa de `public/sfx/` (cut-click.mp3 etc.) para as transições, senão o render para no meio. Copiar da rodada anterior junto com `brand/`, `fonts/` e `logos/`.
+  - A transcrição traz os espaços como palavras próprias: para juntar "Pen" + "AI" em "OpenAI" na legenda, pular os espaços.
+  - Gravação lida com pausas longas (bruto 6:51) deu um corte de 2:00 contra 75 s do roteiro. Avisar na Fase 1 e deixar o Bruno decidir.
+  - Sessão aberta pelo celular: o `preview_start` por nome é recusado. Subir o `preview_server.py` no shell (aqui na porta 4822) e abrir pelo endereço.
+- **Preferências novas do Bruno**:
+  - Nesta rodada: headline em **contorno** (branco com contorno preto, sem destaque), escolhida na aba Estilo. Não virou regra fixa.
+  - A tela segue a fala ("+US$ 90 bi"); o que está no card mas não foi gravado não vira texto na tela. O selo "Não é recomendação de investimento" fica.
+  - Thumbnail [PROPOSTA] aprovada junto: fundo #0B0B0B com grade, logo do assunto grande atrás do Bruno, Bruno num quadro com expressão, headline mista em Inter.
+- **Métricas**: (preencher depois de publicar)
+
 ### 2026-11-22 · Do Zero #1 (montei meu canal com IA) · Curto
 - **Projeto**: projetos/2026-11-22-do-zero-1/ · aprovado na v4 ("está perfeito"), 72,3 s.
 - **Como foi a rodada**: corte (v1 → 5 vazios tirados) → v1 final → v2 (Bruno menor e fora do quadro) → v3 (banco de ideias, rotinas, player) → v4 (vazio do gancho, barras pintando, logos oficiais). Todos os pedidos vieram por marcações na interface do Edvid.
