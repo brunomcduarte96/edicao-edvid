@@ -691,39 +691,92 @@ const CenaFontes: React.FC<{t: number; c: Cena}> = ({t, c}) => {
   const m = c.m!;
   const cc = pop(t, m.claudecode - 0.1, 0.35);
   const gk = pop(t, m.grok - 0.1, 0.35);
-  const rot = ent(t, m.rotinas - 0.2, 0.4);
-  // relógio atrás do Bruno girando (rotina diária)
-  const R = 380;
+  // v3 (pedido do Bruno): Claude Code e Grok com setas para um banco de ideias; depois a tela vira as rotinas
+  const troca = ent(t, m.rotinas - 0.35, 0.35);
+  const A = 1 - troca;
+  const db = pop(t, c.start + 0.15, 0.4);
+  const s1 = ent(t, m.claudecode + 0.2, 0.45);
+  const s2 = ent(t, m.grok + 0.1, 0.45);
+  const fluxo = (t * 1.4) % 1;
+  const dbx = 540;
+  const dby = 840;
+  const ponto = (x1: number, y1: number, x2: number, y2: number, k: number, ph: number) => {
+    if (k < 1) return null;
+    const p = (fluxo + ph) % 1;
+    return <rect x={x1 + (x2 - x1) * p - 9} y={y1 + (y2 - y1) * p - 9} width={18} height={18} fill={COR.ambar} />;
+  };
+  // relógio das rotinas
+  const R = 360;
   const cx = 540;
-  const cy = 1180;
+  const cy = 1140;
   const ang1 = (t - c.start) * 600;
   return (
     <>
-      <Svg o={ent(t, c.start + 0.1, 0.5) * 0.85}>
-        <circle cx={cx} cy={cy} r={R} fill="none" stroke={COR.borda} strokeWidth={6} />
-        {Array.from({length: 12}).map((_, i) => {
-          const a = (i / 12) * Math.PI * 2;
-          return <line key={i} x1={cx + Math.cos(a) * (R - 34)} y1={cy + Math.sin(a) * (R - 34)} x2={cx + Math.cos(a) * (R - 6)} y2={cy + Math.sin(a) * (R - 6)} stroke={COR.cinza1} strokeWidth={8} />;
-        })}
-        <line x1={cx} y1={cy} x2={cx + Math.cos(((ang1 - 90) * Math.PI) / 180) * (R - 60)} y2={cy + Math.sin(((ang1 - 90) * Math.PI) / 180) * (R - 60)} stroke={COR.ambar} strokeWidth={10} strokeLinecap="round" />
-      </Svg>
-      <Abs x={90} y={400} w={420} h={150} o={cl(cc)} s={0.7 + 0.3 * cl(cc)} style={card({padding: 20, borderTop: `6px solid ${COR.ambar}`})}>
-        <div style={txt(22, 600, COR.sec, {letterSpacing: '0.08em'})}>IDEIAS VÊM DO</div>
-        <div style={txt(52, 600, COR.branco, {marginTop: 8})}>Claude Code</div>
-      </Abs>
-      <Abs x={570} y={400} w={420} h={150} o={cl(gk)} s={0.7 + 0.3 * cl(gk)} style={card({padding: 20, borderTop: `6px solid ${COR.cobalto}`})}>
-        <div style={txt(22, 600, COR.sec, {letterSpacing: '0.08em'})}>E DO</div>
-        <div style={txt(52, 600, COR.branco, {marginTop: 8})}>Grok</div>
-      </Abs>
-      <Abs x={90} y={580} w={900} o={rot} dy={(1 - rot) * 20}>
-        <div style={{display: 'inline-flex', alignItems: 'center', gap: 14, background: COR.preto, border: `3px solid ${COR.petroleoClaro}`, borderRadius: 4, padding: '10px 20px'}}>
-          <svg width={36} height={36} viewBox="0 0 36 36">
-            <circle cx={18} cy={18} r={15} fill="none" stroke={COR.petroleoClaro} strokeWidth={4} />
-            <path d="M18 9 L18 18 L25 22" stroke={COR.petroleoClaro} strokeWidth={4} fill="none" />
-          </svg>
-          <span style={txt(40, 600, COR.branco)}>rotinas diárias</span>
-        </div>
-      </Abs>
+      {/* fase A: fontes → banco de ideias */}
+      <div style={{position: 'absolute', inset: 0, opacity: A}}>
+        <Abs x={60} y={420} w={440} h={170} o={cl(cc)} s={0.7 + 0.3 * cl(cc)} style={card({padding: 22, borderTop: `6px solid ${COR.ambar}`})}>
+          <div style={txt(22, 600, COR.sec, {letterSpacing: '0.08em'})}>IDEIAS VÊM DO</div>
+          <div style={txt(56, 600, COR.branco, {marginTop: 8})}>Claude Code</div>
+        </Abs>
+        <Abs x={580} y={420} w={440} h={170} o={cl(gk)} s={0.7 + 0.3 * cl(gk)} style={card({padding: 22, borderTop: `6px solid ${COR.cobalto}`})}>
+          <div style={txt(22, 600, COR.sec, {letterSpacing: '0.08em'})}>E DO</div>
+          <div style={txt(56, 600, COR.branco, {marginTop: 8})}>Grok</div>
+        </Abs>
+        <Seta x1={280} y1={600} x2={470} y2={760} p={s1} cor={COR.ambar} w={7} />
+        <Seta x1={800} y1={600} x2={610} y2={760} p={s2} cor={COR.cobalto} w={7} />
+        <Svg>
+          {ponto(280, 600, 470, 760, s1, 0)}
+          {ponto(800, 600, 610, 760, s2, 0.5)}
+        </Svg>
+        {/* banco de ideias (cilindro) */}
+        <Svg o={cl(db)}>
+          <g transform={`translate(${dbx} ${dby}) scale(${0.7 + 0.3 * cl(db)}) translate(${-dbx} ${-dby})`}>
+            <path d={`M ${dbx - 220} ${dby - 80} L ${dbx - 220} ${dby + 190} A 220 60 0 0 0 ${dbx + 220} ${dby + 190} L ${dbx + 220} ${dby - 80}`} fill={COR.sup} stroke={COR.borda} strokeWidth={5} />
+            {[30, 110].map((dy) => (
+              <path key={dy} d={`M ${dbx - 220} ${dby + dy} A 220 60 0 0 0 ${dbx + 220} ${dby + dy}`} fill="none" stroke={COR.borda} strokeWidth={4} />
+            ))}
+            <ellipse cx={dbx} cy={dby - 80} rx={220} ry={60} fill={COR.sup2} stroke={COR.ambar} strokeWidth={6} />
+          </g>
+        </Svg>
+        <Abs x={dbx - 220} y={dby - 10} w={440} o={cl(db)} style={{textAlign: 'center'}}>
+          <div style={txt(48, 600, COR.branco)}>Banco de ideias</div>
+          <div style={txt(28, 400, COR.sec, {marginTop: 10})}>no Notion</div>
+        </Abs>
+      </div>
+      {/* fase B: rotinas diárias */}
+      <div style={{position: 'absolute', inset: 0, opacity: troca}}>
+        <Svg o={0.9}>
+          <circle cx={cx} cy={cy} r={R} fill="none" stroke={COR.borda} strokeWidth={6} />
+          {Array.from({length: 12}).map((_, i) => {
+            const a = (i / 12) * Math.PI * 2;
+            return <line key={i} x1={cx + Math.cos(a) * (R - 34)} y1={cy + Math.sin(a) * (R - 34)} x2={cx + Math.cos(a) * (R - 6)} y2={cy + Math.sin(a) * (R - 6)} stroke={COR.cinza1} strokeWidth={8} />;
+          })}
+          <line x1={cx} y1={cy} x2={cx + Math.cos(((ang1 - 90) * Math.PI) / 180) * (R - 60)} y2={cy + Math.sin(((ang1 - 90) * Math.PI) / 180) * (R - 60)} stroke={COR.ambar} strokeWidth={10} strokeLinecap="round" />
+          <circle cx={cx} cy={cy} r={14} fill={COR.ambar} />
+        </Svg>
+        <Abs x={90} y={400} w={900} dy={(1 - troca) * 20}>
+          <div style={{display: 'inline-flex', alignItems: 'center', gap: 18, background: COR.preto, border: `3px solid ${COR.petroleoClaro}`, borderRadius: 4, padding: '14px 26px'}}>
+            <svg width={52} height={52} viewBox="0 0 36 36">
+              <circle cx={18} cy={18} r={15} fill="none" stroke={COR.petroleoClaro} strokeWidth={4} />
+              <path d="M18 9 L18 18 L25 22" stroke={COR.petroleoClaro} strokeWidth={4} fill="none" />
+            </svg>
+            <span style={txt(60, 600, COR.branco)}>rotinas diárias</span>
+          </div>
+        </Abs>
+        <Abs x={90} y={540} w={900}>
+          <div style={{display: 'flex', gap: 12}}>
+            {['seg', 'ter', 'qua', 'qui', 'sex', 'sáb', 'dom'].map((d, i) => {
+              const on = ent(t, m.rotinas + 0.08 * i, 0.2);
+              return (
+                <div key={d} style={{width: 110, height: 90, borderRadius: 6, background: on > 0.5 ? COR.ambar : COR.sup, border: `1px solid ${on > 0.5 ? COR.ambar : COR.borda}`, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+                  <span style={txt(24, 600, on > 0.5 ? COR.preto : COR.sec)}>{d}</span>
+                  <span style={txt(20, 400, on > 0.5 ? COR.preto : COR.cinza1, {marginTop: 4})}>7h</span>
+                </div>
+              );
+            })}
+          </div>
+        </Abs>
+      </div>
     </>
   );
 };
@@ -828,6 +881,26 @@ const CenaClaudeCode: React.FC<{t: number; c: Cena}> = ({t, c}) => {
   const play = cl((t - m.edita) / (c.end - m.edita));
   return (
     <>
+      {/* v3 (pedido do Bruno): player em cima da timeline, tocando junto com a agulha */}
+      <Abs x={190} y={730} w={700} h={410} o={tl} dy={(1 - tl) * 30} style={{background: COR.preto, border: `2px solid ${COR.borda}`, borderRadius: 8, overflow: 'hidden', boxSizing: 'border-box'}}>
+        <div style={{position: 'absolute', left: 0, top: 0, width: 700, height: 340, overflow: 'hidden', background: COR.sup}}>
+          <Sequence from={Math.round((m.edita - 0.4) * 30)} layout="none">
+            <OffthreadVideo src={staticFile('cut.mp4')} muted style={{width: 700, height: 394, marginTop: -27}} />
+          </Sequence>
+          <div style={{position: 'absolute', left: 14, top: 12}}>
+            <Tag t="bruto" size={18} bg={COR.sup2} fg={COR.branco} />
+          </div>
+        </div>
+        <div style={{position: 'absolute', left: 0, bottom: 0, width: 700, height: 70, background: COR.sup2, display: 'flex', alignItems: 'center', gap: 16, padding: '0 20px', boxSizing: 'border-box'}}>
+          <svg width={30} height={30} viewBox="0 0 30 30">
+            {t < m.edita ? <path d="M7 4 L25 15 L7 26 Z" fill={COR.branco} /> : <path d="M7 5 L12 5 L12 25 L7 25 Z M18 5 L23 5 L23 25 L18 25 Z" fill={COR.branco} />}
+          </svg>
+          <div style={{flex: 1, height: 8, background: COR.borda, borderRadius: 4, overflow: 'hidden'}}>
+            <div style={{width: `${play * 100}%`, height: '100%', background: COR.ambar}} />
+          </div>
+          <span style={txt(22, 600, COR.sec, {fontVariantNumeric: 'tabular-nums'})}>0:{String(Math.floor(play * 72)).padStart(2, '0')}</span>
+        </div>
+      </Abs>
       {/* timeline de edição atrás do Bruno */}
       <Abs x={20} y={1150} w={1040} h={330} o={tl * 0.95} style={card({padding: 16})}>
         {[
