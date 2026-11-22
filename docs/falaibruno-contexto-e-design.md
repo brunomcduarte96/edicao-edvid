@@ -1,5 +1,7 @@
 # FalaiBruno: ficha de edição
 
+> **Fonte da verdade:** a página [Edição - regras e aprendizados](https://app.notion.com/p/4207642f4299818ea2a8f1ed6f112279) no Notion (dentro de Produção de Conteúdo) compila as regras, a receita e os aprendizados. Se este arquivo divergir dela, o Notion vale. Ao fim de cada rodada, atualize a página no Notion e depois este arquivo.
+
 > **Fonte única: [Contexto Fixo - FalaiBruno](https://app.notion.com/p/4207642f42998054add1f1f7bb030b82) no Notion** (posicionamento, voz, estratégia, roteiro, visual e fronteira com o trabalho). Leia a página antes de editar. Este arquivo guarda só a ficha rápida de edição; se divergir do Notion, o Notion vale e este arquivo deve ser atualizado.
 >
 > Posicionamento (22/11/2026): **"Eu trabalho construindo IA para empresas."** Sem nome da empresa, cliente, preço ou nada interno.

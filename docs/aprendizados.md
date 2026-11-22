@@ -1,5 +1,7 @@
 # Aprendizados de edição
 
+> **Fonte da verdade:** a página [Edição - regras e aprendizados](https://app.notion.com/p/4207642f4299818ea2a8f1ed6f112279) no Notion (dentro de Produção de Conteúdo) compila as regras, a receita e os aprendizados. Se este arquivo divergir dela, o Notion vale. Ao fim de cada rodada, atualize a página no Notion e depois este arquivo.
+
 Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude lê este arquivo antes de editar e o atualiza ao final de cada rodada.
 
 ## Como registrar

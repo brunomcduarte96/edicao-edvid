@@ -1,5 +1,7 @@
 # Receita: vídeo curto com camadas 3D e animações em tela cheia
 
+> **Fonte da verdade:** a página [Edição - regras e aprendizados](https://app.notion.com/p/4207642f4299818ea2a8f1ed6f112279) no Notion (dentro de Produção de Conteúdo) compila as regras, a receita e os aprendizados. Se este arquivo divergir dela, o Notion vale. Ao fim de cada rodada, atualize a página no Notion e depois este arquivo.
+
 **É o padrão para os vídeos curtos gravados no fundo verde.** Duas versões aprovadas pelo Bruno:
 
 - **Atual (v2):** *Do Zero #1: montei meu canal com IA*, aprovado em 22/11/2026 ("está perfeito"). Código em [`projetos/2026-11-22-do-zero-1/remotion/FalaiBruno.tsx`](../../projetos/2026-11-22-do-zero-1/remotion/FalaiBruno.tsx), com os tempos em `edit-data.json` e os sons em `sfx-cues.json`, na mesma pasta. **Comece por ela.**
