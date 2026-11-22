@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:04,560
+A cada três meses e meio, o tamanho do
+trabalho que a IA consegue fazer sozinha
+
+2
+00:00:04,800 --> 00:00:05,260
+dobra.
+
+3
+00:00:05,280 --> 00:00:08,640
+Mas um teste novo mostrou
+aonde ela ainda perde pra você.
+
+4
+00:00:08,720 --> 00:00:10,810
+Quem mede isso é o METR.
+
+5
+00:00:10,880 --> 00:00:14,880
+Eu não sei como se pronuncia, mas é um
+laboratório independente que testa os modelos
+
+6
+00:00:14,880 --> 00:00:15,500
+de IA.
+
+7
+00:00:15,520 --> 00:00:18,320
+E a atualização saiu
+agora, dia 20 de novembro.
+
+8
+00:00:18,400 --> 00:00:19,180
+Funciona assim.
+
+9
+00:00:19,200 --> 00:00:24,160
+Eles pegam tarefas de programação e pesquisa
+e medem o quanto tempo um especialista
+
+10
+00:00:24,320 --> 00:00:26,400
+humano leva pra fazer cada uma.
+
+11
+00:00:26,480 --> 00:00:30,400
+Depois veem qual é a maior tarefa
+que a IA consegue fazer sozinha.
+
+12
+00:00:30,480 --> 00:00:32,880
+Acertando pelo menos metade das vezes.
+
+13
+00:00:32,960 --> 00:00:35,920
+Em março do ano passado,
+era uma tarefa de uma hora.
+
+14
+00:00:36,000 --> 00:00:39,600
+Hoje, a estimativa são de
+tarefas de até 27 horas.
+
+15
+00:00:39,680 --> 00:00:41,520
+Mais de 3 dias de expediente.
+
+16
+00:00:41,600 --> 00:00:46,720
+Pra comparar com gente de verdade, eles
+contratam especialistas pagando até 350
+
+17
+00:00:46,880 --> 00:00:47,820
+dólares por hora.
+
+18
+00:00:47,840 --> 00:00:51,280
+Na maioria das vezes eles não
+acham ninguém melhor do que a IA.
+
+19
+00:00:51,280 --> 00:00:55,520
+Eles também colocam a IA em competições
+de otimizações que duram meses contra
+
+20
+00:00:55,760 --> 00:00:56,880
+centenas de pessoas.
+
+21
+00:00:56,960 --> 00:00:58,960
+A IA teve 48 horas.
+
+22
+00:00:59,040 --> 00:00:59,980
+As pessoas.
+
+23
+00:01:00,000 --> 00:01:00,940
+Uns 3 meses.
+
+24
+00:01:00,960 --> 00:01:04,320
+E mesmo assim ela ficou
+entre os 4% melhores.
+
+25
+00:01:04,400 --> 00:01:06,320
+Mas aqui vem a parte
+que ninguém tá falando.
+
+26
+00:01:06,400 --> 00:01:11,680
+Quando a tarefa pede julgamento, decidir
+sem uma resposta certa para conferir, a IA
+
+27
+00:01:11,840 --> 00:01:13,360
+foi pior do que os especialistas.
+
+28
+00:01:13,440 --> 00:01:18,560
+Eles pediram pra IA criar um teste novo
+para o próprio METR usar, mas nenhum foi bom
+
+29
+00:01:18,720 --> 00:01:19,340
+o suficiente.
+
+30
+00:01:19,360 --> 00:01:24,560
+A IA nem foi pesquisar na internet que
+era importante pro novo desafio, pro novo
+
+31
+00:01:24,640 --> 00:01:25,040
+teste.
+
+32
+00:01:25,040 --> 00:01:28,080
+O gargalo, hoje em dia,
+quase nunca é IA fazer.
+
+33
+00:01:28,080 --> 00:01:31,760
+É alguém saber o que pedir e
+dizer se o resultado presta.
+
+34
+00:01:31,760 --> 00:01:35,040
+Esses testes são de programação
+e não de todas as profissões.
+
+35
+00:01:35,120 --> 00:01:36,320
+Mas a direção é clara.
+
+36
+00:01:36,480 --> 00:01:37,840
+Fazer ficou barato.
+
+37
+00:01:38,000 --> 00:01:39,280
+Decidir ficou caro.
+
+38
+00:01:39,280 --> 00:01:41,200
+Então não só aceita a primeira resposta.
+
+39
+00:01:41,280 --> 00:01:44,000
+Revisa, critica, ajusta, refina.
+
+40
+00:01:44,000 --> 00:01:47,600
+E me segue pra entender no que
+a IA impacta no seu trabalho.
+
+41
+00:01:47,600 --> 00:01:51,840
+Falai, O que no seu trabalho a IA
+ainda não consegue decidir por você?

@@ -21,6 +21,21 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
 
 <!-- Modelo de entrada (copie e preencha):
 
+### 2026-11-22 · A IA dobra a cada 3,6 meses · Curto
+- **Projeto**: projetos/2026-11-22-ia-dobra-3-6-meses/
+- **O que funcionou**:
+  - Receita das camadas 3D com 23 cenas, uma por frase, e o Bruno fora do quadro em 45%. Corte e Fase 2 aprovados de primeira ("ficou ótimo, suba no drive").
+  - Tela seguindo a fala: o que não foi gravado (ex-grão-mestre, "+20 pontos") não entra como texto, e o CTA na tela repete o CTA falado.
+  - Transcrever isolado os trechos com palavra repetida ("pessoas Pessoas", "internet Internet", "dizer dizer"): eram erros da transcrição, não repetições no áudio.
+- **O que mudar na próxima**:
+  - Converter o recorte para WebM VP9 com alfa logo depois do `montar_pessoa.py` (`-c:v libvpx-vp9 -pix_fmt yuva420p -crf 30 -row-mt 1`; 2,6 GB → 43 MB). Cada bundle do Remotion copia o `public/` inteiro, e com três edições abertas no Mac o disco chegou a 99%.
+  - Render com porta própria por sessão (`npx remotion render ... --port=3123`): na porta padrão 3000, o render de outra sessão derrubou o nosso (404 no `cut.mp4`).
+  - Para conferir stills, um bundle só (`stills.mjs` no projeto) em vez de um `npx remotion still` por quadro.
+  - A gravação ficou com 1:52 contra os ~75 s do roteiro, mesmo sem pausas: o tempo extra vem do ritmo da leitura. O Bruno manteve tudo.
+- **Preferências novas do Bruno**:
+  - Manteve a frase espontânea "Eu não sei como se pronuncia" (sobre o METR). Frase natural de bastidor pode ficar, se ele aprovar.
+- **Métricas**: (preencher depois de publicar)
+
 ### AAAA-MM-DD · nome do vídeo · formato
 - **Projeto**: projetos/AAAA-MM-DD-nome-curto/
 - **O que funcionou**:

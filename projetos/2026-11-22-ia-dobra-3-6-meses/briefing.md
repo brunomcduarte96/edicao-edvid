@@ -17,7 +17,7 @@
 - **Interface do Edvid**: http://127.0.0.1:4823 (root `videos/brutos/ia dobra 22112026/edit`)
 - **Prévia do corte**: Drive, Gravação Final / `ia-dobra_previa_v1.mp4` (720p, 1:52)
 - **Prévia da Fase 2**: Drive, Gravação Final / `ia-dobra_previa_v2.mp4` (720p, 1:52); thumbnail [PROPOSTA] em Thumbnail / `ia-dobra_thumb_proposta.png`
-- **Exportado**: `videos/brutos/ia dobra 22112026/ia dobra 22112026_final.mp4` (1080×1920, 30 fps, −14 LUFS, −1,4 dBTP), aguardando aprovação
+- **Exportado**: Drive, Gravação Final / `ia-dobra_final.mp4` (https://drive.google.com/file/d/1h-Ek1qbcEVpNZjs-P9LdgJ0HtTnJjLuS/view), 1080×1920, 30 fps, −14 LUFS, −1,4 dBTP. Thumbnail: Thumbnail / `ia-dobra_thumb.png` (https://drive.google.com/file/d/1uqykMgd-fb25t-7ejkbQHeMsJD8leJlA/view). Legenda: Legendas / `ia-dobra.srt` (cópia em `ia-dobra.srt` aqui)
 
 ## Roteiro
 
@@ -58,8 +58,13 @@ O roteiro completo fica no card. Pontos da fala que importam para a edição:
 ## Pedidos de ajuste (revisões)
 
 - Corte v1 → aprovado ("ficou ótimo, segue para a fase 2 assim"): mantém 1:52, o "Eu não sei como se pronuncia" e a tela segue a fala.
-- Fase 2 v2 → aguardando aprovação (vídeo e thumbnail juntos).
+- Fase 2 v2 → aprovada de primeira, vídeo e thumbnail ("ficou ótimo, suba no drive"). Card marcado como Aprovado por essa fala.
 
 ## Aprendizados desta rodada
 
-(Copie para `docs/aprendizados.md` ao final.)
+(Copiados para `docs/aprendizados.md` e para a página Edição - regras e aprendizados no Notion.)
+
+- Com três edições abertas no Mac ao mesmo tempo, o disco chegou a 99%: cada bundle do Remotion copia o `public/` inteiro, e o recorte em ProRes 4444 tinha 2,6 GB. Convertido para WebM VP9 com alfa (43 MB) e o render seguiu normal. Fazer isso logo depois do `montar_pessoa.py`.
+- Dois renders de sessões diferentes na porta interna padrão (3000) se derrubam (404 no `cut.mp4` no meio). Cada sessão usa `--port` próprio.
+- `stills.mjs`: um bundle só para vários stills (o `npx remotion still` faz um bundle por quadro).
+- A tela seguir a fala inclui o CTA: o botão Seguir mostra o que ele falou ("o que a IA impacta no seu trabalho").
