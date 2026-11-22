@@ -33,3 +33,6 @@ desktop.ini
 
 # Exceção: animações leves da marca entram no Git
 !marca/**/*.mp4
+
+# Pasta de trabalho local da edição (brutos + edit/ do Edvid): fica no Mac
+videos/
