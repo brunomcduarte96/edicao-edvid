@@ -48,3 +48,9 @@ projetos/
   _modelo/briefing.md                  ← modelo para cada vídeo novo
   AAAA-MM-DD-nome-curto/               ← um diretório por vídeo
 ```
+
+## Skills do fluxo de conteúdo
+
+Ficam em `.claude/skills/` e vão pelo Git para qualquer computador. Fluxo: pesquisa de ideias → card da ideia → **post em produção** (`falaibruno-post-em-producao`) → edição → agendamento. As que ainda não existem estão marcadas como a fazer.
+
+- `falaibruno-post-em-producao`: leva uma ideia da base Ideias para a Producao e cria a pasta do post no Drive (Posts › Gravação Raw, Gravação Final, Thumbnail, Legendas).
