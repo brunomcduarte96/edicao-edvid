@@ -30,7 +30,7 @@ Ferramentas: o conector do **Notion** (fetch, query-data-sources/search, create-
 2. **Ler tudo da ideia e checar a fronteira.**
    - Propriedades: `Nome do post`, `Formato`, `Pilar`, `Série`, `Fonte`.
    - Corpo inteiro, em Notion Markdown: os toggles Briefing, Roteiro do conteúdo, Legenda e hashtags e Roteiro de edição.
-   - Se o fetch avisar `truncated` ou blocos desconhecidos, busque as partes que faltam antes de seguir. A cópia tem de sair inteira.
+   - Se o fetch avisar `truncated` ou blocos desconhecidos, busque as partes que faltam antes de seguir. Você precisa do conteúdo inteiro para conferir depois do move.
    - Se o card tiver algo do trabalho do Bruno, de clientes ou o nome da empresa (seção 7 do Contexto Fixo), **pare e avise**. Não leve para a produção.
 3. **Checar duplicata.** Busque na Producao um card com o mesmo `Nome do post`. Se existir, não crie outro: mostre o link e pergunte se é para usar esse (e seguir só com o que faltar, como a pasta) ou criar um novo.
 4. **Mover o card para a Producao** (preferência do Bruno, 22/11).
