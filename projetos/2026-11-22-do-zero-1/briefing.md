@@ -13,7 +13,7 @@
 - **Fechamento**: "E fala aí, o que trava a sua produção hoje?"
 - **Comenta PALAVRA?** não
 - **Brutos** (local no Mac): `videos/brutos/do zero 1 22112026/` (5 arquivos de `~/Movies/`, 22/11 13:28–13:37, 1920×1080, 60 fps, Rec.709). Usada a última tomada completa, `2026-11-22 13-37-25.mov`. Pasta Drive da pauta: https://drive.google.com/drive/folders/1l2vs7qb7C9dxRwJysuf-Jl_06MwbrMjo (não está sincronizada neste Mac nem visível pelo conector do Drive)
-- **Exportado** (local no Mac): `videos/brutos/do zero 1 22112026/do zero 1 22112026_final.mp4` (1080×1920, 30 fps, 72,8 s, −14 LUFS) e a prévia 720p ao lado. Cópia no Drive pessoal: `FalaiBruno · Central de Conteúdo/Criativos/Do Zero 1/`.
+- **Exportado** (local no Mac): `videos/brutos/do zero 1 22112026/do zero 1 22112026_final.mp4` (1080×1920, 30 fps, 72,3 s, −14 LUFS) e a prévia 720p ao lado. Cópia no Drive pessoal: `FalaiBruno · Central de Conteúdo/Criativos/Do Zero 1/`.
 
 ## Roteiro
 
@@ -47,6 +47,8 @@ Fala da gravação (diferente do roteiro do Notion em alguns pontos):
 - v2 → Bruno em 74% do tamanho, apoiado na base do quadro, sem o degradê (era o que fazia flutuar); zoom nos cortes reduzido para 1 / 1,06 / 1 / 1,12; legenda logo acima da cabeça (`paddingBottom` 740). Fora do quadro em 5 janelas (~45% do vídeo), com a animação em tela cheia: 3,3–6,6 s (2.000 posts), 9,2–18,8 s (média e detalhes), 21,7–27,1 s (140x), 36,4–44,8 s (fluxo e ferramentas), 51,8–57,2 s (Claude Code e a timeline). Ganharam versão de tela cheia: post grande com lupa, etapas grandes na esteira, relógio desde o início.
 - v2 → 3 marcações: (1) 0:40–0:43 "seta do Grok e do Claude indo para uma database, depois muda para uma imagem das rotinas"; (2) 0:51,9–0:53,0 sem texto (perguntei); (3) 0:54–0:57 "animação de um player em cima da timeline".
 - v3 → banco de ideias (cilindro) com setas e pontos correndo a partir do Claude Code e do Grok, trocando em "rotinas" para relógio + dias da semana às 7h; player tocando o bruto no fundo verde em cima da timeline, com a barra de progresso andando junto com a agulha.
+- v3 → 3 marcações: (1) 0:03,8 tirar o vazio sem som; (2) 0:09–0:12 ir pintando as barras para não ficar parado; (3) 0:39–0:43 banco de ideias mais para baixo, logos oficiais do Claude Code e do Grok, e o nome "Grok Bot".
+- v4 → corte refeito (vazio entre "2000 posts" e "e mais de 50"; −0,43 s, todo o resto reajustado: cenas, legenda, SFX, recorte); barras pintadas uma a uma com varredura âmbar até o "acima da média"; logo do Claude Code (mascote, `anthropic-logos/claude-code.png` do Drive do Bruno) e da xAI/Grok (Wikimedia Commons, "Logo Grok AI (xAI) 2025"), nome "Grok Bot" no card e na legenda; banco de ideias na parte de baixo. Duração 72,3 s, −14 LUFS, pico −1,3 dBTP.
 
 ## Aprendizados desta rodada
 

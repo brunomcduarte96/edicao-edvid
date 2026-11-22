@@ -377,13 +377,22 @@ const CenaMedia: React.FC<{t: number; c: Cena}> = ({t, c}) => {
     const hgt = alto ? 520 + rnd(i) * 220 : 140 + rnd(i) * 200;
     const g = inOutCubic(cl((t - c.start - 0.05 * i) / 0.6));
     const on = acima && alto ? ent(t, m.acima + 0.08 * [2, 5, 9, 13].indexOf(i), 0.25) : 0;
-    bars.push(<div key={i} style={{position: 'absolute', left: x0 + i * (bw + gap), top: base - hgt * g, width: bw, height: hgt * g, background: on > 0.5 ? COR.ambar : COR.sup2, border: `1px solid ${on > 0.5 ? COR.ambar : COR.borda}`, borderRadius: '3px 3px 0 0', boxSizing: 'border-box'}} />);
+    // v4 (pedido do Bruno): antes do "acima da média", as barras vão sendo pintadas uma a uma (a IA lendo cada perfil)
+    const ordem = [3, 11, 0, 7, 14, 5, 9, 1, 12, 4, 15, 8, 2, 10, 6, 13].indexOf(i);
+    const pintada = !acima && t > c.start + 0.45 + ordem * 0.17;
+    const corPint = [COR.petroleo, COR.cobalto, COR.petroleoClaro][ordem % 3];
+    const pulso = pintada ? 1 + 0.06 * Math.max(0, 1 - (t - (c.start + 0.45 + ordem * 0.17)) * 4) : 1;
+    const bg = on > 0.5 ? COR.ambar : pintada ? corPint : acima ? COR.sup : COR.sup2;
+    bars.push(<div key={i} style={{position: 'absolute', left: x0 + i * (bw + gap), top: base - hgt * g * pulso, width: bw, height: hgt * g * pulso, background: bg, border: `1px solid ${on > 0.5 ? COR.ambar : pintada ? corPint : COR.borda}`, borderRadius: '3px 3px 0 0', boxSizing: 'border-box', opacity: acima && !alto ? 0.6 : 1}} />);
   }
   const k = ent(t, c.start, 0.35);
   const k2 = ent(t, m.acima, 0.35);
   return (
     <>
       {bars}
+      {t < m.acima ? (
+        <div style={{position: 'absolute', left: 20 + ((t - c.start) / Math.max(0.5, m.acima - c.start)) * 1040, top: 760, width: 6, height: 740, background: COR.ambar, opacity: 0.8 * ent(t, c.start + 0.3, 0.3)}} />
+      ) : null}
       <Svg o={linha}>
         <line x1={20} y1={linhaY} x2={20 + 1040 * linha} y2={linhaY} stroke={COR.branco} strokeWidth={4} strokeDasharray="14 10" />
       </Svg>
@@ -699,7 +708,7 @@ const CenaFontes: React.FC<{t: number; c: Cena}> = ({t, c}) => {
   const s2 = ent(t, m.grok + 0.1, 0.45);
   const fluxo = (t * 1.4) % 1;
   const dbx = 540;
-  const dby = 840;
+  const dby = 1300;
   const ponto = (x1: number, y1: number, x2: number, y2: number, k: number, ph: number) => {
     if (k < 1) return null;
     const p = (fluxo + ph) % 1;
@@ -714,19 +723,25 @@ const CenaFontes: React.FC<{t: number; c: Cena}> = ({t, c}) => {
     <>
       {/* fase A: fontes → banco de ideias */}
       <div style={{position: 'absolute', inset: 0, opacity: A}}>
-        <Abs x={60} y={420} w={440} h={170} o={cl(cc)} s={0.7 + 0.3 * cl(cc)} style={card({padding: 22, borderTop: `6px solid ${COR.ambar}`})}>
-          <div style={txt(22, 600, COR.sec, {letterSpacing: '0.08em'})}>IDEIAS VÊM DO</div>
-          <div style={txt(56, 600, COR.branco, {marginTop: 8})}>Claude Code</div>
+        <Abs x={60} y={410} w={440} h={210} o={cl(cc)} s={0.7 + 0.3 * cl(cc)} style={card({padding: 22, borderTop: `6px solid ${COR.ambar}`, display: 'flex', alignItems: 'center', gap: 20})}>
+          <Img src={staticFile('logos/claude-code.png')} style={{width: 120, height: 97, objectFit: 'contain'}} />
+          <div>
+            <div style={txt(20, 600, COR.sec, {letterSpacing: '0.08em'})}>IDEIAS VÊM DO</div>
+            <div style={txt(38, 600, COR.branco, {marginTop: 6, whiteSpace: 'nowrap'})}>Claude Code</div>
+          </div>
         </Abs>
-        <Abs x={580} y={420} w={440} h={170} o={cl(gk)} s={0.7 + 0.3 * cl(gk)} style={card({padding: 22, borderTop: `6px solid ${COR.cobalto}`})}>
-          <div style={txt(22, 600, COR.sec, {letterSpacing: '0.08em'})}>E DO</div>
-          <div style={txt(56, 600, COR.branco, {marginTop: 8})}>Grok</div>
+        <Abs x={580} y={410} w={440} h={210} o={cl(gk)} s={0.7 + 0.3 * cl(gk)} style={card({padding: 22, borderTop: `6px solid ${COR.claro}`, display: 'flex', alignItems: 'center', gap: 20})}>
+          <Img src={staticFile('logos/grok.png')} style={{width: 110, height: 110, borderRadius: 4}} />
+          <div>
+            <div style={txt(20, 600, COR.sec, {letterSpacing: '0.08em'})}>E DO</div>
+            <div style={txt(38, 600, COR.branco, {marginTop: 6, whiteSpace: 'nowrap'})}>Grok Bot</div>
+          </div>
         </Abs>
-        <Seta x1={280} y1={600} x2={470} y2={760} p={s1} cor={COR.ambar} w={7} />
-        <Seta x1={800} y1={600} x2={610} y2={760} p={s2} cor={COR.cobalto} w={7} />
+        <Seta x1={280} y1={630} x2={470} y2={1210} p={s1} cor={COR.ambar} w={7} />
+        <Seta x1={800} y1={630} x2={610} y2={1210} p={s2} cor={COR.claro} w={7} />
         <Svg>
-          {ponto(280, 600, 470, 760, s1, 0)}
-          {ponto(800, 600, 610, 760, s2, 0.5)}
+          {ponto(280, 630, 470, 1210, s1, 0)}
+          {ponto(800, 630, 610, 1210, s2, 0.5)}
         </Svg>
         {/* banco de ideias (cilindro) */}
         <Svg o={cl(db)}>
@@ -738,7 +753,7 @@ const CenaFontes: React.FC<{t: number; c: Cena}> = ({t, c}) => {
             <ellipse cx={dbx} cy={dby - 80} rx={220} ry={60} fill={COR.sup2} stroke={COR.ambar} strokeWidth={6} />
           </g>
         </Svg>
-        <Abs x={dbx - 220} y={dby - 10} w={440} o={cl(db)} style={{textAlign: 'center'}}>
+        <Abs x={dbx - 220} y={dby + 30} w={440} o={cl(db)} style={{textAlign: 'center'}}>
           <div style={txt(48, 600, COR.branco)}>Banco de ideias</div>
           <div style={txt(28, 400, COR.sec, {marginTop: 10})}>no Notion</div>
         </Abs>
