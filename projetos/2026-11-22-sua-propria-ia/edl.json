@@ -1,0 +1,1068 @@
+{
+  "version": 1,
+  "sources": {
+    "2026-11-22 18-40-26": "/Users/brunoduarte/Github/edicao-edvid/videos/brutos/sua propria ia 22112026/2026-11-22 18-40-26.mov"
+  },
+  "grade": "",
+  "ranges": [
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 6.4,
+      "end": 7.633333,
+      "gain_db": 0,
+      "reason": "região 0"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 7.8,
+      "end": 8.9,
+      "gain_db": 0,
+      "reason": "região 1"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 9.166667,
+      "end": 12.5,
+      "gain_db": 0,
+      "reason": "região 2"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 19.233333,
+      "end": 22.633333,
+      "gain_db": 0,
+      "reason": "região 3"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 26.633333,
+      "end": 28.7,
+      "gain_db": 0,
+      "reason": "região 4"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 31.833333,
+      "end": 34.4,
+      "gain_db": 0,
+      "reason": "região 5"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 44.166667,
+      "end": 48.7,
+      "gain_db": 0,
+      "reason": "região 6"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 51.066667,
+      "end": 53.166667,
+      "gain_db": 0,
+      "reason": "região 7"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 59.7,
+      "end": 62.866667,
+      "gain_db": 0,
+      "reason": "região 8"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 65.4,
+      "end": 66.5,
+      "gain_db": 0,
+      "reason": "região 9"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 96.966667,
+      "end": 100.166667,
+      "gain_db": 0,
+      "reason": "região 12"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 106.1,
+      "end": 108.133333,
+      "gain_db": 0,
+      "reason": "região 13"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 111.8,
+      "end": 113.433333,
+      "gain_db": 0,
+      "reason": "região 14"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 117.6,
+      "end": 120.633333,
+      "gain_db": 0,
+      "reason": "região 15"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 134.166667,
+      "end": 136.366667,
+      "gain_db": 0,
+      "reason": "região 17"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 138.866667,
+      "end": 140.333333,
+      "gain_db": 0,
+      "reason": "região 18"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 143.166667,
+      "end": 145.133333,
+      "gain_db": 0,
+      "reason": "região 19"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 147.433333,
+      "end": 148.966667,
+      "gain_db": 0,
+      "reason": "região 20"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 154.333333,
+      "end": 156.266667,
+      "gain_db": 0,
+      "reason": "região 21"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 161.033333,
+      "end": 162.766667,
+      "gain_db": 0,
+      "reason": "região 22"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 164.466667,
+      "end": 166.1,
+      "gain_db": 0,
+      "reason": "região 23"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 172.966667,
+      "end": 174.766667,
+      "gain_db": 0,
+      "reason": "região 24"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 179.1,
+      "end": 181.2,
+      "gain_db": 0,
+      "reason": "região 25"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 186.1,
+      "end": 187.733333,
+      "gain_db": 0,
+      "reason": "região 26"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 193.566667,
+      "end": 197.033333,
+      "gain_db": 0,
+      "reason": "região 27"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 202.266667,
+      "end": 205.133333,
+      "gain_db": 0,
+      "reason": "região 28"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 205.766667,
+      "end": 206.633333,
+      "gain_db": 0,
+      "reason": "região 29"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 214.133333,
+      "end": 217.2,
+      "gain_db": 0,
+      "reason": "região 30"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 221.266667,
+      "end": 223.366667,
+      "gain_db": 0,
+      "reason": "região 31"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 226.266667,
+      "end": 227.6,
+      "gain_db": 0,
+      "reason": "região 32"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 231.066667,
+      "end": 232.966667,
+      "gain_db": 0,
+      "reason": "região 33"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 235.1,
+      "end": 236.5,
+      "gain_db": 0,
+      "reason": "região 34"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 243.3,
+      "end": 246.533333,
+      "gain_db": 0,
+      "reason": "região 35"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 250.2,
+      "end": 252.2,
+      "gain_db": 0,
+      "reason": "região 36"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 260.5,
+      "end": 261.5,
+      "gain_db": 0,
+      "reason": "região 37"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 261.866667,
+      "end": 263.833333,
+      "gain_db": 0,
+      "reason": "região 38"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 268.8,
+      "end": 271.7,
+      "gain_db": 0,
+      "reason": "região 39"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 280.666667,
+      "end": 282.7,
+      "gain_db": 0,
+      "reason": "região 40"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 295.8,
+      "end": 300.033333,
+      "gain_db": 0,
+      "reason": "região 41"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 302.033333,
+      "end": 302.766667,
+      "gain_db": 0,
+      "reason": "região 42"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 312.633333,
+      "end": 316.366667,
+      "gain_db": 0,
+      "reason": "região 44"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 317.566667,
+      "end": 318.666667,
+      "gain_db": 0,
+      "reason": "região 45"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 322.433333,
+      "end": 323.633333,
+      "gain_db": 0,
+      "reason": "região 46"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 326.1,
+      "end": 327.9,
+      "gain_db": 0,
+      "reason": "região 47"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 331.4,
+      "end": 334.233333,
+      "gain_db": 0,
+      "reason": "região 48"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 339.033333,
+      "end": 340.1,
+      "gain_db": 0,
+      "reason": "região 49"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 343.333333,
+      "end": 345.7,
+      "gain_db": 0,
+      "reason": "região 50"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 348.833333,
+      "end": 350.733333,
+      "gain_db": 0,
+      "reason": "região 51"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 354.8,
+      "end": 356.2,
+      "gain_db": 0,
+      "reason": "região 52"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 356.4,
+      "end": 357.766667,
+      "gain_db": 0,
+      "reason": "região 53"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 361.833333,
+      "end": 363.433333,
+      "gain_db": 0,
+      "reason": "região 54"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 366.766667,
+      "end": 368.433333,
+      "gain_db": 0,
+      "reason": "região 55"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 373.366667,
+      "end": 375.733333,
+      "gain_db": 0,
+      "reason": "região 56"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 380.7,
+      "end": 382.7,
+      "gain_db": 0,
+      "reason": "região 57"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 382.833333,
+      "end": 384.466667,
+      "gain_db": 0,
+      "reason": "região 58"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 388.466667,
+      "end": 389.466667,
+      "gain_db": 0,
+      "reason": "região 59"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 392.6,
+      "end": 395.233333,
+      "gain_db": 0,
+      "reason": "região 60"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 405.633333,
+      "end": 407.4,
+      "gain_db": 0,
+      "reason": "região 61"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 411.166667,
+      "end": 413.266667,
+      "gain_db": 0,
+      "reason": "região 62"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 417.3,
+      "end": 419.066667,
+      "gain_db": 0,
+      "reason": "região 63"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 421.4,
+      "end": 423.2,
+      "gain_db": 0,
+      "reason": "região 64"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 427.333333,
+      "end": 429.4,
+      "gain_db": 0,
+      "reason": "região 65"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 461.133333,
+      "end": 462.333333,
+      "gain_db": 0,
+      "reason": "região 67"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 474.333333,
+      "end": 477.433333,
+      "gain_db": 0,
+      "reason": "região 68"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 483.7,
+      "end": 486.2,
+      "gain_db": 0,
+      "reason": "região 69"
+    },
+    {
+      "source": "2026-11-22 18-40-26",
+      "start": 489.633333,
+      "end": 491.666667,
+      "gain_db": 0,
+      "reason": "região 70"
+    }
+  ],
+  "total_duration_s": 122.433,
+  "jcut_timeline": [
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 0.0,
+      "video_duration": 1.166666,
+      "audio_start_in_output": 0.0,
+      "audio_duration": 1.166666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 1.166666,
+      "video_duration": 0.866667,
+      "audio_start_in_output": 1.0,
+      "audio_duration": 1.033333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 2.033333,
+      "video_duration": 3.1,
+      "audio_start_in_output": 1.866666,
+      "audio_duration": 3.266666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 5.133333,
+      "video_duration": 3.166667,
+      "audio_start_in_output": 4.966666,
+      "audio_duration": 3.333333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 8.299999,
+      "video_duration": 1.833334,
+      "audio_start_in_output": 8.133333,
+      "audio_duration": 2.0,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 10.133333,
+      "video_duration": 2.333334,
+      "audio_start_in_output": 9.966666,
+      "audio_duration": 2.5,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 12.466667,
+      "video_duration": 4.3,
+      "audio_start_in_output": 12.3,
+      "audio_duration": 4.466666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 16.766666,
+      "video_duration": 1.866667,
+      "audio_start_in_output": 16.6,
+      "audio_duration": 2.033333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 18.633333,
+      "video_duration": 2.933334,
+      "audio_start_in_output": 18.466666,
+      "audio_duration": 3.1,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 21.566667,
+      "video_duration": 0.866667,
+      "audio_start_in_output": 21.4,
+      "audio_duration": 1.033333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 22.433333,
+      "video_duration": 2.966667,
+      "audio_start_in_output": 22.266667,
+      "audio_duration": 3.133333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 25.4,
+      "video_duration": 1.8,
+      "audio_start_in_output": 25.233333,
+      "audio_duration": 1.966666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 27.2,
+      "video_duration": 1.4,
+      "audio_start_in_output": 27.033333,
+      "audio_duration": 1.566666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 28.599999,
+      "video_duration": 2.8,
+      "audio_start_in_output": 28.433333,
+      "audio_duration": 2.966666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 31.399999,
+      "video_duration": 1.966667,
+      "audio_start_in_output": 31.233332,
+      "audio_duration": 2.133333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 33.366666,
+      "video_duration": 1.233333,
+      "audio_start_in_output": 33.199999,
+      "audio_duration": 1.399999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 34.599998,
+      "video_duration": 1.733333,
+      "audio_start_in_output": 34.433332,
+      "audio_duration": 1.899999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 36.333331,
+      "video_duration": 1.300001,
+      "audio_start_in_output": 36.166664,
+      "audio_duration": 1.466667,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 37.633332,
+      "video_duration": 1.700001,
+      "audio_start_in_output": 37.466665,
+      "audio_duration": 1.866667,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 39.333332,
+      "video_duration": 1.500001,
+      "audio_start_in_output": 39.166666,
+      "audio_duration": 1.666667,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 40.833333,
+      "video_duration": 1.4,
+      "audio_start_in_output": 40.666666,
+      "audio_duration": 1.566666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 42.233333,
+      "video_duration": 1.566667,
+      "audio_start_in_output": 42.066666,
+      "audio_duration": 1.733333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 43.799999,
+      "video_duration": 1.866667,
+      "audio_start_in_output": 43.633333,
+      "audio_duration": 2.033333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 45.666666,
+      "video_duration": 1.4,
+      "audio_start_in_output": 45.499999,
+      "audio_duration": 1.566666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 47.066666,
+      "video_duration": 3.233333,
+      "audio_start_in_output": 46.899999,
+      "audio_duration": 3.399999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 50.299998,
+      "video_duration": 2.633333,
+      "audio_start_in_output": 50.133332,
+      "audio_duration": 2.799999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 52.933331,
+      "video_duration": 0.633333,
+      "audio_start_in_output": 52.766664,
+      "audio_duration": 0.799999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 53.566664,
+      "video_duration": 2.833334,
+      "audio_start_in_output": 53.399997,
+      "audio_duration": 3.0,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 56.399997,
+      "video_duration": 1.866667,
+      "audio_start_in_output": 56.233331,
+      "audio_duration": 2.033333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 58.266664,
+      "video_duration": 1.1,
+      "audio_start_in_output": 58.099997,
+      "audio_duration": 1.266666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 59.366664,
+      "video_duration": 1.666667,
+      "audio_start_in_output": 59.199997,
+      "audio_duration": 1.833333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 61.03333,
+      "video_duration": 1.166667,
+      "audio_start_in_output": 60.866664,
+      "audio_duration": 1.333333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 62.199997,
+      "video_duration": 3.0,
+      "audio_start_in_output": 62.03333,
+      "audio_duration": 3.166666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 65.199997,
+      "video_duration": 1.766667,
+      "audio_start_in_output": 65.03333,
+      "audio_duration": 1.933333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 66.966663,
+      "video_duration": 0.766667,
+      "audio_start_in_output": 66.799997,
+      "audio_duration": 0.933333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 67.73333,
+      "video_duration": 1.733333,
+      "audio_start_in_output": 67.566663,
+      "audio_duration": 1.899999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 69.466663,
+      "video_duration": 2.666667,
+      "audio_start_in_output": 69.299996,
+      "audio_duration": 2.833333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 72.133329,
+      "video_duration": 1.8,
+      "audio_start_in_output": 71.966663,
+      "audio_duration": 1.966666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 73.933329,
+      "video_duration": 4.0,
+      "audio_start_in_output": 73.766662,
+      "audio_duration": 4.166666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 77.933329,
+      "video_duration": 0.500001,
+      "audio_start_in_output": 77.766662,
+      "audio_duration": 0.666667,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 78.433329,
+      "video_duration": 3.500001,
+      "audio_start_in_output": 78.266663,
+      "audio_duration": 3.666667,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 81.93333,
+      "video_duration": 0.866667,
+      "audio_start_in_output": 81.766663,
+      "audio_duration": 1.033333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 82.799997,
+      "video_duration": 0.966667,
+      "audio_start_in_output": 82.63333,
+      "audio_duration": 1.133333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 83.766663,
+      "video_duration": 1.566667,
+      "audio_start_in_output": 83.599997,
+      "audio_duration": 1.733333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 85.33333,
+      "video_duration": 2.6,
+      "audio_start_in_output": 85.166663,
+      "audio_duration": 2.766666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 87.93333,
+      "video_duration": 0.833334,
+      "audio_start_in_output": 87.766663,
+      "audio_duration": 1.0,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 88.766663,
+      "video_duration": 2.133334,
+      "audio_start_in_output": 88.599997,
+      "audio_duration": 2.3,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 90.899997,
+      "video_duration": 1.666667,
+      "audio_start_in_output": 90.73333,
+      "audio_duration": 1.833333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 92.566664,
+      "video_duration": 1.166667,
+      "audio_start_in_output": 92.399997,
+      "audio_duration": 1.333333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 93.73333,
+      "video_duration": 1.133334,
+      "audio_start_in_output": 93.566664,
+      "audio_duration": 1.3,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 94.866664,
+      "video_duration": 1.366667,
+      "audio_start_in_output": 94.699997,
+      "audio_duration": 1.533333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 96.233331,
+      "video_duration": 1.433333,
+      "audio_start_in_output": 96.066664,
+      "audio_duration": 1.599999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 97.666663,
+      "video_duration": 2.133333,
+      "audio_start_in_output": 97.499997,
+      "audio_duration": 2.299999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 99.799996,
+      "video_duration": 1.766667,
+      "audio_start_in_output": 99.633329,
+      "audio_duration": 1.933333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 101.566663,
+      "video_duration": 1.400001,
+      "audio_start_in_output": 101.399996,
+      "audio_duration": 1.566667,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 102.966663,
+      "video_duration": 0.766667,
+      "audio_start_in_output": 102.799997,
+      "audio_duration": 0.933333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 103.73333,
+      "video_duration": 2.4,
+      "audio_start_in_output": 103.566663,
+      "audio_duration": 2.566666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 106.13333,
+      "video_duration": 1.533334,
+      "audio_start_in_output": 105.966663,
+      "audio_duration": 1.7,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 107.666663,
+      "video_duration": 1.866667,
+      "audio_start_in_output": 107.499997,
+      "audio_duration": 2.033333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 109.53333,
+      "video_duration": 1.533334,
+      "audio_start_in_output": 109.366663,
+      "audio_duration": 1.7,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 111.066664,
+      "video_duration": 1.566667,
+      "audio_start_in_output": 110.899997,
+      "audio_duration": 1.733333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 112.63333,
+      "video_duration": 1.833334,
+      "audio_start_in_output": 112.466664,
+      "audio_duration": 2.0,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 114.466664,
+      "video_duration": 0.966667,
+      "audio_start_in_output": 114.299997,
+      "audio_duration": 1.133333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 115.433331,
+      "video_duration": 2.866667,
+      "audio_start_in_output": 115.266664,
+      "audio_duration": 3.033333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 118.299997,
+      "video_duration": 2.266667,
+      "audio_start_in_output": 118.133331,
+      "audio_duration": 2.433333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "2026-11-22 18-40-26",
+      "video_start_in_output": 120.566664,
+      "video_duration": 1.866667,
+      "audio_start_in_output": 120.399997,
+      "audio_duration": 2.033334,
+      "tail_trim_frames": 0
+    }
+  ]
+}

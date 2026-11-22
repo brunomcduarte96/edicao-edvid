@@ -1,0 +1,858 @@
+{
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationSec": 122.4333,
+ "camera": {
+  "enabled": false,
+  "zooms": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pushIn": 0,
+  "targetX": 0.5,
+  "targetY": 0.4
+ },
+ "hook": {
+  "enabled": false,
+  "endSec": 3.2,
+  "style": "mista",
+  "text": "Você pode ter a sua própria IA",
+  "accent": "#e8a33d",
+  "logo": null,
+  "sign": null
+ },
+ "captions": {
+  "enabled": true,
+  "style": "karaoke",
+  "fontSize": 61,
+  "maxWords": 3,
+  "safeWidth": 720,
+  "paddingBottom": 740,
+  "accent": "#e8a33d"
+ },
+ "inserts": [],
+ "behind": [],
+ "splitInserts": [],
+ "transitions": [
+  {
+   "at": 22.43
+  },
+  {
+   "at": 31.4
+  },
+  {
+   "at": 37.63
+  },
+  {
+   "at": 66.97
+  },
+  {
+   "at": 73.93
+  }
+ ],
+ "soundtrack": {
+  "enabled": false,
+  "file": "trilha.mp3",
+  "volume": 0.0445
+ },
+ "falai": {
+  "pessoaY": 790,
+  "marcaDagua": {
+   "src": "brand/simbolo-mono-branco.svg",
+   "x": 924,
+   "y": 252,
+   "size": 56,
+   "ate": 120.6
+  },
+  "explosoes": [
+   {
+    "a": 0,
+    "pico": 0,
+    "b": 1.4
+   },
+   {
+    "a": 45.67,
+    "pico": 46.25,
+    "b": 47.5
+   },
+   {
+    "a": 72.13,
+    "pico": 72.7,
+    "b": 73.9
+   },
+   {
+    "a": 120.6,
+    "pico": 121.2,
+    "b": 999
+   }
+  ],
+  "cortes": [
+   {
+    "start": 0.0,
+    "end": 1.17,
+    "zoom": 1
+   },
+   {
+    "start": 1.17,
+    "end": 2.03,
+    "zoom": 1.06
+   },
+   {
+    "start": 2.03,
+    "end": 5.13,
+    "zoom": 1
+   },
+   {
+    "start": 5.13,
+    "end": 8.3,
+    "zoom": 1.12
+   },
+   {
+    "start": 8.3,
+    "end": 10.13,
+    "zoom": 1
+   },
+   {
+    "start": 10.13,
+    "end": 12.47,
+    "zoom": 1.06
+   },
+   {
+    "start": 12.47,
+    "end": 16.77,
+    "zoom": 1
+   },
+   {
+    "start": 16.77,
+    "end": 18.63,
+    "zoom": 1.12
+   },
+   {
+    "start": 18.63,
+    "end": 21.57,
+    "zoom": 1
+   },
+   {
+    "start": 21.57,
+    "end": 22.43,
+    "zoom": 1.06
+   },
+   {
+    "start": 22.43,
+    "end": 25.4,
+    "zoom": 1
+   },
+   {
+    "start": 25.4,
+    "end": 27.2,
+    "zoom": 1.12
+   },
+   {
+    "start": 27.2,
+    "end": 28.6,
+    "zoom": 1
+   },
+   {
+    "start": 28.6,
+    "end": 31.4,
+    "zoom": 1.06
+   },
+   {
+    "start": 31.4,
+    "end": 33.37,
+    "zoom": 1
+   },
+   {
+    "start": 33.37,
+    "end": 34.6,
+    "zoom": 1.12
+   },
+   {
+    "start": 34.6,
+    "end": 36.33,
+    "zoom": 1
+   },
+   {
+    "start": 36.33,
+    "end": 37.63,
+    "zoom": 1.06
+   },
+   {
+    "start": 37.63,
+    "end": 39.33,
+    "zoom": 1
+   },
+   {
+    "start": 39.33,
+    "end": 40.83,
+    "zoom": 1.12
+   },
+   {
+    "start": 40.83,
+    "end": 42.23,
+    "zoom": 1
+   },
+   {
+    "start": 42.23,
+    "end": 43.8,
+    "zoom": 1.06
+   },
+   {
+    "start": 43.8,
+    "end": 45.67,
+    "zoom": 1
+   },
+   {
+    "start": 45.67,
+    "end": 47.07,
+    "zoom": 1.12
+   },
+   {
+    "start": 47.07,
+    "end": 50.3,
+    "zoom": 1
+   },
+   {
+    "start": 50.3,
+    "end": 52.93,
+    "zoom": 1.06
+   },
+   {
+    "start": 52.93,
+    "end": 53.57,
+    "zoom": 1
+   },
+   {
+    "start": 53.57,
+    "end": 56.4,
+    "zoom": 1.12
+   },
+   {
+    "start": 56.4,
+    "end": 58.27,
+    "zoom": 1
+   },
+   {
+    "start": 58.27,
+    "end": 59.37,
+    "zoom": 1.06
+   },
+   {
+    "start": 59.37,
+    "end": 61.03,
+    "zoom": 1
+   },
+   {
+    "start": 61.03,
+    "end": 62.2,
+    "zoom": 1.12
+   },
+   {
+    "start": 62.2,
+    "end": 65.2,
+    "zoom": 1
+   },
+   {
+    "start": 65.2,
+    "end": 66.97,
+    "zoom": 1.06
+   },
+   {
+    "start": 66.97,
+    "end": 67.73,
+    "zoom": 1
+   },
+   {
+    "start": 67.73,
+    "end": 69.47,
+    "zoom": 1.12
+   },
+   {
+    "start": 69.47,
+    "end": 72.13,
+    "zoom": 1
+   },
+   {
+    "start": 72.13,
+    "end": 73.93,
+    "zoom": 1.12
+   },
+   {
+    "start": 73.93,
+    "end": 77.93,
+    "zoom": 1
+   },
+   {
+    "start": 77.93,
+    "end": 78.43,
+    "zoom": 1.12
+   },
+   {
+    "start": 78.43,
+    "end": 81.93,
+    "zoom": 1
+   },
+   {
+    "start": 81.93,
+    "end": 82.8,
+    "zoom": 1.06
+   },
+   {
+    "start": 82.8,
+    "end": 83.77,
+    "zoom": 1
+   },
+   {
+    "start": 83.77,
+    "end": 85.33,
+    "zoom": 1.12
+   },
+   {
+    "start": 85.33,
+    "end": 87.93,
+    "zoom": 1
+   },
+   {
+    "start": 87.93,
+    "end": 88.77,
+    "zoom": 1.06
+   },
+   {
+    "start": 88.77,
+    "end": 90.9,
+    "zoom": 1
+   },
+   {
+    "start": 90.9,
+    "end": 92.57,
+    "zoom": 1.12
+   },
+   {
+    "start": 92.57,
+    "end": 93.73,
+    "zoom": 1
+   },
+   {
+    "start": 93.73,
+    "end": 94.87,
+    "zoom": 1.06
+   },
+   {
+    "start": 94.87,
+    "end": 96.23,
+    "zoom": 1
+   },
+   {
+    "start": 96.23,
+    "end": 97.67,
+    "zoom": 1.12
+   },
+   {
+    "start": 97.67,
+    "end": 99.8,
+    "zoom": 1
+   },
+   {
+    "start": 99.8,
+    "end": 101.57,
+    "zoom": 1.06
+   },
+   {
+    "start": 101.57,
+    "end": 102.97,
+    "zoom": 1
+   },
+   {
+    "start": 102.97,
+    "end": 103.73,
+    "zoom": 1.12
+   },
+   {
+    "start": 103.73,
+    "end": 106.13,
+    "zoom": 1
+   },
+   {
+    "start": 106.13,
+    "end": 107.67,
+    "zoom": 1.06
+   },
+   {
+    "start": 107.67,
+    "end": 109.53,
+    "zoom": 1
+   },
+   {
+    "start": 109.53,
+    "end": 111.07,
+    "zoom": 1.12
+   },
+   {
+    "start": 111.07,
+    "end": 112.63,
+    "zoom": 1
+   },
+   {
+    "start": 112.63,
+    "end": 114.47,
+    "zoom": 1.06
+   },
+   {
+    "start": 114.47,
+    "end": 115.43,
+    "zoom": 1
+   },
+   {
+    "start": 115.43,
+    "end": 118.3,
+    "zoom": 1.12
+   },
+   {
+    "start": 118.3,
+    "end": 120.57,
+    "zoom": 1
+   },
+   {
+    "start": 120.57,
+    "end": 122.433,
+    "zoom": 1.06
+   }
+  ],
+  "pushIn": 0.03,
+  "cenas": [
+   {
+    "nome": "gancho",
+    "start": 0,
+    "end": 5.13,
+    "rotulo": "IA no seu computador",
+    "m": {
+     "baixa": 1.44,
+     "comp": 2.64,
+     "nada": 4.32
+    }
+   },
+   {
+    "nome": "corrida",
+    "start": 5.13,
+    "end": 8.3,
+    "rotulo": "Abertos × fechados",
+    "m": {
+     "quatro": 6.24,
+     "melhores": 7.44
+    }
+   },
+   {
+    "nome": "epoch",
+    "start": 8.3,
+    "end": 12.47,
+    "rotulo": "Quem mediu",
+    "m": {
+     "epoch": 9.2,
+     "inst": 10.32,
+     "evol": 11.44
+    }
+   },
+   {
+    "nome": "linha",
+    "start": 12.47,
+    "end": 18.63,
+    "rotulo": "Desde janeiro",
+    "m": {
+     "jan": 12.8,
+     "abertos": 14.64,
+     "quatro": 16.72,
+     "fechados": 18.0
+    }
+   },
+   {
+    "nome": "duas",
+    "start": 18.63,
+    "end": 21.57,
+    "rotulo": "O que é aberto",
+    "m": {
+     "aberto": 19.2,
+     "duas": 20.24
+    }
+   },
+   {
+    "nome": "bolo",
+    "start": 21.57,
+    "end": 22.43,
+    "rotulo": "Pensa num bolo",
+    "m": {
+     "bolo": 22.0
+    }
+   },
+   {
+    "nome": "fatia",
+    "start": 22.43,
+    "end": 28.6,
+    "rotulo": "Modelo fechado",
+    "m": {
+     "sol": 23.92,
+     "opus": 25.6,
+     "fatia": 27.36
+    }
+   },
+   {
+    "nome": "paga",
+    "start": 28.6,
+    "end": 31.4,
+    "rotulo": "Modelo fechado",
+    "m": {
+     "paga": 28.88,
+     "come": 29.44,
+     "nada": 30.64
+    }
+   },
+   {
+    "nome": "inteiro",
+    "start": 31.4,
+    "end": 34.6,
+    "rotulo": "Open weight",
+    "m": {
+     "peso": 32.48,
+     "inteiro": 33.84
+    }
+   },
+   {
+    "nome": "receita",
+    "start": 34.6,
+    "end": 37.63,
+    "rotulo": "Open weight",
+    "m": {
+     "leva": 34.88,
+     "corta": 35.28,
+     "decora": 35.76,
+     "receita": 37.04
+    }
+   },
+   {
+    "nome": "opensource",
+    "start": 37.63,
+    "end": 45.67,
+    "rotulo": "Open source",
+    "m": {
+     "bolo": 39.44,
+     "receita": 40.16,
+     "lista": 40.96,
+     "pesos": 42.4,
+     "codigo": 43.2,
+     "dados": 44.08
+    }
+   },
+   {
+    "nome": "openai",
+    "start": 45.67,
+    "end": 50.3,
+    "rotulo": "Peso aberto",
+    "m": {
+     "openai": 47.36,
+     "liberou": 48.08,
+     "pesos": 49.2
+    }
+   },
+   {
+    "nome": "ram",
+    "start": 50.3,
+    "end": 53.57,
+    "rotulo": "Peso aberto",
+    "m": {
+     "comp": 51.44,
+     "gb": 52.24
+    }
+   },
+   {
+    "nome": "fluxo",
+    "start": 53.57,
+    "end": 62.2,
+    "rotulo": "Como ter a sua",
+    "m": {
+     "hf": 55.44,
+     "abre": 56.4,
+     "ollama": 57.6,
+     "lm": 58.48,
+     "roda": 59.84,
+     "internet": 61.04
+    }
+   },
+   {
+    "nome": "ajuste",
+    "start": 62.2,
+    "end": 66.97,
+    "rotulo": "Como ter a sua",
+    "m": {
+     "ajustar": 62.8,
+     "exemplos": 64.54,
+     "seu": 66.46
+    }
+   },
+   {
+    "nome": "motor",
+    "start": 66.97,
+    "end": 69.47,
+    "rotulo": "Modelo = motor",
+    "m": {
+     "motor": 68.06,
+     "cerebro": 68.94
+    }
+   },
+   {
+    "nome": "carro",
+    "start": 69.47,
+    "end": 72.13,
+    "rotulo": "Modelo = motor",
+    "m": {
+     "carro": 71.18
+    }
+   },
+   {
+    "nome": "harness",
+    "start": 72.13,
+    "end": 73.93,
+    "rotulo": "Harness",
+    "m": {
+     "harness": 73.18
+    }
+   },
+   {
+    "nome": "pecas",
+    "start": 73.93,
+    "end": 78.38,
+    "rotulo": "Harness",
+    "m": {
+     "memoria": 75.74,
+     "instr": 76.46,
+     "ferr": 77.18
+    }
+   },
+   {
+    "nome": "apps",
+    "start": 78.38,
+    "end": 82.8,
+    "rotulo": "Harness",
+    "m": {
+     "chatgpt": 78.86,
+     "cc": 79.98,
+     "codex": 81.18,
+     "sao": 81.9
+    }
+   },
+   {
+    "nome": "aluga",
+    "start": 82.8,
+    "end": 87.93,
+    "rotulo": "Carro pronto",
+    "m": {
+     "openai": 83.66,
+     "anth": 84.54,
+     "aluga": 85.5,
+     "carro": 87.18
+    }
+   },
+   {
+    "nome": "servidor",
+    "start": 87.93,
+    "end": 90.9,
+    "rotulo": "Carro pronto",
+    "m": {
+     "paga": 87.82,
+     "dados": 89.18,
+     "servidor": 89.98
+    }
+   },
+   {
+    "nome": "seu",
+    "start": 90.9,
+    "end": 97.67,
+    "rotulo": "O seu harness",
+    "m": {
+     "monta": 91.34,
+     "aberto": 93.74,
+     "fechado": 94.3,
+     "acessa": 95.66,
+     "dados": 96.94
+    }
+   },
+   {
+    "nome": "empresas",
+    "start": 97.67,
+    "end": 99.8,
+    "rotulo": "Quem constrói",
+    "m": {
+     "ia": 98.7,
+     "empresas": 99.26
+    }
+   },
+   {
+    "nome": "resultado",
+    "start": 99.8,
+    "end": 103.73,
+    "rotulo": "Quem constrói",
+    "m": {
+     "carro": 101.1,
+     "quanto": 102.86,
+     "motor": 103.26
+    }
+   },
+   {
+    "nome": "trio",
+    "start": 103.73,
+    "end": 106.13,
+    "rotulo": "Quem constrói",
+    "m": {
+     "instr": 103.82,
+     "ferr": 104.54,
+     "dado": 105.26
+    }
+   },
+   {
+    "nome": "comeco",
+    "start": 106.13,
+    "end": 109.53,
+    "rotulo": "Qual escolher",
+    "m": {
+     "carro": 107.66,
+     "comeco": 108.94
+    }
+   },
+   {
+    "nome": "balanca",
+    "start": 109.53,
+    "end": 114.47,
+    "rotulo": "Qual escolher",
+    "m": {
+     "sensivel": 110.14,
+     "dia": 111.98,
+     "negocio": 113.74
+    }
+   },
+   {
+    "nome": "segue",
+    "start": 114.47,
+    "end": 118.3,
+    "rotulo": "Me segue",
+    "m": {
+     "segue": 115.02,
+     "verdade": 117.1
+    }
+   },
+   {
+    "nome": "fecho",
+    "start": 118.3,
+    "end": 122.43333333333334,
+    "rotulo": "",
+    "m": {
+     "propria": 119.74,
+     "carro": 121.26,
+     "logo": 120.9
+    }
+   }
+  ],
+  "headline": {
+   "fim": 3.2,
+   "l1": "Você pode ter",
+   "l2": "a sua própria IA"
+  },
+  "semPessoa": [
+   [
+    5.13,
+    8.3
+   ],
+   [
+    12.47,
+    18.63
+   ],
+   [
+    22.43,
+    31.4
+   ],
+   [
+    37.63,
+    45.67
+   ],
+   [
+    53.57,
+    62.2
+   ],
+   [
+    73.93,
+    82.8
+   ],
+   [
+    90.9,
+    97.67
+   ],
+   [
+    109.53,
+    114.47
+   ]
+  ],
+  "pessoaEscala": 0.74
+ }
+}

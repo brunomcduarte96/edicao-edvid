@@ -1,0 +1,28 @@
+{"2026-11-22 18-40-26": {
+ "corrigir": [
+  {"n": 1, "texto": "Tem IA boa que você baixa, roda no seu computador e ninguém te cobra nada por mês."},
+  {"n": 3, "texto": "Quem mediu isso foi a Epoch AI."},
+  {"n": 4, "texto": "Um instituto que acompanha a evolução da IA."},
+  {"n": 8, "texto": "Pensa num bolo,"},
+  {"n": 11, "texto": "e o Opus, da Anthropic."},
+  {"n": 14, "texto": "Open weight, que é o bolo aberto."},
+  {"n": 15, "texto": "Open weight, que é o peso aberto."},
+  {"n": 16, "texto": "É o bolo inteiro pronto."},
+  {"n": 18, "texto": "Mas não sabe a receita."},
+  {"n": 20, "texto": "E open source de verdade."},
+  {"n": 26, "texto": "Até o OpenAI liberou o modelo com pesos abertos."},
+  {"n": 30, "texto": "Abre num programa como o Ollama."},
+  {"n": 38, "texto": "E isso tem nome, o harness."},
+  {"n": 42, "texto": "O app do ChatGPT, o Claude Code, o Codex."},
+  {"n": 45, "texto": "OpenAI ou Anthropic."},
+  {"n": 55, "texto": "Quanto o motor."},
+  {"n": 59, "texto": "mas se você tem dados sensível, ou usa IA o dia inteiro, ter o seu já é um bom negócio."},
+  {"n": 60, "texto": "Então já me segue, pra aprender a como usar a IA de verdade no seu dia a dia,"},
+  {"n": 61, "texto": "e fala aí, você teria a sua própria IA,"}
+ ],
+ "remover": [
+  {"n": 9, "motivo": "tomada abandonada (refeita na 10)"},
+  {"n": 14, "motivo": "tomada abandonada (refeita na 15)"},
+  {"n": 19, "motivo": "duplicata da transcrição do 'receita' da 18"},
+  {"n": 41, "motivo": "falso começo (refeito na 42)"}
+ ]}}

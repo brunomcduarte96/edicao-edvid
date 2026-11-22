@@ -39,9 +39,26 @@ O roteiro completo fica no card. Pontos da fala que importam para a edição:
 - Pontas e trechos rápidos conferidos transcrevendo o trecho isolado e o corte inteiro. O tropeço "o bolo, bolo inteiro" não tem pausa para cortar e no corte soa limpo.
 - Sem grade (Rec.709). J-cut padrão. −14 LUFS. Sem ganho por trecho (os níveis dos trechos ficaram equilibrados; as quedas são só finais de frase).
 
+## Decisões do Bruno na aprovação do corte (22/11)
+
+- Duração: mantém os 2:02, sem cortar frases.
+- "Sol" é o modelo da OpenAI e "Opus" o da Anthropic: a tela segue a fala (Sol + logo da OpenAI, Opus + asterisco da Anthropic).
+- 16 GB: a tela segue a fala ("16 GB de RAM"). Sem chip "gpt-oss" (o nome não foi dito).
+- Fecho: só o que ele falou, sem "Falai, o que você acha?" escrito.
+- Sem rodapé de fonte nas cenas.
+
+## Fase 2
+
+- Receita das camadas 3D: Bruno a 74% na base, fora do quadro em 45% (5,1–8,3 · 12,5–18,6 · 22,4–31,4 · 37,6–45,7 · 53,6–62,2 · 73,9–82,8 · 90,9–97,7 · 109,5–114,5 s), 30 cenas (uma por frase), 4 separações 3D (abertura, "aqui fica interessante", "harness", fim), flash em 5 trocas (bolo → fechado, → open weight, → open source, → motor, → carro), zoom 1/1,06/1/1,12 com punch-in 1,12 nos dois reganchos.
+- Headline mista (receita): "Você pode ter" leve e branca + "a sua própria IA" pesada e âmbar, até 3,2 s. A aba Estilo não foi aberta: segui a receita aprovada.
+- Recorte: chroma key 0x6CC042 · 0,10 · 0,03 limpo de primeira (sem halo).
+- Logos oficiais: OpenAI, Codex, Ollama, LM Studio e Hugging Face (pacote de ícones @lobehub/icons-static-svg 1.100.0 / 1.73.0, convertidos para PNG branco; Hugging Face colorido), Anthropic, Claude e Claude Code (Drive falaibruno/anthropic-logos).
+- Legenda karaokê revisada (Epoch AI, Anthropic, OpenAI, Open weight, treino, Hugging Face, Ollama, cérebro, harness, "com o carro"). Sem trilha. 55 efeitos a −8 dB. −14 LUFS / −1,5 dBTP.
+- Thumbnail [PROPOSTA]: fundo #0B0B0B com grade, notebook com barra de download âmbar atrás do Bruno, "Você pode ter" leve e branca + "a sua própria IA" âmbar.
+
 ## Pedidos de ajuste (revisões)
 
-- Corte v1 → aguardando aprovação.
+- Corte v1 → aprovado com as respostas acima (22/11).
 
 ## Aprendizados desta rodada
 
