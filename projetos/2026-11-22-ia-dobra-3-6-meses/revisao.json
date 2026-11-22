@@ -1,0 +1,22 @@
+{"2026-11-22 19-07-45": {
+ "corrigir": [
+  {"n": 4, "texto": "Quem mede isso é o METR."},
+  {"n": 7, "texto": "E a atualização saiu agora, dia 20 de novembro."},
+  {"n": 12, "texto": "Depois veem qual é a maior tarefa que a IA consegue fazer sozinha."},
+  {"n": 19, "texto": "E contratam especialistas pagando até 350 dólares por hora."},
+  {"n": 20, "texto": "Na maioria das vezes, eles não acham ninguém melhor do que a IA."},
+  {"n": 21, "texto": "Eles também colocam IA."},
+  {"n": 24, "texto": "A IA teve quarenta e oito horas."},
+  {"n": 25, "texto": "As pessoas uns três meses."},
+  {"n": 30, "texto": "A IA foi pior do que os especialistas."},
+  {"n": 32, "texto": "Eles pediram para a IA criar um teste novo para o próprio METR usar."},
+  {"n": 34, "texto": "A IA nem foi pesquisar na internet que"},
+  {"n": 36, "texto": "O gargalo hoje em dia quase nunca é IA fazer."},
+  {"n": 38, "texto": "E dizer se o resultado presta."},
+  {"n": 41, "texto": "mas a direção é claro, fazer, ficou barato, decidir, ficou caro, então não só aceita a primeira resposta, revisa, critica, ajusta, refina."},
+  {"n": 44, "texto": "Falai, o que no seu trabalho a IA ainda não consegue decidir por você."}
+ ],
+ "remover": [
+  {"n": 31, "motivo": "falso começo (Eles criaram.), refeito na 32"},
+  {"n": 42, "motivo": "falso começo do CTA, refeito na 43"}
+ ]}}
