@@ -53,4 +53,4 @@ projetos/
 
 Ficam em `.claude/skills/` e vão pelo Git para qualquer computador. Fluxo: pesquisa de ideias → card da ideia → **post em produção** (`falaibruno-post-em-producao`) → edição → agendamento. As que ainda não existem estão marcadas como a fazer.
 
-- `falaibruno-post-em-producao`: leva uma ideia da base Ideias para a Producao e cria a pasta do post no Drive (Posts › Gravação Raw, Gravação Final, Thumbnail, Legendas).
+- `falaibruno-post-em-producao`: move o card da ideia da base Ideias para a Producao e cria a pasta do post no Drive (Posts › Gravação Raw, Gravação Final, Thumbnail, Legendas).
