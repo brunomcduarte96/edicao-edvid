@@ -1,0 +1,641 @@
+{
+  "version": 1,
+  "sources": {
+    "C0001": "C:\\Users\\MEUCOMPUTADOR\\Videos\\FalaiBruno\\hype ou negocio 2 22112026\\2026-11-22 19-39-07.mov"
+  },
+  "grade": "",
+  "ranges": [
+    {
+      "source": "C0001",
+      "start": 13.0,
+      "end": 17.9,
+      "beat": "GANCHO",
+      "quote": "Uma startup brasileira com um ano de vida já vale um bilhão de reais.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 20.333333,
+      "end": 21.9,
+      "beat": "GANCHO",
+      "quote": "E ela não faz chatbot.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 27.6,
+      "end": 29.133333,
+      "beat": "CONTEXTO",
+      "quote": "A empresa é a Rivio.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 31.366667,
+      "end": 33.333333,
+      "beat": "CONTEXTO",
+      "quote": "Foi fundada em 2025.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 37.933333,
+      "end": 41.633333,
+      "beat": "CONTEXTO",
+      "quote": "Em dezembro do ano passado, ela valia quinhentos milhões de reais.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 70.3,
+      "end": 70.933333,
+      "beat": "CONTEXTO",
+      "quote": "Eles",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 71.166667,
+      "end": 73.333333,
+      "beat": "CONTEXTO",
+      "quote": "finalizaram a rodada série A,",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 73.933333,
+      "end": 76.2,
+      "beat": "CONTEXTO",
+      "quote": "captando cento e oitenta milhões de reais,",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 80.733333,
+      "end": 81.8,
+      "beat": "CONTEXTO",
+      "quote": "a um bilhão",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 82.066667,
+      "end": 83.566667,
+      "beat": "CONTEXTO",
+      "quote": "de reais de valor de mercado.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 95.5,
+      "end": 97.0,
+      "beat": "DESENV 1",
+      "quote": "A empresa funciona assim.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 102.0,
+      "end": 103.433333,
+      "beat": "DESENV 1",
+      "quote": "O hospital te atende.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 107.866667,
+      "end": 110.0,
+      "beat": "DESENV 1",
+      "quote": "Monta uma conta com tudo que usou,",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 112.733333,
+      "end": 114.566667,
+      "beat": "DESENV 1",
+      "quote": "e manda para o seu plano de saúde.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 119.4,
+      "end": 122.433333,
+      "beat": "DESENV 1",
+      "quote": "O plano confere e recusa o que ele achou errado.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 125.633333,
+      "end": 126.566667,
+      "beat": "DESENV 1",
+      "quote": "Isso tem nome.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 126.933333,
+      "end": 127.6,
+      "beat": "DESENV 1",
+      "quote": "Glosa.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 130.966667,
+      "end": 132.6,
+      "beat": "DESENV 2",
+      "quote": "E a Rivio entra no meio.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 140.9,
+      "end": 142.1,
+      "beat": "DESENV 2",
+      "quote": "Agentes de IA",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 153.366667,
+      "end": 155.5,
+      "beat": "DESENV 2",
+      "quote": "cruzam o prontuário com a conta",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 164.6,
+      "end": 166.666667,
+      "beat": "DESENV 2",
+      "quote": "e com o contrato com o plano",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 168.566667,
+      "end": 169.633333,
+      "beat": "DESENV 2",
+      "quote": "antes de enviar.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 175.233333,
+      "end": 176.766667,
+      "beat": "DESENV 2",
+      "quote": "E se o plano recusa?",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 180.0,
+      "end": 181.9,
+      "beat": "DESENV 2",
+      "quote": "A IA já escreve o recurso.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 186.266667,
+      "end": 188.466667,
+      "beat": "DESENV 2",
+      "quote": "Enfermeiros e auditores revisam.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 193.766667,
+      "end": 196.033333,
+      "beat": "DESENV 3",
+      "quote": "Mas o que me chamou a atenção é como ela cobra.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 201.9,
+      "end": 204.466667,
+      "beat": "DESENV 3",
+      "quote": "Ela ganha pelo resultado que ela gera.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 214.8,
+      "end": 216.466667,
+      "beat": "DESENV 3",
+      "quote": "E, segundo a empresa,",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 217.933333,
+      "end": 219.8,
+      "beat": "DESENV 3",
+      "quote": "se o recurso não passa,",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 223.366667,
+      "end": 225.833333,
+      "beat": "DESENV 3",
+      "quote": "ela cobre a glosa do próprio bolso.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 242.2,
+      "end": 244.633333,
+      "beat": "PROVOCACAO",
+      "quote": "E aqui eu trago uma provocação pra você.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 246.266667,
+      "end": 251.433333,
+      "beat": "PROVOCACAO",
+      "quote": "Qual parte chata do seu trabalho, do seu dia a dia, você acredita que a IA",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 252.4,
+      "end": 254.6,
+      "beat": "PROVOCACAO",
+      "quote": "pode virar uma oportunidade de negócio?",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 262.533333,
+      "end": 264.833333,
+      "beat": "CTA",
+      "quote": "Então me segue aqui se você quiser pensar",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 271.466667,
+      "end": 274.5,
+      "beat": "CTA",
+      "quote": "em como a IA pode te ajudar a abrir o seu primeiro negócio.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 281.266667,
+      "end": 281.9,
+      "beat": "FECHO",
+      "quote": "Falai.",
+      "gain_db": 0
+    },
+    {
+      "source": "C0001",
+      "start": 284.533333,
+      "end": 288.033333,
+      "beat": "FECHO",
+      "quote": "Você pagaria uma IA se ela só te cobrasse no resultado?",
+      "gain_db": 0
+    }
+  ],
+  "total_duration_s": 68.267,
+  "jcut_timeline": [
+    {
+      "beat": "GANCHO",
+      "source": "C0001",
+      "video_start_in_output": 0.0,
+      "video_duration": 4.833333,
+      "audio_start_in_output": 0.0,
+      "audio_duration": 4.833333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "GANCHO",
+      "source": "C0001",
+      "video_start_in_output": 4.833333,
+      "video_duration": 1.333334,
+      "audio_start_in_output": 4.666667,
+      "audio_duration": 1.5,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CONTEXTO",
+      "source": "C0001",
+      "video_start_in_output": 6.166667,
+      "video_duration": 1.3,
+      "audio_start_in_output": 6.0,
+      "audio_duration": 1.466666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CONTEXTO",
+      "source": "C0001",
+      "video_start_in_output": 7.466667,
+      "video_duration": 1.733333,
+      "audio_start_in_output": 7.3,
+      "audio_duration": 1.899999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CONTEXTO",
+      "source": "C0001",
+      "video_start_in_output": 9.199999,
+      "video_duration": 3.466667,
+      "audio_start_in_output": 9.033333,
+      "audio_duration": 3.633333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CONTEXTO",
+      "source": "C0001",
+      "video_start_in_output": 12.666666,
+      "video_duration": 0.4,
+      "audio_start_in_output": 12.499999,
+      "audio_duration": 0.566666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CONTEXTO",
+      "source": "C0001",
+      "video_start_in_output": 13.066666,
+      "video_duration": 1.933333,
+      "audio_start_in_output": 12.899999,
+      "audio_duration": 2.099999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CONTEXTO",
+      "source": "C0001",
+      "video_start_in_output": 14.999998,
+      "video_duration": 2.033334,
+      "audio_start_in_output": 14.833332,
+      "audio_duration": 2.2,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CONTEXTO",
+      "source": "C0001",
+      "video_start_in_output": 17.033332,
+      "video_duration": 0.833334,
+      "audio_start_in_output": 16.866665,
+      "audio_duration": 1.0,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CONTEXTO",
+      "source": "C0001",
+      "video_start_in_output": 17.866666,
+      "video_duration": 1.266667,
+      "audio_start_in_output": 17.699999,
+      "audio_duration": 1.433333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 1",
+      "source": "C0001",
+      "video_start_in_output": 19.133332,
+      "video_duration": 1.266667,
+      "audio_start_in_output": 18.966666,
+      "audio_duration": 1.433333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 1",
+      "source": "C0001",
+      "video_start_in_output": 20.399999,
+      "video_duration": 1.2,
+      "audio_start_in_output": 20.233332,
+      "audio_duration": 1.366666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 1",
+      "source": "C0001",
+      "video_start_in_output": 21.599999,
+      "video_duration": 1.9,
+      "audio_start_in_output": 21.433332,
+      "audio_duration": 2.066666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 1",
+      "source": "C0001",
+      "video_start_in_output": 23.499998,
+      "video_duration": 1.600001,
+      "audio_start_in_output": 23.333332,
+      "audio_duration": 1.766667,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 1",
+      "source": "C0001",
+      "video_start_in_output": 25.099999,
+      "video_duration": 2.8,
+      "audio_start_in_output": 24.933332,
+      "audio_duration": 2.966666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 1",
+      "source": "C0001",
+      "video_start_in_output": 27.899999,
+      "video_duration": 0.700001,
+      "audio_start_in_output": 27.733332,
+      "audio_duration": 0.866667,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 1",
+      "source": "C0001",
+      "video_start_in_output": 28.599999,
+      "video_duration": 0.433334,
+      "audio_start_in_output": 28.433333,
+      "audio_duration": 0.6,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 2",
+      "source": "C0001",
+      "video_start_in_output": 29.033333,
+      "video_duration": 1.4,
+      "audio_start_in_output": 28.866666,
+      "audio_duration": 1.566666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 2",
+      "source": "C0001",
+      "video_start_in_output": 30.433333,
+      "video_duration": 0.966667,
+      "audio_start_in_output": 30.266666,
+      "audio_duration": 1.133333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 2",
+      "source": "C0001",
+      "video_start_in_output": 31.399999,
+      "video_duration": 1.9,
+      "audio_start_in_output": 31.233333,
+      "audio_duration": 2.066666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 2",
+      "source": "C0001",
+      "video_start_in_output": 33.299999,
+      "video_duration": 1.833334,
+      "audio_start_in_output": 33.133332,
+      "audio_duration": 2.0,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 2",
+      "source": "C0001",
+      "video_start_in_output": 35.133333,
+      "video_duration": 0.833333,
+      "audio_start_in_output": 34.966666,
+      "audio_duration": 0.999999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 2",
+      "source": "C0001",
+      "video_start_in_output": 35.966665,
+      "video_duration": 1.300001,
+      "audio_start_in_output": 35.799999,
+      "audio_duration": 1.466667,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 2",
+      "source": "C0001",
+      "video_start_in_output": 37.266666,
+      "video_duration": 1.666667,
+      "audio_start_in_output": 37.099999,
+      "audio_duration": 1.833333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 2",
+      "source": "C0001",
+      "video_start_in_output": 38.933333,
+      "video_duration": 1.966667,
+      "audio_start_in_output": 38.766666,
+      "audio_duration": 2.133333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 3",
+      "source": "C0001",
+      "video_start_in_output": 40.899999,
+      "video_duration": 2.033333,
+      "audio_start_in_output": 40.733333,
+      "audio_duration": 2.199999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 3",
+      "source": "C0001",
+      "video_start_in_output": 42.933332,
+      "video_duration": 2.333334,
+      "audio_start_in_output": 42.766665,
+      "audio_duration": 2.5,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 3",
+      "source": "C0001",
+      "video_start_in_output": 45.266666,
+      "video_duration": 1.433334,
+      "audio_start_in_output": 45.099999,
+      "audio_duration": 1.6,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 3",
+      "source": "C0001",
+      "video_start_in_output": 46.699999,
+      "video_duration": 1.633334,
+      "audio_start_in_output": 46.533333,
+      "audio_duration": 1.8,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "DESENV 3",
+      "source": "C0001",
+      "video_start_in_output": 48.333333,
+      "video_duration": 2.233333,
+      "audio_start_in_output": 48.166666,
+      "audio_duration": 2.399999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "PROVOCACAO",
+      "source": "C0001",
+      "video_start_in_output": 50.566666,
+      "video_duration": 2.2,
+      "audio_start_in_output": 50.399999,
+      "audio_duration": 2.366666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "PROVOCACAO",
+      "source": "C0001",
+      "video_start_in_output": 52.766665,
+      "video_duration": 4.933333,
+      "audio_start_in_output": 52.599999,
+      "audio_duration": 5.099999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "PROVOCACAO",
+      "source": "C0001",
+      "video_start_in_output": 57.699998,
+      "video_duration": 1.966667,
+      "audio_start_in_output": 57.533331,
+      "audio_duration": 2.133333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CTA",
+      "source": "C0001",
+      "video_start_in_output": 59.666665,
+      "video_duration": 2.066667,
+      "audio_start_in_output": 59.499998,
+      "audio_duration": 2.233333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "CTA",
+      "source": "C0001",
+      "video_start_in_output": 61.733331,
+      "video_duration": 2.8,
+      "audio_start_in_output": 61.566665,
+      "audio_duration": 2.966666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "FECHO",
+      "source": "C0001",
+      "video_start_in_output": 64.533331,
+      "video_duration": 0.4,
+      "audio_start_in_output": 64.366664,
+      "audio_duration": 0.566666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": "FECHO",
+      "source": "C0001",
+      "video_start_in_output": 64.933331,
+      "video_duration": 3.333333,
+      "audio_start_in_output": 64.766664,
+      "audio_duration": 3.5,
+      "tail_trim_frames": 0
+    }
+  ]
+}

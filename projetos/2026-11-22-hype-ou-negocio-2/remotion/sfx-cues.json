@@ -1,0 +1,290 @@
+{
+ "fps": 30,
+ "cues": [
+  {
+   "t": 0.05,
+   "role": "whoosh.long",
+   "id": "abertura 3D"
+  },
+  {
+   "t": 1.85,
+   "role": "pop",
+   "id": "calendário 1 ano"
+  },
+  {
+   "t": 3.76,
+   "role": "hit",
+   "id": "R$ 1 bi"
+  },
+  {
+   "t": 4.85,
+   "role": "pop",
+   "id": "balão chatbot"
+  },
+  {
+   "t": 5.6,
+   "role": "snap",
+   "id": "risco chatbot"
+  },
+  {
+   "t": 6.86,
+   "role": "pop",
+   "id": "nome Rivio"
+  },
+  {
+   "t": 8.06,
+   "role": "pop",
+   "id": "2025"
+  },
+  {
+   "t": 9.2,
+   "role": "click",
+   "id": "flash 9.2"
+  },
+  {
+   "t": 9.3,
+   "role": "tick",
+   "id": "marco 9.3"
+  },
+  {
+   "t": 11.3,
+   "role": "tick",
+   "id": "marco 11.3"
+  },
+  {
+   "t": 14.0,
+   "role": "tick",
+   "id": "marco 14.0"
+  },
+  {
+   "t": 15.45,
+   "role": "tick",
+   "id": "marco 15.45"
+  },
+  {
+   "t": 15.6,
+   "role": "land",
+   "id": "rodada série A"
+  },
+  {
+   "t": 17.2,
+   "role": "tick",
+   "id": "marco 17.2"
+  },
+  {
+   "t": 18.5,
+   "role": "snap",
+   "id": "valor de mercado"
+  },
+  {
+   "t": 19.9,
+   "role": "pop",
+   "id": "passo a passo"
+  },
+  {
+   "t": 20.4,
+   "role": "click",
+   "id": "flash 20.4"
+  },
+  {
+   "t": 20.5,
+   "role": "pop",
+   "id": "atendimento"
+  },
+  {
+   "t": 21.85,
+   "role": "pop",
+   "id": "conta"
+  },
+  {
+   "t": 23.6,
+   "role": "whoosh.short",
+   "id": "conta voa"
+  },
+  {
+   "t": 23.95,
+   "role": "pop",
+   "id": "plano"
+  },
+  {
+   "t": 26.24,
+   "role": "snap",
+   "id": "item recusado"
+  },
+  {
+   "t": 28.45,
+   "role": "hit",
+   "id": "carimbo GLOSA"
+  },
+  {
+   "t": 29.033,
+   "role": "click",
+   "id": "flash 29.033"
+  },
+  {
+   "t": 29.1,
+   "role": "whoosh.short",
+   "id": "Rivio desce"
+  },
+  {
+   "t": 29.45,
+   "role": "land",
+   "id": "Rivio no meio"
+  },
+  {
+   "t": 30.4,
+   "role": "pop",
+   "id": "agentes de IA"
+  },
+  {
+   "t": 31.5,
+   "role": "land.light",
+   "id": "prontuário"
+  },
+  {
+   "t": 32.55,
+   "role": "land.light",
+   "id": "conta"
+  },
+  {
+   "t": 33.7,
+   "role": "land.light",
+   "id": "contrato"
+  },
+  {
+   "t": 34.5,
+   "role": "snap",
+   "id": "erro achado"
+  },
+  {
+   "t": 35.15,
+   "role": "whoosh.short",
+   "id": "enviar"
+  },
+  {
+   "t": 37.1,
+   "role": "pop",
+   "id": "recurso"
+  },
+  {
+   "t": 39.0,
+   "role": "pop",
+   "id": "enfermeiros"
+  },
+  {
+   "t": 39.35,
+   "role": "pop",
+   "id": "auditores"
+  },
+  {
+   "t": 40.25,
+   "role": "land",
+   "id": "carimbo revisado"
+  },
+  {
+   "t": 40.9,
+   "role": "whoosh.long",
+   "id": "regancho 3D"
+  },
+  {
+   "t": 42.35,
+   "role": "hit",
+   "id": "como ela cobra"
+  },
+  {
+   "t": 42.933,
+   "role": "click",
+   "id": "flash 42.933"
+  },
+  {
+   "t": 43.95,
+   "role": "pop",
+   "id": "com resultado"
+  },
+  {
+   "t": 45.55,
+   "role": "pop",
+   "id": "segundo a empresa"
+  },
+  {
+   "t": 48.4,
+   "role": "whoosh.short",
+   "id": "moedas"
+  },
+  {
+   "t": 49.9,
+   "role": "snap",
+   "id": "glosa coberta"
+  },
+  {
+   "t": 50.72,
+   "role": "hit",
+   "id": "selo NEGÓCIO"
+  },
+  {
+   "t": 51.9,
+   "role": "whoosh.short",
+   "id": "provocação"
+  },
+  {
+   "t": 57.2,
+   "role": "pop",
+   "id": "+ IA"
+  },
+  {
+   "t": 58.3,
+   "role": "land",
+   "id": "oportunidade de negócio"
+  },
+  {
+   "t": 59.667,
+   "role": "click",
+   "id": "flash 59.667"
+  },
+  {
+   "t": 59.75,
+   "role": "pop",
+   "id": "botão seguir"
+  },
+  {
+   "t": 60.15,
+   "role": "click",
+   "id": "clique seguir"
+  },
+  {
+   "t": 63.85,
+   "role": "land",
+   "id": "negócio"
+  },
+  {
+   "t": 65.12,
+   "role": "pop",
+   "id": "bolha 0"
+  },
+  {
+   "t": 65.42,
+   "role": "pop",
+   "id": "bolha 1"
+  },
+  {
+   "t": 65.72,
+   "role": "pop",
+   "id": "bolha 2"
+  },
+  {
+   "t": 66.02,
+   "role": "pop",
+   "id": "bolha 3"
+  },
+  {
+   "t": 66.6,
+   "role": "whoosh.long",
+   "id": "fim 3D"
+  },
+  {
+   "t": 66.9,
+   "role": "land.light",
+   "id": "assinatura"
+  }
+ ]
+}

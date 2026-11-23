@@ -1,0 +1,534 @@
+{
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationSec": 68.267,
+ "camera": {
+  "enabled": false,
+  "zooms": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pushIn": 0,
+  "targetX": 0.5,
+  "targetY": 0.4
+ },
+ "hook": {
+  "enabled": false,
+  "endSec": 3.2,
+  "style": "outline",
+  "text": "R$ 1 bi conferindo conta de hospital",
+  "accent": "#e8a33d",
+  "logo": null,
+  "sign": null
+ },
+ "captions": {
+  "enabled": true,
+  "style": "karaoke",
+  "fontSize": 61,
+  "maxWords": 3,
+  "safeWidth": 720,
+  "paddingBottom": 740,
+  "accent": "#e8a33d"
+ },
+ "inserts": [],
+ "behind": [],
+ "splitInserts": [],
+ "transitions": [
+  {
+   "at": 9.2
+  },
+  {
+   "at": 20.4
+  },
+  {
+   "at": 29.033
+  },
+  {
+   "at": 42.933
+  },
+  {
+   "at": 59.667
+  }
+ ],
+ "soundtrack": {
+  "enabled": false,
+  "file": "trilha.mp3",
+  "volume": 0.0445
+ },
+ "falai": {
+  "pessoaY": 790,
+  "marcaDagua": {
+   "src": "brand/simbolo-mono-branco.svg",
+   "x": 924,
+   "y": 252,
+   "size": 56,
+   "ate": 66.6
+  },
+  "explosoes": [
+   {
+    "a": 0,
+    "pico": 0,
+    "b": 1.4
+   },
+   {
+    "a": 40.9,
+    "pico": 41.45,
+    "b": 42.3
+   },
+   {
+    "a": 66.6,
+    "pico": 67.2,
+    "b": 99
+   }
+  ],
+  "cortes": [
+   {
+    "start": 0.0,
+    "end": 4.833,
+    "zoom": 1.0
+   },
+   {
+    "start": 4.833,
+    "end": 6.167,
+    "zoom": 1.06
+   },
+   {
+    "start": 6.167,
+    "end": 7.467,
+    "zoom": 1.0
+   },
+   {
+    "start": 7.467,
+    "end": 9.2,
+    "zoom": 1.12
+   },
+   {
+    "start": 9.2,
+    "end": 12.667,
+    "zoom": 1.0
+   },
+   {
+    "start": 12.667,
+    "end": 13.067,
+    "zoom": 1.06
+   },
+   {
+    "start": 13.067,
+    "end": 15.0,
+    "zoom": 1.0
+   },
+   {
+    "start": 15.0,
+    "end": 17.033,
+    "zoom": 1.12
+   },
+   {
+    "start": 17.033,
+    "end": 17.867,
+    "zoom": 1.0
+   },
+   {
+    "start": 17.867,
+    "end": 19.133,
+    "zoom": 1.06
+   },
+   {
+    "start": 19.133,
+    "end": 20.4,
+    "zoom": 1.0
+   },
+   {
+    "start": 20.4,
+    "end": 21.6,
+    "zoom": 1.12
+   },
+   {
+    "start": 21.6,
+    "end": 23.5,
+    "zoom": 1.0
+   },
+   {
+    "start": 23.5,
+    "end": 25.1,
+    "zoom": 1.06
+   },
+   {
+    "start": 25.1,
+    "end": 27.9,
+    "zoom": 1.0
+   },
+   {
+    "start": 27.9,
+    "end": 28.6,
+    "zoom": 1.12
+   },
+   {
+    "start": 28.6,
+    "end": 29.033,
+    "zoom": 1.12
+   },
+   {
+    "start": 29.033,
+    "end": 30.433,
+    "zoom": 1.06
+   },
+   {
+    "start": 30.433,
+    "end": 31.4,
+    "zoom": 1.0
+   },
+   {
+    "start": 31.4,
+    "end": 33.3,
+    "zoom": 1.12
+   },
+   {
+    "start": 33.3,
+    "end": 35.133,
+    "zoom": 1.0
+   },
+   {
+    "start": 35.133,
+    "end": 35.967,
+    "zoom": 1.06
+   },
+   {
+    "start": 35.967,
+    "end": 37.267,
+    "zoom": 1.0
+   },
+   {
+    "start": 37.267,
+    "end": 38.933,
+    "zoom": 1.12
+   },
+   {
+    "start": 38.933,
+    "end": 40.9,
+    "zoom": 1.0
+   },
+   {
+    "start": 40.9,
+    "end": 42.933,
+    "zoom": 1.12
+   },
+   {
+    "start": 42.933,
+    "end": 45.267,
+    "zoom": 1.0
+   },
+   {
+    "start": 45.267,
+    "end": 46.7,
+    "zoom": 1.12
+   },
+   {
+    "start": 46.7,
+    "end": 48.333,
+    "zoom": 1.0
+   },
+   {
+    "start": 48.333,
+    "end": 50.567,
+    "zoom": 1.06
+   },
+   {
+    "start": 50.567,
+    "end": 52.767,
+    "zoom": 1.0
+   },
+   {
+    "start": 52.767,
+    "end": 57.7,
+    "zoom": 1.12
+   },
+   {
+    "start": 57.7,
+    "end": 59.667,
+    "zoom": 1.0
+   },
+   {
+    "start": 59.667,
+    "end": 61.733,
+    "zoom": 1.06
+   },
+   {
+    "start": 61.733,
+    "end": 64.533,
+    "zoom": 1.0
+   },
+   {
+    "start": 64.533,
+    "end": 64.933,
+    "zoom": 1.12
+   },
+   {
+    "start": 64.933,
+    "end": 68.267,
+    "zoom": 1.0
+   }
+  ],
+  "pushIn": 0.03,
+  "headline": {
+   "fim": 3.2,
+   "l1": "R$ 1 bi conferindo",
+   "l2": "conta de hospital"
+  },
+  "semPessoa": [
+   [
+    9.2,
+    19.133
+   ],
+   [
+    20.4,
+    25.1
+   ],
+   [
+    29.033,
+    35.967
+   ],
+   [
+    42.933,
+    50.567
+   ]
+  ],
+  "pessoaEscala": 0.74,
+  "cenas": [
+   {
+    "nome": "gancho",
+    "start": 0,
+    "end": 4.833,
+    "rotulo": "Hype ou Negócio? #2",
+    "fonte": "Fonte: Rivio e Bloomberg Línea, nov/2026",
+    "m": {
+     "ano": 1.92,
+     "bilhao": 3.76
+    }
+   },
+   {
+    "nome": "chatbot",
+    "start": 4.833,
+    "end": 6.167,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "chatbot": 5.44
+    }
+   },
+   {
+    "nome": "rivio",
+    "start": 6.167,
+    "end": 9.2,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "rivio": 6.96,
+     "fundada": 7.68,
+     "ano": 8.16
+    }
+   },
+   {
+    "nome": "linha",
+    "start": 9.2,
+    "end": 19.133,
+    "rotulo": "Hype ou Negócio? #2",
+    "fonte": "Fonte: Rivio e Bloomberg Línea, nov/2026",
+    "m": {
+     "dez": 9.28,
+     "n500": 11.36,
+     "rodada": 14.0,
+     "n180": 15.52,
+     "bi": 17.36,
+     "mercado": 18.64
+    }
+   },
+   {
+    "nome": "funciona",
+    "start": 19.133,
+    "end": 20.4,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "assim": 20.0
+    }
+   },
+   {
+    "nome": "conta",
+    "start": 20.4,
+    "end": 25.1,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "hospital": 20.48,
+     "conta": 22.08,
+     "manda": 23.6,
+     "plano": 24.24
+    }
+   },
+   {
+    "nome": "glosa",
+    "start": 25.1,
+    "end": 29.033,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "confere": 25.6,
+     "recusa": 26.24,
+     "nome": 28.24,
+     "glosa": 28.48
+    }
+   },
+   {
+    "nome": "meio",
+    "start": 29.033,
+    "end": 30.433,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "rivio": 29.2
+    }
+   },
+   {
+    "nome": "agentes",
+    "start": 30.433,
+    "end": 35.967,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "agentes": 30.48,
+     "cruzam": 31.36,
+     "prontuario": 31.84,
+     "conta": 32.88,
+     "contrato": 34.0,
+     "enviar": 35.12
+    }
+   },
+   {
+    "nome": "recurso",
+    "start": 35.967,
+    "end": 38.933,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "recusa": 36.56,
+     "ia": 37.28,
+     "escreve": 37.84
+    }
+   },
+   {
+    "nome": "auditores",
+    "start": 38.933,
+    "end": 40.9,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "enfermeiros": 38.96,
+     "revisam": 40.32
+    }
+   },
+   {
+    "nome": "cobra",
+    "start": 40.9,
+    "end": 42.933,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "cobra": 42.48
+    }
+   },
+   {
+    "nome": "resultado",
+    "start": 42.933,
+    "end": 45.267,
+    "rotulo": "Hype ou Negócio? #2",
+    "fonte": "Fonte: Rivio, segundo a empresa, nov/2026",
+    "m": {
+     "resultado": 44.08
+    }
+   },
+   {
+    "nome": "bolso",
+    "start": 45.267,
+    "end": 50.567,
+    "rotulo": "Hype ou Negócio? #2",
+    "fonte": "Fonte: Rivio, segundo a empresa, nov/2026",
+    "m": {
+     "segundo": 45.6,
+     "recurso": 47.04,
+     "cobre": 48.48,
+     "bolso": 50.0
+    }
+   },
+   {
+    "nome": "veredito",
+    "start": 50.567,
+    "end": 52.767,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "provocacao": 51.44
+    }
+   },
+   {
+    "nome": "chata",
+    "start": 52.767,
+    "end": 59.667,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "chata": 53.44,
+     "trabalho": 54.32,
+     "dia": 55.2,
+     "ia": 57.28,
+     "oportunidade": 58.4
+    }
+   },
+   {
+    "nome": "segue",
+    "start": 59.667,
+    "end": 64.4,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "segue": 59.92,
+     "abrir": 63.12,
+     "negocio": 63.92
+    }
+   },
+   {
+    "nome": "fecho",
+    "start": 64.4,
+    "end": 99,
+    "rotulo": "Hype ou Negócio? #2",
+    "m": {
+     "pagaria": 65.12,
+     "resultado": 67.6,
+     "logo": 66.6
+    }
+   }
+  ]
+ }
+}
