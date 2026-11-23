@@ -2,11 +2,10 @@
  "width": 1080,
  "height": 1920,
  "fps": 30,
- "durationSec": 68.267,
+ "durationSec": 67.867,
  "camera": {
   "enabled": false,
   "zooms": [
-   1,
    1,
    1,
    1,
@@ -74,16 +73,16 @@
    "at": 9.2
   },
   {
-   "at": 20.4
+   "at": 20.0
   },
   {
-   "at": 29.033
+   "at": 28.633
   },
   {
-   "at": 42.933
+   "at": 42.533
   },
   {
-   "at": 59.667
+   "at": 59.267
   }
  ],
  "soundtrack": {
@@ -98,7 +97,7 @@
    "x": 924,
    "y": 252,
    "size": 56,
-   "ate": 66.6
+   "ate": 66.2
   },
   "explosoes": [
    {
@@ -107,14 +106,14 @@
     "b": 1.4
    },
    {
-    "a": 40.9,
-    "pico": 41.45,
-    "b": 42.3
+    "a": 40.5,
+    "pico": 41.05,
+    "b": 41.9
    },
    {
-    "a": 66.6,
-    "pico": 67.2,
-    "b": 99
+    "a": 66.2,
+    "pico": 66.8,
+    "b": 98.6
    }
   ],
   "cortes": [
@@ -145,163 +144,158 @@
    },
    {
     "start": 12.667,
-    "end": 13.067,
+    "end": 14.6,
     "zoom": 1.06
    },
    {
-    "start": 13.067,
-    "end": 15.0,
+    "start": 14.6,
+    "end": 16.633,
     "zoom": 1.0
    },
    {
-    "start": 15.0,
-    "end": 17.033,
+    "start": 16.633,
+    "end": 17.467,
     "zoom": 1.12
    },
    {
-    "start": 17.033,
-    "end": 17.867,
+    "start": 17.467,
+    "end": 18.733,
     "zoom": 1.0
    },
    {
-    "start": 17.867,
-    "end": 19.133,
+    "start": 18.733,
+    "end": 20.0,
     "zoom": 1.06
    },
    {
-    "start": 19.133,
-    "end": 20.4,
+    "start": 20.0,
+    "end": 21.2,
     "zoom": 1.0
    },
    {
-    "start": 20.4,
-    "end": 21.6,
+    "start": 21.2,
+    "end": 23.1,
     "zoom": 1.12
    },
    {
-    "start": 21.6,
-    "end": 23.5,
+    "start": 23.1,
+    "end": 24.7,
     "zoom": 1.0
    },
    {
-    "start": 23.5,
-    "end": 25.1,
+    "start": 24.7,
+    "end": 27.5,
     "zoom": 1.06
    },
    {
-    "start": 25.1,
-    "end": 27.9,
+    "start": 27.5,
+    "end": 28.2,
     "zoom": 1.0
    },
    {
-    "start": 27.9,
-    "end": 28.6,
+    "start": 28.2,
+    "end": 28.633,
     "zoom": 1.12
    },
    {
-    "start": 28.6,
-    "end": 29.033,
-    "zoom": 1.12
+    "start": 28.633,
+    "end": 30.033,
+    "zoom": 1.0
    },
    {
-    "start": 29.033,
-    "end": 30.433,
+    "start": 30.033,
+    "end": 31.0,
     "zoom": 1.06
    },
    {
-    "start": 30.433,
-    "end": 31.4,
+    "start": 31.0,
+    "end": 32.9,
     "zoom": 1.0
    },
    {
-    "start": 31.4,
-    "end": 33.3,
+    "start": 32.9,
+    "end": 34.733,
     "zoom": 1.12
    },
    {
-    "start": 33.3,
-    "end": 35.133,
+    "start": 34.733,
+    "end": 35.567,
     "zoom": 1.0
    },
    {
-    "start": 35.133,
-    "end": 35.967,
+    "start": 35.567,
+    "end": 36.867,
     "zoom": 1.06
    },
    {
-    "start": 35.967,
-    "end": 37.267,
+    "start": 36.867,
+    "end": 38.533,
     "zoom": 1.0
    },
    {
-    "start": 37.267,
-    "end": 38.933,
+    "start": 38.533,
+    "end": 40.5,
     "zoom": 1.12
    },
    {
-    "start": 38.933,
-    "end": 40.9,
-    "zoom": 1.0
-   },
-   {
-    "start": 40.9,
-    "end": 42.933,
+    "start": 40.5,
+    "end": 42.533,
     "zoom": 1.12
    },
    {
-    "start": 42.933,
-    "end": 45.267,
-    "zoom": 1.0
-   },
-   {
-    "start": 45.267,
-    "end": 46.7,
-    "zoom": 1.12
-   },
-   {
-    "start": 46.7,
-    "end": 48.333,
-    "zoom": 1.0
-   },
-   {
-    "start": 48.333,
-    "end": 50.567,
+    "start": 42.533,
+    "end": 44.867,
     "zoom": 1.06
    },
    {
-    "start": 50.567,
-    "end": 52.767,
+    "start": 44.867,
+    "end": 46.3,
     "zoom": 1.0
    },
    {
-    "start": 52.767,
-    "end": 57.7,
+    "start": 46.3,
+    "end": 47.933,
     "zoom": 1.12
    },
    {
-    "start": 57.7,
-    "end": 59.667,
+    "start": 47.933,
+    "end": 50.167,
     "zoom": 1.0
    },
    {
-    "start": 59.667,
-    "end": 61.733,
+    "start": 50.167,
+    "end": 52.367,
     "zoom": 1.06
    },
    {
-    "start": 61.733,
+    "start": 52.367,
+    "end": 57.3,
+    "zoom": 1.0
+   },
+   {
+    "start": 57.3,
+    "end": 59.267,
+    "zoom": 1.12
+   },
+   {
+    "start": 59.267,
+    "end": 61.333,
+    "zoom": 1.0
+   },
+   {
+    "start": 61.333,
+    "end": 64.133,
+    "zoom": 1.06
+   },
+   {
+    "start": 64.133,
     "end": 64.533,
     "zoom": 1.0
    },
    {
     "start": 64.533,
-    "end": 64.933,
+    "end": 67.867,
     "zoom": 1.12
-   },
-   {
-    "start": 64.933,
-    "end": 68.267,
-    "zoom": 1.0
    }
   ],
   "pushIn": 0.03,
@@ -313,19 +307,19 @@
   "semPessoa": [
    [
     9.2,
-    19.133
+    18.733
    ],
    [
-    20.4,
-    25.1
+    20.0,
+    24.7
    ],
    [
-    29.033,
-    35.967
+    28.633,
+    35.567
    ],
    [
-    42.933,
-    50.567
+    42.533,
+    50.167
    ]
   ],
   "pessoaEscala": 0.74,
@@ -364,169 +358,169 @@
    {
     "nome": "linha",
     "start": 9.2,
-    "end": 19.133,
+    "end": 18.733,
     "rotulo": "Hype ou Negócio? #2",
     "fonte": "Fonte: Rivio e Bloomberg Línea, nov/2026",
     "m": {
      "dez": 9.28,
      "n500": 11.36,
-     "rodada": 14.0,
-     "n180": 15.52,
-     "bi": 17.36,
-     "mercado": 18.64
+     "rodada": 13.6,
+     "n180": 15.12,
+     "bi": 16.96,
+     "mercado": 18.24
     }
    },
    {
     "nome": "funciona",
-    "start": 19.133,
-    "end": 20.4,
+    "start": 18.733,
+    "end": 20.0,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "assim": 20.0
+     "assim": 19.6
     }
    },
    {
     "nome": "conta",
-    "start": 20.4,
-    "end": 25.1,
+    "start": 20.0,
+    "end": 24.7,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "hospital": 20.48,
-     "conta": 22.08,
-     "manda": 23.6,
-     "plano": 24.24
+     "hospital": 20.08,
+     "conta": 21.68,
+     "manda": 23.2,
+     "plano": 23.84
     }
    },
    {
     "nome": "glosa",
-    "start": 25.1,
-    "end": 29.033,
+    "start": 24.7,
+    "end": 28.633,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "confere": 25.6,
-     "recusa": 26.24,
-     "nome": 28.24,
-     "glosa": 28.48
+     "confere": 25.2,
+     "recusa": 25.84,
+     "nome": 27.84,
+     "glosa": 28.08
     }
    },
    {
     "nome": "meio",
-    "start": 29.033,
-    "end": 30.433,
+    "start": 28.633,
+    "end": 30.033,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "rivio": 29.2
+     "rivio": 28.8
     }
    },
    {
     "nome": "agentes",
-    "start": 30.433,
-    "end": 35.967,
+    "start": 30.033,
+    "end": 35.567,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "agentes": 30.48,
-     "cruzam": 31.36,
-     "prontuario": 31.84,
-     "conta": 32.88,
-     "contrato": 34.0,
-     "enviar": 35.12
+     "agentes": 30.08,
+     "cruzam": 30.96,
+     "prontuario": 31.44,
+     "conta": 32.48,
+     "contrato": 33.6,
+     "enviar": 34.72
     }
    },
    {
     "nome": "recurso",
-    "start": 35.967,
-    "end": 38.933,
+    "start": 35.567,
+    "end": 38.533,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "recusa": 36.56,
-     "ia": 37.28,
-     "escreve": 37.84
+     "recusa": 36.16,
+     "ia": 36.88,
+     "escreve": 37.44
     }
    },
    {
     "nome": "auditores",
-    "start": 38.933,
-    "end": 40.9,
+    "start": 38.533,
+    "end": 40.5,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "enfermeiros": 38.96,
-     "revisam": 40.32
+     "enfermeiros": 38.56,
+     "revisam": 39.92
     }
    },
    {
     "nome": "cobra",
-    "start": 40.9,
-    "end": 42.933,
+    "start": 40.5,
+    "end": 42.533,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "cobra": 42.48
+     "cobra": 42.08
     }
    },
    {
     "nome": "resultado",
-    "start": 42.933,
-    "end": 45.267,
+    "start": 42.533,
+    "end": 44.867,
     "rotulo": "Hype ou Negócio? #2",
     "fonte": "Fonte: Rivio, segundo a empresa, nov/2026",
     "m": {
-     "resultado": 44.08
+     "resultado": 43.68
     }
    },
    {
     "nome": "bolso",
-    "start": 45.267,
-    "end": 50.567,
+    "start": 44.867,
+    "end": 50.167,
     "rotulo": "Hype ou Negócio? #2",
     "fonte": "Fonte: Rivio, segundo a empresa, nov/2026",
     "m": {
-     "segundo": 45.6,
-     "recurso": 47.04,
-     "cobre": 48.48,
-     "bolso": 50.0
+     "segundo": 45.2,
+     "recurso": 46.64,
+     "cobre": 48.08,
+     "bolso": 49.6
     }
    },
    {
     "nome": "veredito",
-    "start": 50.567,
-    "end": 52.767,
+    "start": 50.167,
+    "end": 52.367,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "provocacao": 51.44
+     "provocacao": 51.04
     }
    },
    {
     "nome": "chata",
-    "start": 52.767,
-    "end": 59.667,
+    "start": 52.367,
+    "end": 59.267,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "chata": 53.44,
-     "trabalho": 54.32,
-     "dia": 55.2,
-     "ia": 57.28,
-     "oportunidade": 58.4
+     "chata": 53.04,
+     "trabalho": 53.92,
+     "dia": 54.8,
+     "ia": 56.88,
+     "oportunidade": 58.0
     }
    },
    {
     "nome": "segue",
-    "start": 59.667,
-    "end": 64.4,
+    "start": 59.267,
+    "end": 64.0,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "segue": 59.92,
-     "abrir": 63.12,
-     "negocio": 63.92
+     "segue": 59.52,
+     "abrir": 62.72,
+     "negocio": 63.52
     }
    },
    {
     "nome": "fecho",
-    "start": 64.4,
-    "end": 99,
+    "start": 64.0,
+    "end": 98.6,
     "rotulo": "Hype ou Negócio? #2",
     "m": {
-     "pagaria": 65.12,
-     "resultado": 67.6,
-     "logo": 66.6
+     "pagaria": 64.72,
+     "resultado": 67.2,
+     "logo": 66.2
     }
    }
   ]

@@ -29,7 +29,8 @@ O roteiro completo está no card. Pontos para a edição:
 ## Pedidos de ajuste (revisões)
 
 - Corte v1 (1:08) → aprovado ("esta tudo aprovado", 22/11), com o selo NEGÓCIO na tela mesmo sem a fala; estilo salvo na aba Estilo: limpa, headline contorno, karaokê, tracking, zoom, flash, sem música.
-- Fase 2 v1 (1:08, −14,0 LUFS / −1,4 dBTP, 18 cenas, Bruno fora em 43%, 57 efeitos) →
+- Fase 2 v1 (1:08, −14,0 LUFS / −1,4 dBTP, 18 cenas, Bruno fora em 43%, 57 efeitos) → marcação na interface em 0:12,6 ("excluir essa parte e ajustar"): era o "Eles fi-" com tropeço antes de "Eles finalizaram". Tirado do EDL (fonte 70,30–70,93), +3 dB em "de reais de valor de mercado", tudo depois andou −0,4 s.
+- Fase 2 v2 (1:07,9, −14,0 LUFS / −1,4 dBTP) →
 
 ## Aprendizados desta rodada
 
