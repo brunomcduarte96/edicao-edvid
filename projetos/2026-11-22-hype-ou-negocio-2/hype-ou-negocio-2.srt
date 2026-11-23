@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:04,640
+Uma startup brasileira com um ano
+de vida já vale um bilhão de reais.
+
+2
+00:00:04,720 --> 00:00:06,160
+E ela não faz chatbot.
+
+3
+00:00:06,160 --> 00:00:07,440
+A empresa é a Rivio.
+
+4
+00:00:07,520 --> 00:00:08,960
+Foi fundada em 2025.
+
+5
+00:00:09,120 --> 00:00:12,560
+Em dezembro do ano passado,
+ela valia 500 milhões de reais.
+
+6
+00:00:12,560 --> 00:00:17,440
+Eles finalizaram a rodada série A,
+captando 180 milhões de reais a um bilhão de
+
+7
+00:00:17,440 --> 00:00:18,640
+reais de valor de mercado.
+
+8
+00:00:18,720 --> 00:00:19,840
+A empresa funciona assim.
+
+9
+00:00:19,920 --> 00:00:24,160
+O hospital te atende, monta uma conta com
+tudo que usou e manda para o seu plano de
+
+10
+00:00:24,160 --> 00:00:24,620
+saúde.
+
+11
+00:00:24,640 --> 00:00:27,440
+O plano confere e recusa
+o que ele achou errado.
+
+12
+00:00:27,440 --> 00:00:28,480
+Isso tem nome, glosa.
+
+13
+00:00:28,560 --> 00:00:29,920
+E a Rivio entra no meio.
+
+14
+00:00:30,160 --> 00:00:35,040
+Agentes de IA cruzam o prontuário com a
+conta e com o contrato com o plano antes de
+
+15
+00:00:35,040 --> 00:00:35,500
+enviar.
+
+16
+00:00:35,520 --> 00:00:38,320
+E se o plano recusa, a
+IA já escreve o recurso.
+
+17
+00:00:38,560 --> 00:00:40,480
+enfermeiros e auditores revisam.
+
+18
+00:00:40,480 --> 00:00:42,480
+Mas o que me chamou a
+atenção é como ela cobra.
+
+19
+00:00:42,560 --> 00:00:44,880
+Ela ganha pelo resultado que ela gera.
+
+20
+00:00:44,880 --> 00:00:50,000
+E, segundo a empresa, se o recurso não
+passa, ela cobre a glosa do próprio bolso.
+
+21
+00:00:50,080 --> 00:00:52,240
+E aqui eu trago uma provocação pra você.
+
+22
+00:00:52,320 --> 00:00:57,360
+Qual parte chata do seu trabalho, do seu
+dia a dia, você acredita que a IA pode
+
+23
+00:00:57,520 --> 00:00:59,120
+virar uma oportunidade de negócio?
+
+24
+00:00:59,120 --> 00:01:03,200
+Então me segue aqui se você quiser pensar
+em como a IA pode te ajudar a abrir o seu
+
+25
+00:01:03,280 --> 00:01:03,980
+primeiro negócio.
+
+26
+00:01:04,000 --> 00:01:07,680
+Falai, você pagaria uma IA se
+ela só te cobrasse no resultado?

@@ -33,6 +33,20 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
   - …
 -->
 
+### 2026-11-22 · Hype ou Negócio? #2 (Rivio, conta de hospital) · Curto · primeira edição no PC Windows
+- **Projeto**: projetos/2026-11-22-hype-ou-negocio-2/ · aprovado na v2 ("ótimo pode salvar no drive"), 1:07,9, −14,0 LUFS.
+- **O que funcionou**:
+  - Base de código do Maior IPO (headline em contorno, palco em camadas) com 18 cenas novas, uma por frase; Bruno fora do quadro em 43%.
+  - Recorte por chroma key (`scripts/montar_pessoa.py`) com o verde de 518223 a 89D74F: limpo, sem mexer nos parâmetros.
+  - Finalização em Python (`projetos/2026-11-22-hype-ou-negocio-2/finalizar.py`): voz + efeitos, loudnorm em 2 passadas, imagem convertida para bt709 limitado. Substitui o `finalizar.sh` (zsh) no Windows.
+- **O que mudar na próxima**:
+  - Uma falsa partida de meia palavra ("Eles fi...") a menos de 1 s da frase certa passou como "Eles" na transcrição. Antes de manter um trecho curto (< 1 s) no começo de frase, transcrever isolado junto com o trecho seguinte.
+  - Mexer no corte depois da Fase 2 obrigou a refazer recorte, legenda, segmentos e deslocar cenas e efeitos (−0,4 s): o script de deslocamento está no histórico da sessão; vale guardar um no repo.
+  - No Windows, o vigia de marcações quebrou no console cp1252 e a marcação salva não chegou. Rodar com `PYTHONIOENCODING=utf-8` e, na dúvida, olhar o `preview_edits.json`.
+- **Preferências novas do Bruno**:
+  - Na série Hype ou Negócio?, o selo do veredito entra na tela mesmo quando ele não fala o veredito (aprovado no corte).
+- **Métricas**: (preencher depois de publicar)
+
 ### 2026-11-22 · Do Zero #1 (montei meu canal com IA) · Curto
 - **Projeto**: projetos/2026-11-22-do-zero-1/ · aprovado na v4 ("está perfeito"), 72,3 s.
 - **Como foi a rodada**: corte (v1 → 5 vazios tirados) → v1 final → v2 (Bruno menor e fora do quadro) → v3 (banco de ideias, rotinas, player) → v4 (vazio do gancho, barras pintando, logos oficiais). Todos os pedidos vieram por marcações na interface do Edvid.
