@@ -13,7 +13,7 @@
 - **Fechamento**: "Falai, você pagaria uma IA só se ela desse resultado?"
 - **Comenta PALAVRA?** não
 - **Brutos**: Drive, Gravação Raw do post: `2026-11-22 19-39-07.mov` (61 MB), https://drive.google.com/file/d/1akyHkTy2VEX4wPwtWbX9MaS2kr6_iigP/view. Pasta do post: https://drive.google.com/drive/folders/1Pj-7x6ujKpJxN0S0ZsgILdI32mV8_9kq
-- **Exportado**: prévia v1 em Gravação Final/hype-ou-negocio-2_previa_v1.mp4 e thumbnail [PROPOSTA] em hype-ou-negocio-2_thumb_previa_v1.png. Primeira edição feita no PC Windows (pasta local %USERPROFILE%\Videos\FalaiBruno\hype ou negocio 2 22112026\).
+- **Exportado**: Gravação Final/hype-ou-negocio-2_final.mp4 (1080×1920, 30 fps, 1:07,9, −14,0 LUFS), Thumbnail/hype-ou-negocio-2_thumb.png [PROPOSTA], Legendas/hype-ou-negocio-2.srt. Primeira edição feita no PC Windows (pasta local %USERPROFILE%\Videos\FalaiBruno\hype ou negocio 2 22112026\).
 
 ## Roteiro
 
@@ -30,7 +30,8 @@ O roteiro completo está no card. Pontos para a edição:
 
 - Corte v1 (1:08) → aprovado ("esta tudo aprovado", 22/11), com o selo NEGÓCIO na tela mesmo sem a fala; estilo salvo na aba Estilo: limpa, headline contorno, karaokê, tracking, zoom, flash, sem música.
 - Fase 2 v1 (1:08, −14,0 LUFS / −1,4 dBTP, 18 cenas, Bruno fora em 43%, 57 efeitos) → marcação na interface em 0:12,6 ("excluir essa parte e ajustar"): era o "Eles fi-" com tropeço antes de "Eles finalizaram". Tirado do EDL (fonte 70,30–70,93), +3 dB em "de reais de valor de mercado", tudo depois andou −0,4 s.
-- Fase 2 v2 (1:07,9, −14,0 LUFS / −1,4 dBTP) →
+- Fase 2 v2 (1:07,9, −14,0 LUFS / −1,4 dBTP) → aprovada ("ótimo pode salvar no drive", 22/11). Card marcado Aprovado por essas palavras.
 
 ## Aprendizados desta rodada
 
+Copiados para docs/aprendizados.md e para a página Edição - regras e aprendizados no Notion (histórico, cenas e armadilhas do Windows).
