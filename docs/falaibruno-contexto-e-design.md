@@ -30,5 +30,5 @@ Resumo do que mais pesa na hora de editar. O detalhe e o porquê estão no Conte
 | Logo | Marca d'água: símbolo branco 48–64 px no canto superior esquerdo [PROPOSTA]; card final com assinatura de fundo escuro sobre preto |
 | Som | Voz sempre em primeiro plano; música baixa sem letra; SFX curto só em virada e no selo do veredito |
 | Fechamento | "Falai, o que você acha?" em todo vídeo |
-| Thumbnail (capa) | Estilo aprovado no Do Zero #1 (24/11): fundo #0B0B0B com grade, símbolo branco, nome da série em cinza espaçado, headline mista Inter (Light branca + SemiBold âmbar), selo âmbar com o número do vídeo, Bruno num quadro arredondado com borda âmbar, logos ao lado, elementos do tema no fundo. Tudo que importa entre y 300 e 1620 (serve no Reels e no grid 3:4/4:5 do perfil) |
+| Thumbnail (capa) | Estilo aprovado no Do Zero #1 (24/11): fundo #0B0B0B com grade, símbolo branco, nome da série em cinza espaçado, headline mista Inter (Light branca + SemiBold âmbar), selo âmbar com o número do vídeo, parede de posts no fundo, logos nas laterais, Bruno recortado direto sobre o fundo (sem quadro) e apoiado na base. Rosto e texto entre y 300 e 1620 (serve no Reels e no grid 3:4/4:5 do perfil) |
 | Proibido na tela | Emoji, exclamação, sombra, gradiente, crachá/tela/ambiente do trabalho, nome da empresa |

@@ -16,7 +16,7 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
 - **O Bruno não fica na tela o tempo todo nem flutuando** (Do Zero #1, 22/11). Ele fica a ~74% do tamanho, apoiado na base do quadro, sem degradê no tronco, e sai do quadro em ~40–45% do vídeo para a animação ocupar a tela toda. Zoom nos cortes de 6% e 12%. O que precisa ser lido (timeline, tabela, tela de ferramenta) vai numa cena sem ele, nunca atrás da cabeça.
 - **Toda prévia passa pela interface do Edvid**, aberta no começo da rodada, mesmo quando o Bruno fala pelo celular. Ele aprova e marca os ajustes com M lá. Uma cópia da prévia vai para o Drive (`FalaiBruno · Central de Conteúdo/Criativos/<vídeo>/`) para ele ver no celular.
 - **Nada fica parado na tela.** Se uma frase dura mais de ~2 s sobre a mesma cena, algo precisa se mexer (barras pintando, pontos correndo, contador). Foi pedido nas marcações de v2 e v3.
-- **Thumbnail: estilo aprovado e área segura y 300–1620** (Do Zero #1, 24/11, "inclusive o estilo ficou muito bom"). Fundo #0B0B0B com grade, símbolo branco pequeno, nome da série em cinza espaçado, headline mista em Inter (Light branca + SemiBold âmbar), selo âmbar com o número do vídeo, o Bruno com expressão num quadro arredondado com borda âmbar, logos das ferramentas ao lado e elementos do tema no fundo. Tudo que importa fica entre y 300 e 1620 do 1080×1920, para servir no Reels e no grid do perfil (recorte 3:4 = y 240–1680, 4:5 = y 285–1635). Conferir os três recortes antes de entregar. Código: `projetos/2026-11-22-do-zero-1/remotion/Thumbnail.tsx`.
+- **Thumbnail: estilo aprovado e área segura y 300–1620** (Do Zero #1, 24/11). Fundo #0B0B0B com grade, símbolo branco pequeno, nome da série em cinza espaçado, headline mista em Inter (Light branca + SemiBold âmbar), selo âmbar com o número do vídeo, parede de posts no fundo, logos das ferramentas nas laterais e o Bruno recortado direto sobre o fundo (sem quadro), apoiado na base. Rosto e texto entre y 300 e 1620 do 1080×1920, para servir no Reels e no grid do perfil (recorte 3:4 = y 240–1680, 4:5 = y 285–1635); para isso o Bruno sobe e a camiseta é prolongada até a base (`bruno_thumb_ext.png`). Conferir os três recortes. Quando ele pede para ajustar o tamanho, só reposicionar, sem mudar o visual. Código: `projetos/2026-11-22-do-zero-1/remotion/Thumbnail.tsx`.
 
 ## Rodadas
 
@@ -35,10 +35,10 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
 -->
 
 ### 2026-11-24 · Thumbnail do Do Zero #1 · Capa
-- **Projeto**: projetos/2026-11-22-do-zero-1/remotion/Thumbnail.tsx · imagem no Drive (pasta do post) como `do-zero-1_thumb_v2.png`.
-- **Como foi a rodada**: não havia thumb do Do Zero #1 salva; fiz a v1 no padrão das outras (Bruno apoiado na base). No grid do perfil o rosto e o texto cortavam. A v2 põe o Bruno num quadro e tudo entre y 300 e 1620. Estilo aprovado.
-- **O que não funcionou**: Bruno na base da capa, como no vídeo: o grid corta. Buffer não aceita imagem como capa de vídeo pela API (só um frame, no Instagram e no TikTok); a capa é subida pelo Bruno no app do Buffer.
-- **Como fazer**: recorte do Bruno com ffmpeg num quadro do bruto (`crop=1200:1080:300:0,chromakey=0x6CC042:0.10:0.03,despill=type=green`) em `public/bruno_thumb.png`, composição `Thumbnail` 1080×1920 no Remotion e `npx remotion still`.
+- **Projeto**: projetos/2026-11-22-do-zero-1/remotion/Thumbnail.tsx · imagem no Drive (pasta do post) como `do-zero-1_thumb_v3.png`.
+- **Como foi a rodada**: não havia thumb do Do Zero #1 salva; fiz a v1 no padrão das outras. No grid do perfil o rosto e o texto cortavam. A v2 pôs o Bruno num quadro com borda e foi recusada ("eu queria que você replicasse exatamente a anterior, só ajustando o tamanho"). A v3 é a v1 com o Bruno subido 240 px e a camiseta prolongada até a base.
+- **O que não funcionou**: mudar o visual para resolver o corte (v2). Prolongar a camiseta repetindo a última linha do recorte deixa listras de pele: preencher só a área da camiseta com a cor dela e fechar o pescoço com uma gola em U. Buffer não aceita imagem como capa de vídeo pela API (só um frame, no Instagram e no TikTok); a capa é subida pelo Bruno no app.
+- **Como fazer**: recorte do Bruno com ffmpeg num quadro do bruto (`crop=1200:1080:300:0,chromakey=0x6CC042:0.10:0.03,despill=type=green`) em `public/bruno_thumb.png`, camiseta prolongada em `public/bruno_thumb_ext.png`, composição `Thumbnail` 1080×1920 no Remotion e `npx remotion still`.
 
 ### 2026-11-22 · Você pode ter a sua própria IA · Curto
 - **Projeto**: projetos/2026-11-22-sua-propria-ia/
