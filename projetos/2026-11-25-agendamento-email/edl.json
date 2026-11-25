@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "sources": {
+    "intro": "/Users/brunoduarte/Github/edicao-edvid/videos/brutos/agendamento email 25112026/intro.mov",
+    "rosto": "/Users/brunoduarte/Github/edicao-edvid/videos/brutos/agendamento email 25112026/rosto.mov"
+  },
+  "grade": "none",
+  "ranges": [
+    {
+      "source": "intro",
+      "start": 0.766667,
+      "end": 4.3,
+      "quote": "Vou te ensinar a usar IA de verdade enquanto eu como yakisoba aqui.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 17.633333,
+      "end": 19.633333,
+      "quote": "Primeiro passo, crie sua conta.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 20.0,
+      "end": 21.033333,
+      "quote": "Crie um projeto.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 46.8,
+      "end": 47.733333,
+      "quote": "Segundo passo,",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 47.966667,
+      "end": 49.3,
+      "quote": "conecte o seu e-mail.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 49.5,
+      "end": 51.866667,
+      "quote": "Usa o MCP, são os plugins.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 66.266667,
+      "end": 67.066667,
+      "quote": "Terceiro,",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 67.266667,
+      "end": 68.633333,
+      "quote": "volta no seu projeto",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 69.833333,
+      "end": 72.733333,
+      "quote": "e pede para ele resumir todos os seus e-mails do dia.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 96.2,
+      "end": 97.366667,
+      "quote": "Quarto, coloque",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 98.333333,
+      "end": 99.4,
+      "quote": "em contexto",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 99.933333,
+      "end": 102.1,
+      "quote": "todos os arquivos relevantes do seu trabalho.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 103.4,
+      "end": 104.8,
+      "quote": "Cores de",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 105.6,
+      "end": 108.8,
+      "quote": "design, rotinas, produtos, informações.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 115.6,
+      "end": 120.233333,
+      "quote": "Assim, o Claude vai ter todo o contexto do seu trabalho para poder te ajudar no dia a dia.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 149.066667,
+      "end": 149.833333,
+      "quote": "Por último,",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 156.5,
+      "end": 158.966667,
+      "quote": "agenda uma nova tarefa recorrente.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 217.733333,
+      "end": 219.4,
+      "quote": "Seleciona onde você quer guardar.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 213.9,
+      "end": 217.533333,
+      "quote": "Pronto, você já não vai mais esquecer nenhuma tarefa que você tem que fazer.",
+      "gain_db": 0
+    },
+    {
+      "source": "rosto",
+      "start": 236.966667,
+      "end": 239.333333,
+      "quote": "E fala aí, você acha que isso te ajuda no dia a dia?",
+      "gain_db": 0
+    }
+  ],
+  "total_duration_s": 36.4,
+  "jcut_timeline": [
+    {
+      "beat": null,
+      "source": "intro",
+      "video_start_in_output": 0.0,
+      "video_duration": 3.466666,
+      "audio_start_in_output": 0.0,
+      "audio_duration": 3.466666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 3.466666,
+      "video_duration": 1.766667,
+      "audio_start_in_output": 3.3,
+      "audio_duration": 1.933333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 5.233333,
+      "video_duration": 0.8,
+      "audio_start_in_output": 5.066666,
+      "audio_duration": 0.966666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 6.033333,
+      "video_duration": 0.7,
+      "audio_start_in_output": 5.866666,
+      "audio_duration": 0.866666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 6.733332,
+      "video_duration": 1.1,
+      "audio_start_in_output": 6.566666,
+      "audio_duration": 1.266666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 7.833332,
+      "video_duration": 2.133334,
+      "audio_start_in_output": 7.666665,
+      "audio_duration": 2.3,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 9.966666,
+      "video_duration": 0.566667,
+      "audio_start_in_output": 9.799999,
+      "audio_duration": 0.733333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 10.533332,
+      "video_duration": 1.133333,
+      "audio_start_in_output": 10.366666,
+      "audio_duration": 1.299999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 11.666665,
+      "video_duration": 2.666667,
+      "audio_start_in_output": 11.499998,
+      "audio_duration": 2.833333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 14.333332,
+      "video_duration": 0.933334,
+      "audio_start_in_output": 14.166665,
+      "audio_duration": 1.1,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 15.266665,
+      "video_duration": 0.866667,
+      "audio_start_in_output": 15.099999,
+      "audio_duration": 1.033334,
+      "tail_trim_frames": 1
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 16.133332,
+      "video_duration": 1.933334,
+      "audio_start_in_output": 15.966666,
+      "audio_duration": 2.1,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 18.066666,
+      "video_duration": 1.166667,
+      "audio_start_in_output": 17.899999,
+      "audio_duration": 1.333333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 19.233333,
+      "video_duration": 2.966667,
+      "audio_start_in_output": 19.066666,
+      "audio_duration": 3.133333,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 22.199999,
+      "video_duration": 4.4,
+      "audio_start_in_output": 22.033333,
+      "audio_duration": 4.566666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 26.599999,
+      "video_duration": 0.533333,
+      "audio_start_in_output": 26.433332,
+      "audio_duration": 0.699999,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 27.133332,
+      "video_duration": 2.233334,
+      "audio_start_in_output": 26.966665,
+      "audio_duration": 2.4,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 29.366665,
+      "video_duration": 1.433334,
+      "audio_start_in_output": 29.199999,
+      "audio_duration": 1.6,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 30.799999,
+      "video_duration": 3.4,
+      "audio_start_in_output": 30.633332,
+      "audio_duration": 3.566666,
+      "tail_trim_frames": 2
+    },
+    {
+      "beat": null,
+      "source": "rosto",
+      "video_start_in_output": 34.199999,
+      "video_duration": 2.199999,
+      "audio_start_in_output": 34.033332,
+      "audio_duration": 2.366666,
+      "tail_trim_frames": 0
+    }
+  ]
+}
