@@ -1,5 +1,5 @@
 /**
- * Thumbnail [PROPOSTA] — Agendamento Email. Padrão aprovado no Do Zero #1 (24/11):
+ * Thumbnail [PROPOSTA] v3 — Agendamento Email (pedido do Bruno: quadro de 0:02.71 e "Yakisoba e IA"). Padrão aprovado no Do Zero #1 (24/11):
  * fundo #0B0B0B com grade, símbolo branco, rótulo cinza espaçado, headline mista em Inter
  * (Light branca + SemiBold âmbar), selo âmbar, Bruno recortado direto sobre o fundo (v2: sem quadro),
  * logos das ferramentas e elementos do tema. Tudo entre y 300 e 1620.
@@ -44,12 +44,11 @@ export const Thumbnail: React.FC = () => {
       <Img src={staticFile('brand/simbolo-mono-branco.svg')} style={{position: 'absolute', left: 90, top: 330, width: 56, height: 56}} />
       <div style={{position: 'absolute', left: 170, top: 344, ...f(28, 600, '#A3A3A3'), letterSpacing: 6}}>IA NA PRÁTICA</div>
       <div style={{position: 'absolute', left: 90, top: 420, width: 900}}>
-        <div style={f(92, 300)}>O Claude resume</div>
-        <div style={{...f(132, 600, AMBAR), marginTop: 6}}>seus e-mails</div>
-        <div style={{...f(64, 300), marginTop: 14}}>todo dia às 18h</div>
+        <div style={f(120, 300)}>Yakisoba</div>
+        <div style={{...f(168, 600, AMBAR), marginTop: 4}}>e IA</div>
       </div>
       {/* v2: Bruno recortado direto sobre o fundo (sem quadro), a camiseta indo até a base */}
-      <Img src={staticFile('bruno_thumb_full.png')} style={{position: 'absolute', left: -40, top: 900, width: 1150, height: 1022}} />
+      <Img src={staticFile('bruno_thumb_v3.png')} style={{position: 'absolute', left: -40, top: 900, width: 1150, height: 1022}} />
       {/* selo */}
       <div style={{position: 'absolute', left: 90, top: 830, background: AMBAR, color: '#0A0A0A', ...f(52, 600, '#0A0A0A'), padding: '18px 34px', borderRadius: 20, transform: 'rotate(-4deg)'}}>5 passos</div>
       {/* logos */}
