@@ -45,12 +45,13 @@ const SPLIT0 = 3.467;       // entra a tela dividida
 const FULL0 = 30.8;         // pedido do agendamento em tela cheia
 const FECHO = 34.2;         // fecho em tela cheia
 const FIM = 38.764;
-const CTA0 = 36.333;   // "E já me segue pra não perder nenhuma outra dica." (cta.mov)
+const CTA0 = 34.2;     // "E já me segue pra não perder nenhuma outra dica." (cta.mov, antes da pergunta)
+const PERG0 = 36.567;  // "E fala aí, você acha que isso te ajuda no dia a dia?"
 const CENA0 = 16.133, CENA1 = 26.6; // animação no lugar da tela (contexto → Claude)
 /** cortes de imagem (início de cada trecho) */
-const CORTES = [0, 3.467, 5.233, 6.033, 6.733, 7.833, 9.967, 10.533, 11.667, 14.333, 15.267, 16.133, 18.067, 19.233, 22.2, 26.6, 27.133, 29.367, 30.8, 34.2, 36.333];
+const CORTES = [0, 3.467, 5.233, 6.033, 6.733, 7.833, 9.967, 10.533, 11.667, 14.333, 15.267, 16.133, 18.067, 19.233, 22.2, 26.6, 27.133, 29.367, 30.8, 34.2, 36.567];
 const ZCICLO = [1, 1.06, 1, 1.12];
-const FLASHES = [3.467, 16.133, 22.2, 26.6, 30.8, 34.2, 36.333];
+const FLASHES = [3.467, 16.133, 22.2, 26.6, 30.8, 34.2, 36.567];
 const EXPLOSOES = [{a: 0.35, p: 0.85, b: 1.6}, {a: 3.6, p: 4.05, b: 4.75}, {a: 37.75, p: 38.2, b: 38.764}];
 
 const PASSOS = [
@@ -132,7 +133,7 @@ const Check: React.FC<{size?: number}> = ({size = 44}) => (
 // ---------- legenda karaokê (2 a 4 palavras, branca, uma palavra-chave âmbar) ----------
 type W = {text: string; startMs: number; endMs: number};
 const WORDS = captions as W[];
-const CHAVE = new Set(['IA', 'yakisoba', 'projeto.', 'e-mail,', 'MCP,', 'plugins.', 'resumir', 'contexto', 'arquivos', 'design,', 'rotinas,', 'produtos,', 'informações.', 'Claude', 'recorrente.', 'guardar.', 'esquecer', 'dia?', 'Primeiro', 'Segundo', 'Terceiro,', 'Quarto,', 'último,']);
+const CHAVE = new Set(['IA', 'yakisoba', 'projeto.', 'e-mail,', 'MCP,', 'plugins.', 'resumir', 'contexto', 'arquivos', 'design,', 'rotinas,', 'produtos,', 'informações.', 'Claude', 'recorrente.', 'guardar.', 'esquecer', 'dia?', 'Primeiro', 'Segundo', 'Terceiro,', 'Quarto,', 'último,', 'segue']);
 const grupos: W[][] = (() => {
   const G: W[][] = [];
   let cur: W[] = [];
@@ -140,7 +141,7 @@ const grupos: W[][] = (() => {
     cur.push(w);
     const prox = WORDS[i + 1];
     const fimFrase = /[.,?]$/.test(w.text);
-    const corteVisual = prox && CORTES.some((c) => c > w.startMs / 1000 && c <= prox.startMs / 1000 && [3.467, 16.133, 26.6, 30.8, 34.2].includes(c));
+    const corteVisual = prox && CORTES.some((c) => c > w.startMs / 1000 && c <= prox.startMs / 1000 && [3.467, 16.133, 26.6, 30.8, 34.2, 36.567].includes(c));
     const len = cur.map((x) => x.text).join(' ').length;
     if (!prox || cur.length >= 4 || (fimFrase && cur.length >= 2) || corteVisual || len > 18) { G.push(cur); cur = []; }
   });
@@ -205,6 +206,37 @@ const Passo: React.FC<{t: number; top: number}> = ({t, top}) => {
   );
 };
 
+
+// ---------- resumo do dia GENÉRICO (v3: o resumo real não aparece, nem borrado) ----------
+const RESUMO = [
+  {h: 'Hoje chegaram 12 e-mails. 3 pedem sua atenção:', b: false},
+  {h: 'Atenção', b: true},
+  {h: '• Banco: a fatura do cartão vence na sexta.', b: false},
+  {h: '• Equipe: reunião de amanhã mudou para 15h.', b: false},
+  {h: '• Curso: novo módulo liberado.', b: false},
+  {h: 'Tarefas', b: true},
+  {h: '• Revisar a proposta do cliente.', b: false},
+  {h: '• Responder o fornecedor até 17h.', b: false},
+  {h: 'Resto', b: true},
+  {h: '• 6 newsletters e 3 promoções.', b: false},
+];
+const RES_JANELAS: [number, number, number][] = [[12.72, 16.14, 13.0], [26.6, 26.76, 26.6]];
+const Resumo: React.FC<{t: number}> = ({t}) => {
+  const j = RES_JANELAS.find(([a, b]) => t >= a && t < b);
+  if (!j) return null;
+  const t0 = j[2];
+  return (
+    <div style={{position: 'absolute', left: 336, top: 186, width: 380}}>
+      {RESUMO.map((l, i) => {
+        const o = j[0] === 26.6 ? 1 : ent(t, t0 + i * 0.09, 0.2);
+        return (
+          <div key={i} style={{fontFamily: FONTE, fontSize: l.b ? 16 : 15, fontWeight: l.b ? 600 : 400, color: '#ECECEC', lineHeight: 1.35, marginTop: l.b ? 14 : 4, opacity: o, transform: `translateY(${(1 - o) * 8}px)`}}>{l.h}</div>
+        );
+      })}
+    </div>
+  );
+};
+
 // ---------- a tela (gravação), recortada sem a barra do navegador ----------
 const Tela: React.FC<{t: number; w: number; h: number}> = ({t, w, h}) => {
   const c = cam(t);
@@ -217,6 +249,9 @@ const Tela: React.FC<{t: number; w: number; h: number}> = ({t, w, h}) => {
     <div style={{position: 'absolute', inset: 0, overflow: 'hidden', background: '#000'}}>
       <div style={{position: 'absolute', left: w / 2 - fx * k, top: h / 2 - fy * k, width: 1080 * k, height: 960 * k}}>
         <OffthreadVideo src={staticFile('tela_track.mp4')} muted style={{width: '100%', height: '100%'}} />
+        <div style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 960, transform: `scale(${k})`, transformOrigin: '0 0'}}>
+          <Resumo t={t} />
+        </div>
       </div>
     </div>
   );
@@ -322,15 +357,9 @@ const Extras: React.FC<{t: number}> = ({t}) => (
     {t >= 6.75 && t < 8.05 ? (
       <Abs x={780} y={470} o={jan(t, 6.75, 8.05, 0.15, 0.15)} s={pop(t, 6.75)} style={{transformOrigin: 'center'}}>
         <div style={{display: 'flex', alignItems: 'center', gap: 14, background: 'rgba(10,10,10,0.92)', borderRadius: 22, padding: '14px 20px'}}>
-          <Img src={staticFile('logos/gmail.png')} style={{width: 70, height: 70, borderRadius: 14}} />
+          <Img src={staticFile('logos/gmail.svg')} style={{width: 76, height: 57}} />
           <div style={txt(34, 600)}>Gmail</div>
         </div>
-      </Abs>
-    ) : null}
-    {/* resumo borrado: aviso discreto */}
-    {t >= 13.5 && t < 14.333 ? (
-      <Abs x={360} y={560} o={jan(t, 13.5, 14.333, 0.15, 0.1)}>
-        <Tag t="dados pessoais borrados" size={24} bg="rgba(10,10,10,0.85)" fg={COR.sec} />
       </Abs>
     ) : null}
   </>
@@ -366,8 +395,8 @@ const Pedido: React.FC<{t: number}> = ({t}) => {
 
 const Cta: React.FC<{t: number}> = ({t}) => {
   const e = ent(t, CTA0 + 0.03, 0.25);
-  const segue = t >= 36.96;
-  const ps = segue ? 1 - 0.08 * Math.sin(cl((t - 36.96) / 0.25) * Math.PI) : 1;
+  const segue = t >= 34.83;
+  const ps = segue ? 1 - 0.08 * Math.sin(cl((t - 34.83) / 0.25) * Math.PI) : 1;
   return (
     <>
       <Abs x={0} y={340} w={1080} o={e} s={0.8 + 0.2 * pop(t, CTA0)} style={{textAlign: 'center', transformOrigin: '540px 60px'}}>
@@ -377,9 +406,6 @@ const Cta: React.FC<{t: number}> = ({t}) => {
         </div>
         <div style={{...txt(30, 400, COR.sec), marginTop: 18}}>@falaibruno</div>
       </Abs>
-      <Abs x={0} y={560} w={1080} o={ent(t, 37.6, 0.3)} style={{textAlign: 'center'}}>
-        <Img src={staticFile('brand/assinatura-branco.svg')} style={{width: 300}} />
-      </Abs>
     </>
   );
 };
@@ -387,8 +413,8 @@ const Cta: React.FC<{t: number}> = ({t}) => {
 // ---------- fecho ----------
 const Fecho: React.FC<{t: number}> = ({t}) => {
   if (t < FECHO) return null;
-  if (t >= CTA0) return <Cta t={t} />;
-  const e = ent(t, FECHO + 0.05, 0.3);
+  if (t < PERG0) return <Cta t={t} />;
+  const e = ent(t, PERG0 + 0.05, 0.3);
   return (
     <>
       <Abs x={64} y={330} w={952} o={e} dy={(1 - e) * 30} style={{textAlign: 'center'}}>
@@ -396,6 +422,9 @@ const Fecho: React.FC<{t: number}> = ({t}) => {
           <div style={txt(34, 600, COR.ambar)}>Falai</div>
           <div style={{...txt(54, 600), marginTop: 8}}>Isso te ajuda no dia a dia?</div>
         </div>
+      </Abs>
+      <Abs x={340} y={580} w={400} o={ent(t, 37.9, 0.3)} style={{textAlign: 'center'}}>
+        <Img src={staticFile('brand/assinatura-branco.svg')} style={{width: 300}} />
       </Abs>
     </>
   );

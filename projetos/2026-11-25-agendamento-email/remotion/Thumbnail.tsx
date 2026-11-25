@@ -1,7 +1,7 @@
 /**
  * Thumbnail [PROPOSTA] — Agendamento Email. Padrão aprovado no Do Zero #1 (24/11):
  * fundo #0B0B0B com grade, símbolo branco, rótulo cinza espaçado, headline mista em Inter
- * (Light branca + SemiBold âmbar), selo âmbar, Bruno num quadro arredondado com borda âmbar,
+ * (Light branca + SemiBold âmbar), selo âmbar, Bruno recortado direto sobre o fundo (v2: sem quadro),
  * logos das ferramentas e elementos do tema. Tudo entre y 300 e 1620.
  */
 import React from 'react';
@@ -48,18 +48,16 @@ export const Thumbnail: React.FC = () => {
         <div style={{...f(132, 600, AMBAR), marginTop: 6}}>seus e-mails</div>
         <div style={{...f(64, 300), marginTop: 14}}>todo dia às 18h</div>
       </div>
-      {/* Bruno num quadro */}
-      <div style={{position: 'absolute', left: 230, top: 800, width: 620, height: 680, borderRadius: 44, border: `8px solid ${AMBAR}`, overflow: 'hidden', background: '#141414'}}>
-        <Img src={staticFile('bruno_thumb.png')} style={{position: 'absolute', left: -110, top: 0, width: 840, height: 840}} />
-      </div>
+      {/* v2: Bruno recortado direto sobre o fundo (sem quadro), a camiseta indo até a base */}
+      <Img src={staticFile('bruno_thumb_full.png')} style={{position: 'absolute', left: -40, top: 900, width: 1150, height: 1022}} />
       {/* selo */}
-      <div style={{position: 'absolute', left: 160, top: 1420, background: AMBAR, color: '#0A0A0A', ...f(52, 600, '#0A0A0A'), padding: '18px 34px', borderRadius: 20, transform: 'rotate(-4deg)'}}>5 passos</div>
+      <div style={{position: 'absolute', left: 90, top: 830, background: AMBAR, color: '#0A0A0A', ...f(52, 600, '#0A0A0A'), padding: '18px 34px', borderRadius: 20, transform: 'rotate(-4deg)'}}>5 passos</div>
       {/* logos */}
-      <div style={{position: 'absolute', left: 870, top: 830, width: 150, height: 150, borderRadius: 34, background: '#1A1A1A', border: '3px solid #333', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      <div style={{position: 'absolute', left: 870, top: 820, width: 150, height: 150, borderRadius: 34, background: '#1A1A1A', border: '3px solid #333', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
         <Img src={staticFile('logos/claude-chat-icon.png')} style={{width: 104, height: 104}} />
       </div>
-      <div style={{position: 'absolute', left: 870, top: 1010, width: 150, height: 150, borderRadius: 34, overflow: 'hidden', border: '3px solid #333'}}>
-        <Img src={staticFile('logos/gmail.png')} style={{width: 150, height: 150}} />
+      <div style={{position: 'absolute', left: 870, top: 1000, width: 150, height: 150, borderRadius: 34, background: '#1A1A1A', border: '3px solid #333', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <Img src={staticFile('logos/gmail.svg')} style={{width: 104, height: 78}} />
       </div>
     </AbsoluteFill>
   );

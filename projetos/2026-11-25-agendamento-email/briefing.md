@@ -41,18 +41,20 @@
 
 ## Dados sensíveis na tela
 
-- O resumo dos e-mails (tela 80–148 s) mostra remetentes e dados pessoais e comerciais: **borrado** na prévia. A barra do navegador (URLs, favoritos) foi cortada.
+- O resumo dos e-mails (tela 80–148 s) mostra remetentes e dados pessoais e comerciais. v1/v2: borrado. **v3: não aparece nem borrado** (o Bruno aprovou "na dúvida, não posta"): a área vira fundo liso e o Remotion desenha um resumo genérico com remetentes fictícios (Banco, Equipe, Curso).
+- v3: borrados o nome do projeto ("trabalho", no diálogo, no cabeçalho e na saudação) e a linha "2 tarefas ocultas ... Slack" em Tarefas agendadas. A barra do navegador (URLs, favoritos) segue cortada.
 
 ## Fase 2
 
 - Estilo escolhido na interface: tela dividida, headline Contorno, legenda karaokê, tracking, zoom automático, zoom nos cortes, flash, sem trilha.
 - Gancho em tela cheia com headline "Usar IA de verdade / em 5 passos" e separação 3D; tela dividida com rótulo "Passo N" e progresso de 5 pontos; zoom da tela em cada passo; chip "MCP: o conector que liga o Claude aos seus apps" (termo traduzido); passo 4 vira animação (painel Contexto recebendo Cores de design, Rotinas, Produtos, Informações; depois o Claude absorvendo o contexto e os dias da semana); pedido do agendamento em tela cheia com o texto legível digitando + "Todo dia, 18h"; fecho com a pergunta; CTA com botão Seguir → Seguindo e assinatura.
 - Separação 3D em 3 momentos (gancho, entrada da tela dividida, CTA). 59 SFX a -8 dB. -14,1 LUFS, -1,4 dBTP.
-- Thumbnail [PROPOSTA] `thumbnail_v1.png`: "O Claude resume / seus e-mails / todo dia às 18h", Bruno com o yakisoba num quadro âmbar, logos Claude e Gmail, selo "5 passos". Tudo entre y 300 e 1620.
+- Thumbnail [PROPOSTA] `thumbnail_v2.png`: "O Claude resume / seus e-mails / todo dia às 18h", Bruno com o yakisoba recortado direto sobre o fundo (sem quadro), logos Claude e Gmail, selo "5 passos". Tudo entre y 300 e 1620; conferida em 9:16, 3:4 e 4:5.
 - Arquivos: `remotion/Agenda.tsx` (cenas), `remotion/Thumbnail.tsx`, `remotion/sfx-cues.json`, `montar_tela.py` (trilha da tela + recorte), `finalizar.sh`.
 
 ## Pedidos de ajuste (revisões)
 
 - Fase 1: aprovado como proposto ("pode seguir aí com tudo que você falou"): ordem "Seleciona..." antes do "Pronto", duração curta, resumo borrado, fecho como falado.
 - v2: entrou o cta.mov que apareceu na pasta depois da aprovação, no fim.
-- v2 →
+- v3 (pedidos do Bruno no thread): CTA (cta.mov) ANTES do "E fala aí...", a pergunta fecha o vídeo e a assinatura entra no fim; resumo real trocado por resumo genérico; borrões acima; thumbnail v2 sem quadro (regra: Bruno recortado direto sobre o fundo), logo oficial do Gmail (SVG do Wikimedia Commons, "Gmail icon (2020)").
+- v3 →

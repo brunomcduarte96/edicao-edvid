@@ -267,24 +267,24 @@
    "id": "click@34.2"
   },
   {
-   "t": 34.3,
+   "t": 34.23,
    "role": "pop",
-   "id": "pop@34.3"
+   "id": "pop@34.23"
   },
   {
-   "t": 36.333,
-   "role": "click",
-   "id": "click@36.333"
-  },
-  {
-   "t": 36.36,
-   "role": "pop",
-   "id": "pop@36.36"
-  },
-  {
-   "t": 36.96,
+   "t": 34.83,
    "role": "click.confirm",
-   "id": "click.confirm@36.96"
+   "id": "click.confirm@34.83"
+  },
+  {
+   "t": 36.567,
+   "role": "click",
+   "id": "click@36.567"
+  },
+  {
+   "t": 36.6,
+   "role": "pop",
+   "id": "pop@36.6"
   },
   {
    "t": 37.75,

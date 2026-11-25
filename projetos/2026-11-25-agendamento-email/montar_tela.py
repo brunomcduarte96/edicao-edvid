@@ -9,8 +9,19 @@ D = vs(19) + T[19]["video_duration"]
 # (início no corte, fim no corte, tela início, tela fim)
 SEG = [(vs(1), vs(3), 13, 22), (vs(3), vs(6), 44, 54), (vs(6), vs(9), 64, 86), (vs(9), vs(11), 96, 98),
        (vs(15), vs(17), 146, 158), (vs(17), vs(18), 200, 201.43), (vs(18), vs(19), 186.4, 189.8)]
-f = ["[0:v]split[t0][tb];[tb]crop=390:600:325:240,boxblur=18:2[bl];[t0][bl]overlay=325:240:enable='between(t,76,149.5)'[tbl]",
-     f"[tbl]split={len(SEG)}" + "".join(f"[x{i}]" for i in range(len(SEG)))]
+# v3: o resumo real dos e-mails sai (fundo liso; o Remotion desenha um resumo genérico por cima),
+# e o nome do projeto e a linha das tarefas ocultas são borrados.
+FILL = "drawbox=x=318:y=172:w=410:h=662:c=0x171717:t=fill:enable='between(t,77.5,149.5)'"
+BLUR = [  # (x, y, w, h, enable)
+    (300, 390, 490, 44, "between(t,15.5,22.5)"),                       # nome no diálogo "Novo projeto"
+    (288, 122, 150, 42, "between(t,19.5,46)+between(t,59.5,146.6)"),   # "trabalho" no cabeçalho
+    (325, 240, 400, 40, "between(t,19.5,46)+between(t,59.5,80)"),     # "... em trabalho." na saudação
+    (370, 280, 660, 66, "between(t,146.2,158)"),                         # "2 tarefas ocultas ... Slack ..."
+]
+f = [f"[0:v]{FILL}[b0]"]
+for i, (x, y, w, h, en) in enumerate(BLUR):
+    f.append(f"[b{i}]split[p{i}][q{i}];[q{i}]crop={w}:{h}:{x}:{y},boxblur=luma_radius=12:luma_power=3:chroma_radius=8:chroma_power=3[r{i}];[p{i}][r{i}]overlay={x}:{y}:enable='{en}'[b{i+1}]")
+f.append(f"[b{len(BLUR)}]split={len(SEG)}" + "".join(f"[x{i}]" for i in range(len(SEG))))
 parts, cur = [], 0.0
 for i, (a, b, ta, tb) in enumerate(SEG):
     if a - cur > 0.001:
