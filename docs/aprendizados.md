@@ -33,6 +33,27 @@ Registro das melhorias de cada rodada, para reutilizar nas próximas. O Claude l
   - …
 -->
 
+### 2026-11-25 · Agendamento Email (primeira tela dividida) · Curto
+- **Projeto**: projetos/2026-11-25-agendamento-email/ · aprovado na v4 ("ficou muito bom"), 38,2 s. Receita nova na página do Notion (seção 2b).
+- **Peças**: intro.mov (gancho), tela.mp4 (gravação de tela 1080×960 a 60 fps, sem áudio), rosto.mov (verde, gravado junto) e cta.mov (chegou no meio da Fase 2).
+- **O que funcionou**:
+  - Tela e rosto gravados juntos: o áudio é o do rosto e a tela foi alinhada pela narração (deslocamento ~0). Cada passo usa a janela da gravação daquele passo, acelerada 2× a 5× sob a fala (`montar_tela.py` gera a `tela_track.mp4` já no tempo do corte).
+  - Geometria: tela em y 224–944 (janela 1080×720 sem a barra do navegador), linha âmbar em 942, Bruno 1:1 em y 960–1920, legenda karaokê na junção (y ~958). Intro, CTA e fecho em tela cheia.
+  - Câmera da tela por keyframes (zoom 1,15–1,8 e foco em pixels da gravação), presa à área útil y 120–960. Rótulo "Passo N" + barrinha de progresso.
+  - Texto que precisa ser lido (o pedido do agendamento) redesenhado em letra grande em tela cheia: a gravação a 1080 px fica ilegível mesmo com zoom.
+  - Passo sem ação na tela vira animação na marca na metade de cima (painel Contexto recebendo os arquivos; o Claude absorvendo o contexto).
+  - Logo oficial do Gmail: SVG do Wikimedia Commons ("Gmail icon (2020).svg").
+- **O que mudar na próxima**:
+  - Conferir a gravação de tela inteira antes da Fase 1 e listar cada dado. O Bruno preferiu não mostrar o resumo real dos e-mails nem borrado: a área vira fundo liso (drawbox) e o Remotion desenha um resumo genérico com dados fictícios. Nome de projeto ("trabalho") e a linha "tarefas ocultas ... Slack" borrados.
+  - Peça nova pode chegar na pasta no meio da edição: olhar a pasta antes de cada entrega e perguntar onde entra (o CTA foi para o fim na v2 e o Bruno queria antes da pergunta).
+  - O J-cut adianta o áudio em 5 quadros: ao cortar o começo de um trecho (o "E..." do CTA), transcrever o corte isolado para confirmar que a sobra não voltou.
+  - `boxblur` do ffmpeg recusa raio de croma ≥ 11 em recortes estreitos: usar `luma_radius=12:chroma_radius=8`.
+- **Preferências novas do Bruno**:
+  - Aprovou na Fase 1 a ordem lógica da tela ("Seleciona onde quer guardar" antes do "Pronto") e a duração curta (36 s).
+  - CTA antes do fecho ("Já me segue..." e depois "E fala aí, você acha..."), começando direto no "Já".
+  - Thumb sem quadro, com o quadro que ele escolhe do vídeo (0:02.71) e a headline dele ("Yakisoba e IA").
+- **Métricas**: (preencher depois de publicar)
+
 ### 2026-11-22 · Você pode ter a sua própria IA · Curto
 - **Projeto**: projetos/2026-11-22-sua-propria-ia/
 - **O que funcionou**:

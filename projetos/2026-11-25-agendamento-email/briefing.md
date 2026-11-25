@@ -11,7 +11,7 @@
 - **Fechamento**: "E fala aí, você acha que isso te ajuda no dia a dia?" + CTA "E já me segue pra não perder nenhuma outra dica." (cta.mov, subido depois)
 - **Comenta PALAVRA?** não
 - **Brutos** (link da nuvem): pasta "Agendamento Email" em FalaiBruno · Central de Conteúdo/Posts · local: `videos/brutos/agendamento email 25112026/`
-- **Exportado** (link da nuvem):
+- **Exportado** (link da nuvem): https://drive.google.com/file/d/1UOX1fCLn-4oIH6q_04wVBjHuOLhGw8nM/view
 
 ## Peças e sincronia
 
@@ -60,3 +60,9 @@
 - v4 (marcação na interface, 0:34.2): cortar o "E..." do começo do CTA e entrar direto no "Já me segue". CTA começa na fonte em 1,62 s; vídeo com 38,2 s.
 - Thumbnail v3 (pedido do Bruno): quadro de 0:02.71 do vídeo (intro.mov em 3,50 s, com o yakisoba), headline "Yakisoba" (Light branca) / "e IA" (SemiBold âmbar), logos Claude e Gmail oficial, sem quadro. Conferida em 9:16, 3:4 e 4:5.
 - v4 →
+
+## Aprovação e entrega
+
+- Aprovado pelo Bruno em 25/11 na v4 + thumb v3: "ficou muito bom. pode subir no buffer e postar agora nas 3 plataformas". Status Aprovado no card por essa mensagem.
+- Drive (Posts/Agendamento Email): Gravação Final/agendamento-email_final.mp4 (id 1UOX1fCLn-4oIH6q_04wVBjHuOLhGw8nM, 38,2 s, −14,1 LUFS), Thumbnail/agendamento-email_thumb.png, Legendas/agendamento-email.srt.
+- Buffer: publicação feita pela sessão do projeto (não por esta edição).
