@@ -57,4 +57,5 @@
 - Fase 1: aprovado como proposto ("pode seguir aí com tudo que você falou"): ordem "Seleciona..." antes do "Pronto", duração curta, resumo borrado, fecho como falado.
 - v2: entrou o cta.mov que apareceu na pasta depois da aprovação, no fim.
 - v3 (pedidos do Bruno no thread): CTA (cta.mov) ANTES do "E fala aí...", a pergunta fecha o vídeo e a assinatura entra no fim; resumo real trocado por resumo genérico; borrões acima; thumbnail v2 sem quadro (regra: Bruno recortado direto sobre o fundo), logo oficial do Gmail (SVG do Wikimedia Commons, "Gmail icon (2020)").
-- v3 →
+- v4 (marcação na interface, 0:34.2): cortar o "E..." do começo do CTA e entrar direto no "Já me segue". CTA começa na fonte em 1,62 s; vídeo com 38,2 s.
+- v4 →

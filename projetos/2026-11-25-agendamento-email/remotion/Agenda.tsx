@@ -44,15 +44,15 @@ const jan = (t: number, s: number, e: number, fi = 0.2, fo = 0.2) => Math.min(cl
 const SPLIT0 = 3.467;       // entra a tela dividida
 const FULL0 = 30.8;         // pedido do agendamento em tela cheia
 const FECHO = 34.2;         // fecho em tela cheia
-const FIM = 38.764;
+const FIM = 38.198;
 const CTA0 = 34.2;     // "E já me segue pra não perder nenhuma outra dica." (cta.mov, antes da pergunta)
-const PERG0 = 36.567;  // "E fala aí, você acha que isso te ajuda no dia a dia?"
+const PERG0 = 36.0;  // "E fala aí, você acha que isso te ajuda no dia a dia?"
 const CENA0 = 16.133, CENA1 = 26.6; // animação no lugar da tela (contexto → Claude)
 /** cortes de imagem (início de cada trecho) */
-const CORTES = [0, 3.467, 5.233, 6.033, 6.733, 7.833, 9.967, 10.533, 11.667, 14.333, 15.267, 16.133, 18.067, 19.233, 22.2, 26.6, 27.133, 29.367, 30.8, 34.2, 36.567];
+const CORTES = [0, 3.467, 5.233, 6.033, 6.733, 7.833, 9.967, 10.533, 11.667, 14.333, 15.267, 16.133, 18.067, 19.233, 22.2, 26.6, 27.133, 29.367, 30.8, 34.2, 36.0];
 const ZCICLO = [1, 1.06, 1, 1.12];
-const FLASHES = [3.467, 16.133, 22.2, 26.6, 30.8, 34.2, 36.567];
-const EXPLOSOES = [{a: 0.35, p: 0.85, b: 1.6}, {a: 3.6, p: 4.05, b: 4.75}, {a: 37.75, p: 38.2, b: 38.764}];
+const FLASHES = [3.467, 16.133, 22.2, 26.6, 30.8, 34.2, 36.0];
+const EXPLOSOES = [{a: 0.35, p: 0.85, b: 1.6}, {a: 3.6, p: 4.05, b: 4.75}, {a: 37.2, p: 37.65, b: 38.198}];
 
 const PASSOS = [
   {n: 1, t0: 3.467, t1: 6.033, txt: 'Crie um projeto'},
@@ -141,9 +141,9 @@ const grupos: W[][] = (() => {
     cur.push(w);
     const prox = WORDS[i + 1];
     const fimFrase = /[.,?]$/.test(w.text);
-    const corteVisual = prox && CORTES.some((c) => c > w.startMs / 1000 && c <= prox.startMs / 1000 && [3.467, 16.133, 26.6, 30.8, 34.2, 36.567].includes(c));
+    const corteVisual = prox && CORTES.some((c) => c > w.startMs / 1000 && c <= prox.startMs / 1000 && [3.467, 16.133, 26.6, 30.8, 34.2, 36.0].includes(c));
     const len = cur.map((x) => x.text).join(' ').length;
-    if (!prox || cur.length >= 4 || (fimFrase && cur.length >= 2) || corteVisual || len > 18) { G.push(cur); cur = []; }
+    if (!prox || cur.length >= 4 || /[.?]$/.test(w.text) || (fimFrase && cur.length >= 2) || corteVisual || len > 18) { G.push(cur); cur = []; }
   });
   return G;
 })();
@@ -395,8 +395,8 @@ const Pedido: React.FC<{t: number}> = ({t}) => {
 
 const Cta: React.FC<{t: number}> = ({t}) => {
   const e = ent(t, CTA0 + 0.03, 0.25);
-  const segue = t >= 34.83;
-  const ps = segue ? 1 - 0.08 * Math.sin(cl((t - 34.83) / 0.25) * Math.PI) : 1;
+  const segue = t >= 34.41;
+  const ps = segue ? 1 - 0.08 * Math.sin(cl((t - 34.41) / 0.25) * Math.PI) : 1;
   return (
     <>
       <Abs x={0} y={340} w={1080} o={e} s={0.8 + 0.2 * pop(t, CTA0)} style={{textAlign: 'center', transformOrigin: '540px 60px'}}>
@@ -423,7 +423,7 @@ const Fecho: React.FC<{t: number}> = ({t}) => {
           <div style={{...txt(54, 600), marginTop: 8}}>Isso te ajuda no dia a dia?</div>
         </div>
       </Abs>
-      <Abs x={340} y={580} w={400} o={ent(t, 37.9, 0.3)} style={{textAlign: 'center'}}>
+      <Abs x={340} y={580} w={400} o={ent(t, 37.33, 0.3)} style={{textAlign: 'center'}}>
         <Img src={staticFile('brand/assinatura-branco.svg')} style={{width: 300}} />
       </Abs>
     </>

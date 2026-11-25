@@ -272,29 +272,29 @@
    "id": "pop@34.23"
   },
   {
-   "t": 34.83,
+   "t": 34.41,
    "role": "click.confirm",
-   "id": "click.confirm@34.83"
+   "id": "click.confirm@34.41"
   },
   {
-   "t": 36.567,
+   "t": 36.0,
    "role": "click",
-   "id": "click@36.567"
+   "id": "click@36.0"
   },
   {
-   "t": 36.6,
+   "t": 36.03,
    "role": "pop",
-   "id": "pop@36.6"
+   "id": "pop@36.03"
+  },
+  {
+   "t": 37.2,
+   "role": "whoosh.long",
+   "id": "whoosh.long@37.2"
   },
   {
    "t": 37.75,
-   "role": "whoosh.long",
-   "id": "whoosh.long@37.75"
-  },
-  {
-   "t": 38.3,
    "role": "bell",
-   "id": "bell@38.3"
+   "id": "bell@37.75"
   }
  ]
 }

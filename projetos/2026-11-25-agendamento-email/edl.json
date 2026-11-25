@@ -142,7 +142,7 @@
     },
     {
       "source": "cta",
-      "start": 1.033333,
+      "start": 1.6,
       "end": 3.633333,
       "quote": "E já me segue para não perder nenhuma outra dica.",
       "gain_db": 6.5
@@ -155,7 +155,7 @@
       "gain_db": 0
     }
   ],
-  "total_duration_s": 38.767,
+  "total_duration_s": 38.2,
   "jcut_timeline": [
     {
       "beat": null,
@@ -332,17 +332,17 @@
       "beat": null,
       "source": "cta",
       "video_start_in_output": 34.199999,
-      "video_duration": 2.366667,
+      "video_duration": 1.8,
       "audio_start_in_output": 34.033332,
-      "audio_duration": 2.533333,
+      "audio_duration": 1.966666,
       "tail_trim_frames": 2
     },
     {
       "beat": null,
       "source": "rosto",
-      "video_start_in_output": 36.566665,
+      "video_start_in_output": 35.999998,
       "video_duration": 2.199999,
-      "audio_start_in_output": 36.399999,
+      "audio_start_in_output": 35.833332,
       "audio_duration": 2.366666,
       "tail_trim_frames": 0
     }
