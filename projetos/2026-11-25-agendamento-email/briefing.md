@@ -1,14 +1,14 @@
 # Briefing: Agendamento Email (tela dividida)
 
 - **Data**: 2026-11-25
-- **Linha na Producao do Notion** (link): [A PREENCHER: card não informado nesta rodada]
+- **Linha na Producao do Notion** (link): https://app.notion.com/p/4237642f429981d689b1e374c31c7dbd (criado na edição, Status Editando)
 - **Voz**: C (mão na massa)
 - **Formato**: Curto, formato novo de **tela dividida** (gravação de tela em cima, Bruno embaixo)
 - **Série**: nenhuma
 - **Pilar**: IA na prática
-- **Duração alvo**: 30 a 60 s · corte v1: 36,4 s
+- **Duração alvo**: 30 a 60 s · corte v1: 36,4 s · Fase 2 v2: 38,8 s (com o cta.mov)
 - **Gancho**: "Vou te ensinar a usar IA de verdade enquanto eu como yakisoba aqui."
-- **Fechamento**: "E fala aí, você acha que isso te ajuda no dia a dia?"
+- **Fechamento**: "E fala aí, você acha que isso te ajuda no dia a dia?" + CTA "E já me segue pra não perder nenhuma outra dica." (cta.mov, subido depois)
 - **Comenta PALAVRA?** não
 - **Brutos** (link da nuvem): pasta "Agendamento Email" em FalaiBruno · Central de Conteúdo/Posts · local: `videos/brutos/agendamento email 25112026/`
 - **Exportado** (link da nuvem):
@@ -43,6 +43,16 @@
 
 - O resumo dos e-mails (tela 80–148 s) mostra remetentes e dados pessoais e comerciais: **borrado** na prévia. A barra do navegador (URLs, favoritos) foi cortada.
 
+## Fase 2
+
+- Estilo escolhido na interface: tela dividida, headline Contorno, legenda karaokê, tracking, zoom automático, zoom nos cortes, flash, sem trilha.
+- Gancho em tela cheia com headline "Usar IA de verdade / em 5 passos" e separação 3D; tela dividida com rótulo "Passo N" e progresso de 5 pontos; zoom da tela em cada passo; chip "MCP: o conector que liga o Claude aos seus apps" (termo traduzido); passo 4 vira animação (painel Contexto recebendo Cores de design, Rotinas, Produtos, Informações; depois o Claude absorvendo o contexto e os dias da semana); pedido do agendamento em tela cheia com o texto legível digitando + "Todo dia, 18h"; fecho com a pergunta; CTA com botão Seguir → Seguindo e assinatura.
+- Separação 3D em 3 momentos (gancho, entrada da tela dividida, CTA). 59 SFX a -8 dB. -14,1 LUFS, -1,4 dBTP.
+- Thumbnail [PROPOSTA] `thumbnail_v1.png`: "O Claude resume / seus e-mails / todo dia às 18h", Bruno com o yakisoba num quadro âmbar, logos Claude e Gmail, selo "5 passos". Tudo entre y 300 e 1620.
+- Arquivos: `remotion/Agenda.tsx` (cenas), `remotion/Thumbnail.tsx`, `remotion/sfx-cues.json`, `montar_tela.py` (trilha da tela + recorte), `finalizar.sh`.
+
 ## Pedidos de ajuste (revisões)
 
-- v1 →
+- Fase 1: aprovado como proposto ("pode seguir aí com tudo que você falou"): ordem "Seleciona..." antes do "Pronto", duração curta, resumo borrado, fecho como falado.
+- v2: entrou o cta.mov que apareceu na pasta depois da aprovação, no fim.
+- v2 →
